@@ -17,7 +17,7 @@
 #include "data.h"
 #include "constants/songs.h"
 
-#define INTRO_SPECIES SPECIES_NIDORAN_F
+#define INTRO_SPECIES SPECIES_SABLEYE
 
 enum
 {
@@ -60,10 +60,10 @@ static void Task_PikachuIntro_Clear(u8);
 static void Task_OakSpeech_Init(u8);
 static void Task_OakSpeech_WelcomeToTheWorld(u8);
 static void Task_OakSpeech_ThisWorld(u8);
-static void Task_OakSpeech_ReleaseNidoranFFromPokeBall(u8);
+static void Task_OakSpeech_ReleaseSableyeFromPokeBall(u8);
 static void Task_OakSpeech_IsInhabitedFarAndWide(u8);
 static void Task_OakSpeech_IStudyPokemon(u8);
-static void Task_OakSpeech_ReturnNidoranFToPokeBall(u8);
+static void Task_OakSpeech_ReturnSableyeToPokeBall(u8);
 static void Task_OakSpeech_TellMeALittleAboutYourself(u8);
 static void Task_OakSpeech_FadeOutOak(u8);
 static void Task_OakSpeech_AskPlayerGender(u8);
@@ -96,7 +96,7 @@ static void Task_OakSpeech_WaitForFade(u8);
 static void Task_OakSpeech_FreeResources(u8);
 
 static void CB2_ReturnFromNamingScreen(void);
-static void CreateNidoranFSprite(u8);
+static void CreateSableyeSprite(u8);
 static void CreatePikachuOrPlatformSprites(u8, u8);
 static void DestroyPikachuOrPlatformSprites(u8, u8);
 static void LoadTrainerPic(u16, u16);
@@ -695,7 +695,7 @@ void StartNewGameScene(void)
 #define tTrainerPicPosX             data[1]
 #define tTrainerPicFadeState        data[2]
 #define tTimer                      data[3]
-#define tNidoranFSpriteId           data[4]
+#define tSableyeSpriteId           data[4]
 #define tTextCursorSpriteId         data[5]
 #define tPokeBallSpriteId           data[6]
 #define tPikachuPlatformSpriteId(i) data[7 + i] // Pikachu and the platform are built of three sprites,
@@ -768,6 +768,7 @@ static void Task_NewGameScene(u8 taskId)
         ClearDialogWindowAndFrame(WIN_INTRO_TEXTBOX, TRUE);
         FillBgTilemapBufferRect_Palette0(0, 0, 0, 0, 32, 32);
         FillBgTilemapBufferRect_Palette0(1, 0, 0, 0, 32, 32);
+        CopyBgTilemapBufferToVram(0);
         CopyBgTilemapBufferToVram(1);
         break;
     case 7:
@@ -1113,7 +1114,7 @@ static void Task_OakSpeech_Init(u8 taskId)
         LoadBgTiles(1, sOakSpeechResources->oakSpeechBackgroundTiles, size, 0);
         CopyToBgTilemapBuffer(1, sOakSpeech_Background_Tilemap, 0, 0);
         CopyBgTilemapBufferToVram(1);
-        CreateNidoranFSprite(taskId);
+        CreateSableyeSprite(taskId);
         LoadTrainerPic(OAK_PIC, 0);
         CreatePikachuOrPlatformSprites(taskId, SPRITE_TYPE_PLATFORM);
         PlayBGM(MUS_ROUTE24);
@@ -1161,11 +1162,11 @@ static void Task_OakSpeech_ThisWorld(u8 taskId)
     {
         OakSpeechPrintMessage(gOakSpeech_Text_ThisWorld, sOakSpeechResources->textSpeed);
         gTasks[taskId].tTimer = 30;
-        gTasks[taskId].func = Task_OakSpeech_ReleaseNidoranFFromPokeBall;
+        gTasks[taskId].func = Task_OakSpeech_ReleaseSableyeFromPokeBall;
     }
 }
 
-static void Task_OakSpeech_ReleaseNidoranFFromPokeBall(u8 taskId)
+static void Task_OakSpeech_ReleaseSableyeFromPokeBall(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
     u8 spriteId;
@@ -1174,7 +1175,7 @@ static void Task_OakSpeech_ReleaseNidoranFFromPokeBall(u8 taskId)
     {
         if (tTimer != 0)
             tTimer--;
-        spriteId = gTasks[taskId].tNidoranFSpriteId;
+        spriteId = gTasks[taskId].tSableyeSpriteId;
         gSprites[spriteId].invisible = FALSE;
         gSprites[spriteId].tSpriteTimer = 0;
         CreatePokeballSpriteToReleaseMon(spriteId, gSprites[spriteId].oam.paletteNum, 100, 66, 0, 0, 32, 0xFFFF1FFF);
@@ -1206,18 +1207,18 @@ static void Task_OakSpeech_IStudyPokemon(u8 taskId)
     if (!IsTextPrinterActive(WIN_INTRO_TEXTBOX))
     {
         OakSpeechPrintMessage(gOakSpeech_Text_IStudyPokemon, sOakSpeechResources->textSpeed);
-        gTasks[taskId].func = Task_OakSpeech_ReturnNidoranFToPokeBall;
+        gTasks[taskId].func = Task_OakSpeech_ReturnSableyeToPokeBall;
     }
 }
 
-static void Task_OakSpeech_ReturnNidoranFToPokeBall(u8 taskId)
+static void Task_OakSpeech_ReturnSableyeToPokeBall(u8 taskId)
 {
     u8 spriteId;
 
     if (!IsTextPrinterActive(WIN_INTRO_TEXTBOX))
     {
         ClearDialogWindowAndFrame(WIN_INTRO_TEXTBOX, TRUE);
-        spriteId = gTasks[taskId].tNidoranFSpriteId;
+        spriteId = gTasks[taskId].tSableyeSpriteId;
         gTasks[taskId].tPokeBallSpriteId = CreateTradePokeballSprite(spriteId, gSprites[spriteId].oam.paletteNum, 100, 66, 0, 0, 32, 0xFFFF1F3F);
         gTasks[taskId].tTimer = 48;
         gTasks[taskId].tSpriteTimer = 64;
@@ -1232,14 +1233,14 @@ static void Task_OakSpeech_TellMeALittleAboutYourself(u8 taskId)
     if (tSpriteTimer != 0)
     {
         if (tSpriteTimer < 24)
-            gSprites[tNidoranFSpriteId].y--;
+            gSprites[tSableyeSpriteId].y--;
         tSpriteTimer--;
     }
     else
     {
         if (tTimer == 48)
         {
-            DestroySprite(&gSprites[tNidoranFSpriteId]);
+            DestroySprite(&gSprites[tSableyeSpriteId]);
             DestroySprite(&gSprites[tPokeBallSpriteId]);
         }
         if (tTimer != 0)
@@ -1827,7 +1828,7 @@ static void CB2_ReturnFromNamingScreen(void)
     gMain.state++;
 }
 
-static void CreateNidoranFSprite(u8 taskId)
+static void CreateSableyeSprite(u8 taskId)
 {
     u8 spriteId;
 
@@ -1838,7 +1839,7 @@ static void CreateNidoranFSprite(u8 taskId)
     gSprites[spriteId].callback = SpriteCallbackDummy;
     gSprites[spriteId].oam.priority = 1;
     gSprites[spriteId].invisible = TRUE;
-    gTasks[taskId].tNidoranFSpriteId = spriteId;
+    gTasks[taskId].tSableyeSpriteId = spriteId;
 }
 
 #define sBodySpriteId data[0]
@@ -2110,7 +2111,7 @@ static void GetDefaultName(u8 hasPlayerBeenNamed, u8 rivalNameChoice)
 #undef tTrainerPicPosX
 #undef tTrainerPicFadeState
 #undef tTimer
-#undef tNidoranFSpriteId
+#undef tSableyeSpriteId
 #undef tTextCursorSpriteId
 #undef tPokeBallSpriteId
 #undef tMenuWindowId
