@@ -766,6 +766,7 @@ static void Task_NewGameScene(u8 taskId)
         if (FreeTempTileDataBuffersIfPossible())
             return;
         ClearDialogWindowAndFrame(WIN_INTRO_TEXTBOX, TRUE);
+        FillBgTilemapBufferRect_Palette0(0, 0, 0, 0, 32, 32);
         FillBgTilemapBufferRect_Palette0(1, 0, 0, 0, 32, 32);
         CopyBgTilemapBufferToVram(1);
         break;
@@ -786,7 +787,9 @@ static void Task_NewGameScene(u8 taskId)
         ShowBg(1);
         SetVBlankCallback(VBlankCB_NewGameScene);
         PlayBGM(MUS_NEW_GAME_INSTRUCT);
-        gTasks[taskId].func = Task_ControlsGuide_HandleInput;
+        FillBgTilemapBufferRect_Palette0(1, 0, 0, 0, 32, 32);
+        CopyBgTilemapBufferToVram(1);
+        gTasks[taskId].func = Task_PikachuIntro_LoadPage1;
         gMain.state = 0;
         return;
     }
@@ -1278,14 +1281,15 @@ static void Task_OakSpeech_AskPlayerGender(u8 taskId)
         {
             tTrainerPicPosX = -60;
             ClearTrainerPic();
-            OakSpeechPrintMessage(gOakSpeech_Text_AskPlayerGender, sOakSpeechResources->textSpeed);
-            gTasks[taskId].func = Task_OakSpeech_ShowGenderOptions;
+            gSaveBlock2Ptr->playerGender = MALE;
+            gTasks[taskId].func = Task_OakSpeech_LoadPlayerPic;
         }
     }
 }
 
 static void Task_OakSpeech_ShowGenderOptions(u8 taskId)
 {
+    gTasks[taskId].func = Task_OakSpeech_ClearGenderWindows;
     if (!IsTextPrinterActive(WIN_INTRO_TEXTBOX))
     {
         gTasks[taskId].tMenuWindowId = AddWindow(&sIntro_WindowTemplates[WIN_INTRO_BOYGIRL]);
@@ -1308,21 +1312,7 @@ static void Task_OakSpeech_ShowGenderOptions(u8 taskId)
 
 static void Task_OakSpeech_HandleGenderInput(u8 taskId)
 {
-    s8 input = Menu_ProcessInputNoWrapAround();
-    switch (input)
-    {
-    case 0: // BOY
-        gSaveBlock2Ptr->playerGender = MALE;
-        break;
-    case 1: // GIRL
-        gSaveBlock2Ptr->playerGender = FEMALE;
-        break;
-    case MENU_B_PRESSED:
-    case MENU_NOTHING_CHOSEN:
-        return;
-    }
     gTasks[taskId].func = Task_OakSpeech_ClearGenderWindows;
-
 }
 
 static void Task_OakSpeech_ClearGenderWindows(u8 taskId)
@@ -1339,10 +1329,7 @@ static void Task_OakSpeech_ClearGenderWindows(u8 taskId)
 
 static void Task_OakSpeech_LoadPlayerPic(u8 taskId)
 {
-    if (gSaveBlock2Ptr->playerGender == MALE)
-        LoadTrainerPic(MALE_PLAYER_PIC, 0);
-    else
-        LoadTrainerPic(FEMALE_PLAYER_PIC, 0);
+    LoadTrainerPic(MALE_PLAYER_PIC, 0);
     CreateFadeOutTask(taskId, 2);
     gTasks[taskId].tTimer = 32;
     gTasks[taskId].func = Task_OakSpeech_YourNameWhatIsIt;
@@ -1413,47 +1400,21 @@ static void Task_OakSpeech_RepeatNameQuestion(u8 taskId)
 static void Task_OakSpeech_HandleRivalNameInput(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
-    s8 input = Menu_ProcessInput();
-    switch (input)
-    {
-    case 0: // NEW NAME
-        PlaySE(SE_SELECT);
-        BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
-        gTasks[taskId].func = Task_OakSpeech_DoNamingScreen;
-        break;
-    case 1: // Default name options
-    case 2: //
-    case 3: //
-    case 4: //
-        PlaySE(SE_SELECT);
-        ClearStdWindowAndFrameToTransparent(tMenuWindowId, TRUE);
-        RemoveWindow(tMenuWindowId);
-        GetDefaultName(sOakSpeechResources->hasPlayerBeenNamed, input - 1);
-        tNameNotConfirmed = TRUE;
-        gTasks[taskId].func = Task_OakSpeech_ConfirmName;
-        break;
-    case MENU_B_PRESSED:
-        break;
-    }
+    StringCopy(gSaveBlock1Ptr->rivalName, "???");
+    ClearStdWindowAndFrameToTransparent(tMenuWindowId, TRUE);
+    RemoveWindow(tMenuWindowId);
+    tNameNotConfirmed = TRUE;
+    gTasks[taskId].func = Task_OakSpeech_ConfirmName;
 }
 
 static void Task_OakSpeech_DoNamingScreen(u8 taskId)
 {
     if (!gPaletteFade.active)
     {
-        GetDefaultName(sOakSpeechResources->hasPlayerBeenNamed, 0);
-        if (sOakSpeechResources->hasPlayerBeenNamed == FALSE)
-        {
-            DoNamingScreen(NAMING_SCREEN_PLAYER, gSaveBlock2Ptr->playerName, gSaveBlock2Ptr->playerGender, 0, 0, CB2_ReturnFromNamingScreen);
-        }
-        else
-        {
-            ClearStdWindowAndFrameToTransparent(gTasks[taskId].tMenuWindowId, TRUE);
-            RemoveWindow(gTasks[taskId].tMenuWindowId);
-            DoNamingScreen(NAMING_SCREEN_RIVAL, gSaveBlock1Ptr->rivalName, 0, 0, 0, CB2_ReturnFromNamingScreen);
-        }
-        DestroyPikachuOrPlatformSprites(taskId, SPRITE_TYPE_PLATFORM);
-        FreeAllWindowBuffers();
+        StringCopy(gSaveBlock2Ptr->playerName, "VAEL");
+        StringCopy(gSaveBlock1Ptr->rivalName, "???");
+        SetMainCallback2(CB2_ReturnFromNamingScreen);
+        DestroyTask(taskId);
     }
 }
 
@@ -1480,7 +1441,6 @@ static void Task_OakSpeech_ConfirmName(u8 taskId)
             }
             else
             {
-                CreateYesNoMenu(&sIntro_WindowTemplates[WIN_INTRO_YESNO], FONT_NORMAL, 0, 2, GetStdWindowBaseTileNum(), 14, 0);
                 gTasks[taskId].func = Task_OakSpeech_HandleConfirmNameInput;
             }
         }
@@ -1489,33 +1449,17 @@ static void Task_OakSpeech_ConfirmName(u8 taskId)
 
 static void Task_OakSpeech_HandleConfirmNameInput(u8 taskId)
 {
-    s8 input = Menu_ProcessInputNoWrapClearOnChoose();
-    switch (input)
+    gTasks[taskId].tTimer = 40;
+    if (sOakSpeechResources->hasPlayerBeenNamed == FALSE)
     {
-    case 0: // YES
-        PlaySE(SE_SELECT);
-        gTasks[taskId].tTimer = 40;
-        if (sOakSpeechResources->hasPlayerBeenNamed == FALSE)
-        {
-            ClearDialogWindowAndFrame(WIN_INTRO_TEXTBOX, TRUE);
-            CreateFadeInTask(taskId, 2);
-            gTasks[taskId].func = Task_OakSpeech_FadeOutPlayerPic;
-        }
-        else
-        {
-            StringExpandPlaceholders(gStringVar4, gOakSpeech_Text_RememberRivalsName);
-            OakSpeechPrintMessage(gStringVar4, sOakSpeechResources->textSpeed);
-            gTasks[taskId].func = Task_OakSpeech_FadeOutRivalPic;
-        }
-        break;
-    case 1: // NO
-    case MENU_B_PRESSED:
-        PlaySE(SE_SELECT);
-        if (sOakSpeechResources->hasPlayerBeenNamed == FALSE)
-            gTasks[taskId].func = Task_OakSpeech_FadeOutForPlayerNamingScreen;
-        else
-            gTasks[taskId].func = Task_OakSpeech_RepeatNameQuestion;
-        break;
+        ClearDialogWindowAndFrame(WIN_INTRO_TEXTBOX, TRUE);
+        CreateFadeInTask(taskId, 2);
+        gTasks[taskId].func = Task_OakSpeech_FadeOutPlayerPic;
+    }
+    else
+    {
+        OakSpeechPrintMessage(gOakSpeech_Text_RememberRivalsName, sOakSpeechResources->textSpeed);
+        gTasks[taskId].func = Task_OakSpeech_FadeOutRivalPic;
     }
 }
 
@@ -1527,9 +1471,18 @@ static void Task_OakSpeech_FadeOutPlayerPic(u8 taskId)
     {
         ClearTrainerPic();
         if (tTimer != 0)
+        {
             tTimer--;
+        }
         else
-            gTasks[taskId].func = Task_OakSpeech_FadeInRivalPic;
+        {
+            LoadTrainerPic(MALE_PLAYER_PIC, 0);
+            gTasks[taskId].tTrainerPicPosX = 0;
+            gSpriteCoordOffsetX = 0;
+            ChangeBgX(2, 0, BG_COORD_SET);
+            CreateFadeOutTask(taskId, 2);
+            gTasks[taskId].func = Task_OakSpeech_LetsGo;
+        }
     }
 }
 
@@ -1578,10 +1531,7 @@ static void Task_OakSpeech_ReshowPlayersPic(u8 taskId)
         }
         else
         {
-            if (gSaveBlock2Ptr->playerGender == MALE)
-                LoadTrainerPic(MALE_PLAYER_PIC, 0);
-            else
-                LoadTrainerPic(FEMALE_PLAYER_PIC, 0);
+            LoadTrainerPic(MALE_PLAYER_PIC, 0);
             gTasks[taskId].tTrainerPicPosX = 0;
             gSpriteCoordOffsetX = 0;
             ChangeBgX(2, 0, BG_COORD_SET);
@@ -1849,10 +1799,7 @@ static void CB2_ReturnFromNamingScreen(void)
         taskId = CreateTask(Task_OakSpeech_ConfirmName, 0);
         if (sOakSpeechResources->hasPlayerBeenNamed == FALSE)
         {
-            if (gSaveBlock2Ptr->playerGender == MALE)
-                LoadTrainerPic(MALE_PLAYER_PIC, 0);
-            else
-                LoadTrainerPic(FEMALE_PLAYER_PIC, 0);
+            LoadTrainerPic(MALE_PLAYER_PIC, 0);
         }
         else
         {
