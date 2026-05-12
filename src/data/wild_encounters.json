@@ -8258,7 +8258,7 @@
           "map": "MAP_ROUTE1",
           "base_label": "sRoute1_FireRed",
           "land_mons": {
-            "encounter_rate": 21,
+            "encounter_rate": 0,
             "mons": [
               {
                 "min_level": 3,
@@ -20863,7 +20863,7 @@
                 "species": "SPECIES_RATTATA"
               }
             ],
-            "encounter_rate": 21
+            "encounter_rate": 0
           }
         },
         {

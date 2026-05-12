@@ -1243,14 +1243,7 @@ PalletTown_ProfessorOaksLab_EventScript_LastPokeBall::
 PalletTown_ProfessorOaksLab_EventScript_Aide1::
 	lock
 	faceplayer
-	goto_if_set FLAG_SYS_GAME_CLEAR, PalletTown_ProfessorOaksLab_EventScript_Aide1GameClear
-	msgbox PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide
-	release
-	end
-
-PalletTown_ProfessorOaksLab_EventScript_Aide1GameClear::
-	famechecker FAMECHECKER_OAK, 5
-	msgbox PalletTown_ProfessorOaksLab_Text_OakIsGoingToHaveRadioShow
+	msgbox PalletTown_ProfessorOaksLab_Text_ProfessorLeftEarly
 	release
 	end
 

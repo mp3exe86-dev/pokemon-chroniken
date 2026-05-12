@@ -264,6 +264,11 @@ PalletTown_ProfessorOaksLab_Text_EmailMessage::
     .string "PROF. OAK, please visit us!\n"
     .string "…$"
 
+PalletTown_ProfessorOaksLab_Text_ProfessorLeftEarly::
+    .string "The professor left early today.\n"
+    .string "He seemed... unsettled.\p"
+    .string "He didn't say where he was going.$"
+
 PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide::
     .string "I study POKéMON as PROF. OAK's\n"
     .string "AIDE.$"
