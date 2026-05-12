@@ -780,13 +780,17 @@ static void Task_NewGameScene(u8 taskId)
         BlendPalettes(PALETTES_ALL, 16, RGB_BLACK);
         break;
     case 10:
+        FillBgTilemapBufferRect_Palette0(0, 0, 0, 0, 32, 32);
+        FillBgTilemapBufferRect_Palette0(1, 0, 0, 0, 32, 32);
+        CopyBgTilemapBufferToVram(0);
+        CopyBgTilemapBufferToVram(1);
         BeginNormalPaletteFade(PALETTES_ALL, 0, 16, 0, RGB_BLACK);
         SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_MODE_0 | DISPCNT_OBJ_1D_MAP | DISPCNT_OBJ_ON);
         ShowBg(0);
         ShowBg(1);
         SetVBlankCallback(VBlankCB_NewGameScene);
         PlayBGM(MUS_NEW_GAME_INSTRUCT);
-        gTasks[taskId].func = Task_ControlsGuide_HandleInput;
+        gTasks[taskId].func = Task_PikachuIntro_LoadPage1;
         gMain.state = 0;
         return;
     }
