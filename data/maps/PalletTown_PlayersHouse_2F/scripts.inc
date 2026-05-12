@@ -50,3 +50,55 @@ EventScript_PalletTown_PlayersHouse_2F_ShutDownPC::
 	special SetHelpContextForMap
 	releaseall
 	end
+PalletTown_PlayersHouse_2F_EventScript_BurntFeather::
+        lock
+        faceplayer
+        call_if_set FLAG_STARTER_CHOSEN, PalletTown_PlayersHouse_2F_EventScript_AlreadyChosen
+        msgbox PalletTown_PlayersHouse_2F_Text_BurntFeather, MSGBOX_YESNO
+        goto_if_eq VAR_RESULT, YES, PalletTown_PlayersHouse_2F_EventScript_ChooseHoundour
+        release
+        end
+
+PalletTown_PlayersHouse_2F_EventScript_BlackStone::
+        lock
+        faceplayer
+        call_if_set FLAG_STARTER_CHOSEN, PalletTown_PlayersHouse_2F_EventScript_AlreadyChosen
+        msgbox PalletTown_PlayersHouse_2F_Text_BlackStone, MSGBOX_YESNO
+        goto_if_eq VAR_RESULT, YES, PalletTown_PlayersHouse_2F_EventScript_ChooseSneasel
+        release
+        end
+
+PalletTown_PlayersHouse_2F_EventScript_EmptyMirror::
+        lock
+        faceplayer
+        call_if_set FLAG_STARTER_CHOSEN, PalletTown_PlayersHouse_2F_EventScript_AlreadyChosen
+        msgbox PalletTown_PlayersHouse_2F_Text_EmptyMirror, MSGBOX_YESNO
+        goto_if_eq VAR_RESULT, YES, PalletTown_PlayersHouse_2F_EventScript_ChooseMisdreavus
+        release
+        end
+
+PalletTown_PlayersHouse_2F_EventScript_ChooseHoundour::
+        setflag FLAG_STARTER_CHOSEN
+        givemon SPECIES_HOUNDOUR, 5, ITEM_NONE
+        msgbox PalletTown_PlayersHouse_2F_Text_StarterAppears, MSGBOX_DEFAULT
+        release
+        end
+
+PalletTown_PlayersHouse_2F_EventScript_ChooseSneasel::
+        setflag FLAG_STARTER_CHOSEN
+        givemon SPECIES_SNEASEL, 5, ITEM_NONE
+        msgbox PalletTown_PlayersHouse_2F_Text_StarterAppears, MSGBOX_DEFAULT
+        release
+        end
+
+PalletTown_PlayersHouse_2F_EventScript_ChooseMisdreavus::
+        setflag FLAG_STARTER_CHOSEN
+        givemon SPECIES_MISDREAVUS, 5, ITEM_NONE
+        msgbox PalletTown_PlayersHouse_2F_Text_StarterAppears, MSGBOX_DEFAULT
+        release
+        end
+
+PalletTown_PlayersHouse_2F_EventScript_AlreadyChosen::
+        msgbox PalletTown_PlayersHouse_2F_Text_AlreadyChosen, MSGBOX_DEFAULT
+        release
+        end
