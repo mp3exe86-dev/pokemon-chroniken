@@ -185,29 +185,31 @@ gPikachuIntro_Text_Page3::
     .string "Press A.$"
 
 gOakSpeech_Text_WelcomeToTheWorld::
-    .string "Hello, there!\n"
-    .string "Glad to meet you!\p"
-    .string "Welcome to the world of POKéMON!\p"
-    .string "My name is OAK.\p"
-    .string "People affectionately refer to me\n"
-    .string "as the POKéMON PROFESSOR.\p$"
+    .string "...\p"
+    .string "I wasn't going to do this.\p"
+    .string "But something told me I had to.\p$"
 
 gOakSpeech_Text_ThisWorld::
     .string "This world…$"
 
 gOakSpeech_Text_IsInhabitedFarAndWide::
-    .string "…is inhabited far and wide by\n"
-    .string "creatures called POKéMON.\p$"
+    .string "...has been quiet lately.\p"
+    .string "Too quiet.\p"
+    .string "Even the Pokémon seem\n"
+    .string "to be waiting.\p$"
 
 gOakSpeech_Text_IStudyPokemon::
-    .string "For some people, POKéMON are pets.\n"
-    .string "Others use them for battling.\p"
-    .string "As for myself…\p"
-    .string "I study POKéMON as a profession.\p$"
+    .string "My name is OAK.\p"
+    .string "I've studied this region\n"
+    .string "for forty years.\p"
+    .string "And I have never seen\n"
+    .string "anything like this.\p"
+    .string "Not once.\p$"
 
 gOakSpeech_Text_TellMeALittleAboutYourself::
-    .string "But first, tell me a little about\n"
-    .string "yourself.\p$"
+    .string "There is someone I need to find.\p"
+    .string "I think...\p"
+    .string "it might be you.\p$"
 
 gOakSpeech_Text_YourNameWhatIsIt::
     .string "Let's begin with your name.\n"
