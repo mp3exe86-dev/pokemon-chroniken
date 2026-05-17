@@ -1036,6 +1036,15 @@ static void Task_PokedexScreen(u8 taskId)
         sPokedexScreenData->state = 6;
         break;
     case 6:
+        if (IsNationalPokedexEnabled() && sPokedexScreenData->data[0] == 0)
+        {
+            sPokedexScreenData->data[0] = 1;
+            RemoveScrollIndicatorArrowPair(sPokedexScreenData->scrollArrowsTaskId);
+            sPokedexScreenData->dexOrderId = DEX_ORDER_NUMERICAL_NATIONAL;
+            BeginNormalPaletteFade(~0x8000, 0, 0, 16, RGB_WHITEALPHA);
+            sPokedexScreenData->state = 9;
+            break;
+        }
         sPokedexScreenData->modeSelectInput = ListMenu_ProcessInput(sPokedexScreenData->modeSelectListMenuId);
         ListMenuGetScrollAndRow(sPokedexScreenData->modeSelectListMenuId, &sPokedexScreenData->modeSelectCursorPosBak, NULL);
         if (JOY_NEW(A_BUTTON))
@@ -1389,7 +1398,6 @@ static u16 DexScreen_CountMonsInOrderedList(u8 orderIdx)
             if (seen)
             {
                 sPokedexScreenData->listItems[i].label = gSpeciesNames[NationalPokedexNumToSpecies(ndex_num)];
-                ret = ndex_num;
             }
             else
             {
@@ -1397,6 +1405,7 @@ static u16 DexScreen_CountMonsInOrderedList(u8 orderIdx)
             }
             sPokedexScreenData->listItems[i].index = (caught << 17) + (seen << 16) + NationalPokedexNumToSpecies(ndex_num);
         }
+        ret = KANTO_DEX_COUNT;
         break;
     case DEX_ORDER_ATOZ:
         for (i = 0; i < NUM_SPECIES - 1; i++)
@@ -1475,7 +1484,6 @@ static u16 DexScreen_CountMonsInOrderedList(u8 orderIdx)
             if (seen)
             {
                 sPokedexScreenData->listItems[i].label = gSpeciesNames[NationalPokedexNumToSpecies(ndex_num)];
-                ret = ndex_num;
             }
             else
             {
@@ -1483,6 +1491,7 @@ static u16 DexScreen_CountMonsInOrderedList(u8 orderIdx)
             }
             sPokedexScreenData->listItems[i].index = (caught << 17) + (seen << 16) + NationalPokedexNumToSpecies(ndex_num);
         }
+        ret = NATIONAL_DEX_COUNT;
         break;
     }
     return ret;

@@ -1,12 +1,14 @@
 PalletTown_RivalsHouse_Text_HiBrothersAtLab::
-    .string "DAISY: Hi, {PLAYER}!\p"
-    .string "My brother, {RIVAL}, is out at\n"
-    .string "Grandpa's LAB.$"
+    .string "My brother left early\n"
+    .string "this morning.\p"
+    .string "He didn't say where.\p"
+    .string "He never does anymore.$"
 
 PalletTown_RivalsHouse_Text_HeardYouBattledRival::
-    .string "DAISY: {PLAYER}, I heard you had\n"
-    .string "a battle against {RIVAL}.\p"
-    .string "I wish I'd seen that!$"
+    .string "My brother left early\n"
+    .string "this morning.\p"
+    .string "He didn't say where.\p"
+    .string "He never does anymore.$"
 
 PalletTown_RivalsHouse_Text_ErrandForGrandpaThisWillHelp::
     .string "Grandpa asked you to run an\n"

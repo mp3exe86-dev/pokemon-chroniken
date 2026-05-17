@@ -33,3 +33,29 @@ Route1_EventScript_Boy::
 Route1_EventScript_RouteSign::
 	msgbox Route1_Text_RouteSign, MSGBOX_SIGN
 	end
+
+Route1_EventScript_NorthBlockade::
+	specialvar VAR_RESULT, GetPlayerFacingDirection
+	goto_if_eq VAR_RESULT, DIR_SOUTH, Route1_EventScript_NorthBlockadePass
+	goto_if_set FLAG_STARTER_CHOSEN, Route1_EventScript_NorthBlockadePass
+	lock
+	msgbox Route1_Text_NorthBlockade
+	release
+	end
+
+Route1_EventScript_NorthBlockadePass::
+	end
+
+Route1_EventScript_StoneHouseMan::
+	lock
+	faceplayer
+	msgbox Route1_Text_StoneHouseMan, MSGBOX_DEFAULT
+	giveitem ITEM_ENIGMA_BERRY
+	release
+	end
+
+Route1_Text_StoneHouseMan::
+	.string "I've been waiting here\nfor seventeen years.\p"
+	.string "I'm not sure what for.\p"
+	.string "...Take this.\p"
+	.string "I don't need it\nanymore.$"

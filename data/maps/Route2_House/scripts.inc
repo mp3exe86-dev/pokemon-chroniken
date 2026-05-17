@@ -1,6 +1,21 @@
 Route2_House_MapScripts::
 	.byte 0
 
+Route2_House_EventScript_FossilScientist::
+	lock
+	faceplayer
+	msgbox Route2_House_Text_FossilScientist, MSGBOX_DEFAULT
+	givemon SPECIES_ABSOL, 10, ITEM_NONE
+	setflag FLAG_HIDE_ROUTE21_NORTH_SCIENTIST
+	release
+	end
+
+Route2_House_Text_FossilScientist::
+	.string "I found this one\nnear the old stones.\p"
+	.string "It wouldn't leave.\p"
+	.string "I think it was\nwaiting for someone.\p"
+	.string "Take it.$"
+
 Route2_House_EventScript_Scientist::
 	msgbox Route2_House_Text_FaintedMonsCanUseFieldMoves, MSGBOX_NPC
 	end
@@ -38,3 +53,4 @@ Route2_House_EventScript_AlreadyTraded::
 	msgbox Trade_Text_IsntMyOldMonGreat
 	release
 	end
+

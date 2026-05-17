@@ -15,6 +15,10 @@ PalletTown_Text_RaisingMonsToo::
     .string "When they get strong, they can\n"
     .string "protect me.$"
 
+PalletTown_Text_SignLady::
+    .string "Something is different\nthis year.\p"
+    .string "Even the Pokémon\nseem to know it.$"
+
 PalletTown_Text_CanStoreItemsAndMonsInPC::
     .string "Technology is incredible!\p"
     .string "You can now store and recall items\n"

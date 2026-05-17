@@ -52,8 +52,7 @@ EventScript_PalletTown_PlayersHouse_2F_ShutDownPC::
 	end
 PalletTown_PlayersHouse_2F_EventScript_BurntFeather::
         lock
-        faceplayer
-        call_if_set FLAG_STARTER_CHOSEN, PalletTown_PlayersHouse_2F_EventScript_AlreadyChosen
+        goto_if_set FLAG_STARTER_CHOSEN, PalletTown_PlayersHouse_2F_EventScript_AlreadyChosen
         msgbox PalletTown_PlayersHouse_2F_Text_BurntFeather, MSGBOX_YESNO
         goto_if_eq VAR_RESULT, YES, PalletTown_PlayersHouse_2F_EventScript_ChooseHoundour
         release
@@ -61,8 +60,7 @@ PalletTown_PlayersHouse_2F_EventScript_BurntFeather::
 
 PalletTown_PlayersHouse_2F_EventScript_BlackStone::
         lock
-        faceplayer
-        call_if_set FLAG_STARTER_CHOSEN, PalletTown_PlayersHouse_2F_EventScript_AlreadyChosen
+        goto_if_set FLAG_STARTER_CHOSEN, PalletTown_PlayersHouse_2F_EventScript_AlreadyChosen
         msgbox PalletTown_PlayersHouse_2F_Text_BlackStone, MSGBOX_YESNO
         goto_if_eq VAR_RESULT, YES, PalletTown_PlayersHouse_2F_EventScript_ChooseSneasel
         release
@@ -70,8 +68,7 @@ PalletTown_PlayersHouse_2F_EventScript_BlackStone::
 
 PalletTown_PlayersHouse_2F_EventScript_EmptyMirror::
         lock
-        faceplayer
-        call_if_set FLAG_STARTER_CHOSEN, PalletTown_PlayersHouse_2F_EventScript_AlreadyChosen
+        goto_if_set FLAG_STARTER_CHOSEN, PalletTown_PlayersHouse_2F_EventScript_AlreadyChosen
         msgbox PalletTown_PlayersHouse_2F_Text_EmptyMirror, MSGBOX_YESNO
         goto_if_eq VAR_RESULT, YES, PalletTown_PlayersHouse_2F_EventScript_ChooseMisdreavus
         release
@@ -79,22 +76,58 @@ PalletTown_PlayersHouse_2F_EventScript_EmptyMirror::
 
 PalletTown_PlayersHouse_2F_EventScript_ChooseHoundour::
         setflag FLAG_STARTER_CHOSEN
+        setflag FLAG_SYS_POKEMON_GET
+        setflag FLAG_SYS_POKEDEX_GET
+        special EnableNationalPokedex
+        setflag FLAG_PALLET_LADY_NOT_BLOCKING_SIGN
+        setvar VAR_MAP_SCENE_VIRIDIAN_CITY_MART, 2
+        setvar VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN, 2
+        setvar VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 1
+        setvar VAR_MAP_SCENE_ROUTE22, 1
+        setvar VAR_MAP_SCENE_POKEMON_CENTER_TEALA, 1
+        setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 3
         givemon SPECIES_HOUNDOUR, 5, ITEM_NONE
+        playfanfare MUS_OBTAIN_ITEM
         msgbox PalletTown_PlayersHouse_2F_Text_StarterAppears, MSGBOX_DEFAULT
+        waitfanfare
         release
         end
 
 PalletTown_PlayersHouse_2F_EventScript_ChooseSneasel::
         setflag FLAG_STARTER_CHOSEN
+        setflag FLAG_SYS_POKEMON_GET
+        setflag FLAG_SYS_POKEDEX_GET
+        special EnableNationalPokedex
+        setflag FLAG_PALLET_LADY_NOT_BLOCKING_SIGN
+        setvar VAR_MAP_SCENE_VIRIDIAN_CITY_MART, 2
+        setvar VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN, 2
+        setvar VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 1
+        setvar VAR_MAP_SCENE_ROUTE22, 1
+        setvar VAR_MAP_SCENE_POKEMON_CENTER_TEALA, 1
+        setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 3
         givemon SPECIES_SNEASEL, 5, ITEM_NONE
+        playfanfare MUS_OBTAIN_ITEM
         msgbox PalletTown_PlayersHouse_2F_Text_StarterAppears, MSGBOX_DEFAULT
+        waitfanfare
         release
         end
 
 PalletTown_PlayersHouse_2F_EventScript_ChooseMisdreavus::
         setflag FLAG_STARTER_CHOSEN
+        setflag FLAG_SYS_POKEMON_GET
+        setflag FLAG_SYS_POKEDEX_GET
+        special EnableNationalPokedex
+        setflag FLAG_PALLET_LADY_NOT_BLOCKING_SIGN
+        setvar VAR_MAP_SCENE_VIRIDIAN_CITY_MART, 2
+        setvar VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN, 2
+        setvar VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 1
+        setvar VAR_MAP_SCENE_ROUTE22, 1
+        setvar VAR_MAP_SCENE_POKEMON_CENTER_TEALA, 1
+        setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 3
         givemon SPECIES_MISDREAVUS, 5, ITEM_NONE
+        playfanfare MUS_OBTAIN_ITEM
         msgbox PalletTown_PlayersHouse_2F_Text_StarterAppears, MSGBOX_DEFAULT
+        waitfanfare
         release
         end
 

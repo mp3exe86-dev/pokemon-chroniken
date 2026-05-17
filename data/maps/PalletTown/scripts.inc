@@ -7,9 +7,7 @@ PalletTown_MapScripts::
 
 PalletTown_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_PALLET_TOWN
-	call_if_set FLAG_PALLET_LADY_NOT_BLOCKING_SIGN, PalletTown_EventScript_TryReadySignLady
-	call_if_eq VAR_MAP_SCENE_PALLET_TOWN_SIGN_LADY, 0, PalletTown_EventScript_SetSignLadyPos
-	call_if_eq VAR_MAP_SCENE_PALLET_TOWN_SIGN_LADY, 1, PalletTown_EventScript_SetSignLadyDone
+	setvar VAR_MAP_SCENE_PALLET_TOWN_OAK, 1
 	end
 
 PalletTown_EventScript_TryReadySignLady::
@@ -166,16 +164,23 @@ PalletTown_Movement_PlayerWalkToLabFromHouse::
 	walk_right
 	step_end
 
+
 PalletTown_EventScript_OakTriggerLeft::
-	lockall
 	setvar VAR_TEMP_1, 0
 	goto PalletTown_EventScript_OakTrigger
 	end
 
 PalletTown_EventScript_OakTriggerRight::
-	lockall
 	setvar VAR_TEMP_1, 1
 	goto PalletTown_EventScript_OakTrigger
+	end
+
+PalletTown_EventScript_SignLadyTrigger::
+	lockall
+	applymovement LOCALID_PALLET_SIGN_LADY, Common_Movement_FacePlayer
+	waitmovement 0
+	call PalletTown_EventScript_SignLadyShowSign
+	releaseall
 	end
 
 PalletTown_EventScript_OakTrigger::
@@ -323,70 +328,30 @@ PalletTown_Movement_PlayerEnterLab::
 	step_end
 
 PalletTown_EventScript_SignLady::
+	goto_if_set FLAG_STARTER_CHOSEN, PalletTown_EventScript_SignLadyDone
 	lock
-	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_SIGN_LADY, 2, PalletTown_EventScript_SignLadyDone
-	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_SIGN_LADY, 1, PalletTown_EventScript_SignLadyJustShowedSign
-	goto_if_eq SIGN_LADY_READY, TRUE, PalletTown_EventScript_SignLadyStartShowSign
-	goto_if_set FLAG_TEMP_2, PalletTown_EventScript_SignLadyGoReadSign
-	msgbox PalletTown_Text_HmmIsThatRight
-	applymovement LOCALID_PALLET_SIGN_LADY, Common_Movement_FacePlayer
-	waitmovement 0
-	playse SE_PIN
-	applymovement LOCALID_PALLET_SIGN_LADY, Common_Movement_ExclamationMark
-	waitmovement 0
-	applymovement LOCALID_PALLET_SIGN_LADY, Common_Movement_Delay48
-	waitmovement 0
-	msgbox PalletTown_Text_OhLookLook
-	closemessage
-	call_if_eq VAR_FACING, DIR_EAST, PalletTown_EventScript_SignLadyMoveOutOfWayRight
-	call_if_ne VAR_FACING, DIR_EAST, PalletTown_EventScript_SignLadyMoveOutOfWayLeft
-	copyobjectxytoperm LOCALID_PALLET_SIGN_LADY
-	setflag FLAG_TEMP_2
+	faceplayer
+	msgbox PalletTown_Text_SignLady, MSGBOX_DEFAULT
+	givemon SPECIES_WINGULL, 5, ITEM_NONE
+	setflag FLAG_STARTER_CHOSEN
 	release
 	end
-
-PalletTown_EventScript_SignLadyMoveOutOfWayRight::
-	applymovement LOCALID_PALLET_SIGN_LADY, PalletTown_Movement_SignLadyMoveOutOfWayRight
-	waitmovement 0
-	return
-
-PalletTown_EventScript_SignLadyMoveOutOfWayLeft::
-	applymovement LOCALID_PALLET_SIGN_LADY, PalletTown_Movement_SignLadyMoveOutOfWayLeft
-	waitmovement 0
-	return
 
 PalletTown_EventScript_SignLadyDone::
-	applymovement LOCALID_PALLET_SIGN_LADY, Common_Movement_FacePlayer
-	waitmovement 0
-	msgbox PalletTown_Text_RaisingMonsToo
-	release
+	msgbox PalletTown_Text_SignLady, MSGBOX_NPC
 	end
-
-PalletTown_EventScript_SignLadyGoReadSign::
-	applymovement LOCALID_PALLET_SIGN_LADY, Common_Movement_FacePlayer
-	waitmovement 0
-	msgbox PalletTown_Text_ReadItReadIt
-	release
-	end
-
-PalletTown_EventScript_SignLadyJustShowedSign::
-	applymovement LOCALID_PALLET_SIGN_LADY, Common_Movement_FacePlayer
-	waitmovement 0
-	msgbox PalletTown_Text_SignsAreUsefulArentThey
-	release
-	end
-
-PalletTown_Movement_SignLadyMoveOutOfWayRight::
-	walk_right
-	walk_in_place_faster_left
-	step_end
-
-PalletTown_Movement_SignLadyMoveOutOfWayLeft::
-	walk_left
-	walk_in_place_faster_right
-	step_end
 
 PalletTown_EventScript_FatMan::
+	goto_if_set FLAG_STARTER_CHOSEN, PalletTown_EventScript_FatManDone
+	lock
+	faceplayer
+	msgbox PalletTown_Text_CanStoreItemsAndMonsInPC, MSGBOX_DEFAULT
+	givemon SPECIES_RALTS, 5, ITEM_NONE
+	setflag FLAG_STARTER_CHOSEN
+	release
+	end
+
+PalletTown_EventScript_FatManDone::
 	msgbox PalletTown_Text_CanStoreItemsAndMonsInPC, MSGBOX_NPC
 	end
 
@@ -416,14 +381,6 @@ PalletTown_EventScript_TrainerTips::
 	releaseall
 	end
 
-PalletTown_EventScript_SignLadyTrigger::
-	lockall
-	applymovement LOCALID_PALLET_SIGN_LADY, Common_Movement_WalkInPlaceFasterRight
-	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
-	waitmovement 0
-	call PalletTown_EventScript_SignLadyShowSign
-	releaseall
-	end
 
 PalletTown_EventScript_SignLadyShowSign::
 	textcolor NPC_TEXT_COLOR_FEMALE

@@ -26,3 +26,10 @@ Route1_Text_RouteSign::
     .string "ROUTE 1\n"
     .string "PALLET TOWN - VIRIDIAN CITY$"
 
+Route1_Text_NorthBlockade::
+    .string "A trainer without a Pokémon\n"
+    .string "cannot pass.\p"
+    .string "Something in your room\n"
+    .string "has been waiting.\p"
+    .string "Go back.$"
+

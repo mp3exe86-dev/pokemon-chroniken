@@ -264,9 +264,21 @@ PalletTown_ProfessorOaksLab_Text_EmailMessage::
     .string "PROF. OAK, please visit us!\n"
     .string "…$"
 
+PalletTown_ProfessorOaksLab_Text_Aide1::
+    .string "The professor's notes\n"
+    .string "are everywhere.\p"
+    .string "He was working on\n"
+    .string "something last night.\p"
+    .string "The pages are all\n"
+    .string "out of order.$"
+
 PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide::
-    .string "I study POKéMON as PROF. OAK's\n"
-    .string "AIDE.$"
+    .string "I've worked here\n"
+    .string "for six years.\p"
+    .string "I've never seen him\n"
+    .string "like this before.\p"
+    .string "Something has him\n"
+    .string "worried.$"
 
 PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons::
     .string "Hi, {PLAYER}. I bet you've become\n"
@@ -287,10 +299,11 @@ PalletTown_ProfessorOaksLab_Text_OakIsGoingToHaveRadioShow::
     .string "OAK's POKéMON SEMINAR.$"
 
 PalletTown_ProfessorOaksLab_Text_OakIsAuthorityOnMons::
-    .string "PROF. OAK may not look like much,\n"
-    .string "but he's the authority on POKéMON.\p"
-    .string "Many POKéMON TRAINERS hold him in\n"
-    .string "high regard.$"
+    .string "He left these for you.\p"
+    .string "I don't know\n"
+    .string "what they mean.\p"
+    .string "Neither did he,\n"
+    .string "I think.$"
 
 PalletTown_ProfessorOaksLab_Text_OakFavorToAskYouPlayer::
     .string "Ah, now this is excellent!\p"

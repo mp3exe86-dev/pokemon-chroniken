@@ -212,32 +212,33 @@ gOakSpeech_Text_TellMeALittleAboutYourself::
     .string "it might be you.\p$"
 
 gOakSpeech_Text_YourNameWhatIsIt::
-    .string "Let's begin with your name.\n"
-    .string "What is it?\p$"
+    .string "Your name.\p"
+    .string "I need to hear you say it.\p$"
 
 gOakSpeech_Text_SoYourNameIsPlayer::
-    .string "Right…\n"
-    .string "So your name is {PLAYER}.$"
+    .string "...{PLAYER}.\p"
+    .string "I thought so.\p$"
 
 gOakSpeech_Text_WhatWasHisName::
-    .string "This is my grandson.\p"
-    .string "He's been your rival since you both\n"
-    .string "were babies.\p"
-    .string "…Erm, what was his name now?$"
+    .string "There is another.\p"
+    .string "Someone who has been\n"
+    .string "watching you.\p"
+    .string "From a distance.\p$"
 
 gOakSpeech_Text_YourRivalsNameWhatWasIt::
-    .string "Your rival's name, what was it now?$"
+    .string "Do you know\n"
+    .string "this name?\p$"
 
 gOakSpeech_Text_ConfirmRivalName::
-    .string "…Er, was it {RIVAL}?$"
+    .string "...{RIVAL}.\p$"
 
 gOakSpeech_Text_RememberRivalsName::
-    .string "That's right! I remember now!\n"
-    .string "His name is {RIVAL}!\p$"
+    .string "Remember it.\p$"
 
 gOakSpeech_Text_LetsGo::
-    .string "{PLAYER}!\p"
-    .string "Your very own POKéMON legend is\n"
-    .string "about to unfold!\p"
-    .string "A world of dreams and adventures\n"
-    .string "with POKéMON awaits! Let's go!$"
+    .string "{PLAYER}.\p"
+    .string "Something is already\n"
+    .string "waiting for you.\p"
+    .string "It has been waiting\n"
+    .string "for a long time.\p"
+    .string "Go.\p$"
