@@ -1,8 +1,9 @@
-ViridianCity_Text_CanCarryMonsAnywhere::
-    .string "Those POKé BALLS at your waist!\n"
-    .string "You have POKéMON, don't you?\p"
-    .string "It's great that you can carry and\n"
-    .string "use POKéMON anytime, anywhere.$"
+ViridianCity_Text_YouCameFromPallet::
+    .string "You came from Pallet?\n"
+    .string "Alone?\p"
+    .string "The Pokémon on Route 1\n"
+    .string "were quiet today.\p"
+    .string "All of them.$"
 
 ViridianCity_Text_GymClosedWonderWhoLeaderIs::
     .string "This POKéMON GYM is always closed.\p"

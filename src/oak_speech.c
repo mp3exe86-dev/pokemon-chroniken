@@ -60,10 +60,10 @@ static void Task_PikachuIntro_Clear(u8);
 static void Task_OakSpeech_Init(u8);
 static void Task_OakSpeech_WelcomeToTheWorld(u8);
 static void Task_OakSpeech_ThisWorld(u8);
-static void Task_OakSpeech_ReleaseNidoranFFromPokeBall(u8);
+static void Task_OakSpeech_ReleaseSableyeFromPokeBall(u8);
 static void Task_OakSpeech_IsInhabitedFarAndWide(u8);
 static void Task_OakSpeech_IStudyPokemon(u8);
-static void Task_OakSpeech_ReturnNidoranFToPokeBall(u8);
+static void Task_OakSpeech_ReturnSableyeToPokeBall(u8);
 static void Task_OakSpeech_TellMeALittleAboutYourself(u8);
 static void Task_OakSpeech_FadeOutOak(u8);
 static void Task_OakSpeech_AskPlayerGender(u8);
@@ -75,6 +75,7 @@ static void Task_OakSpeech_YourNameWhatIsIt(u8);
 static void Task_OakSpeech_FadeOutForPlayerNamingScreen(u8);
 static void Task_OakSpeech_HandleRivalNameInput(u8);
 static void Task_OakSpeech_DoNamingScreen(u8);
+static void Task_OakSpeech_WaitForNamingCallback(u8);
 static void Task_OakSpeech_ConfirmName(u8);
 static void Task_OakSpeech_HandleConfirmNameInput(u8);
 static void Task_OakSpeech_FadeOutPlayerPic(u8);
@@ -96,7 +97,7 @@ static void Task_OakSpeech_WaitForFade(u8);
 static void Task_OakSpeech_FreeResources(u8);
 
 static void CB2_ReturnFromNamingScreen(void);
-static void CreateNidoranFSprite(u8);
+static void CreateSableyeSprite(u8);
 static void CreatePikachuOrPlatformSprites(u8, u8);
 static void DestroyPikachuOrPlatformSprites(u8, u8);
 static void LoadTrainerPic(u16, u16);
@@ -695,7 +696,7 @@ void StartNewGameScene(void)
 #define tTrainerPicPosX             data[1]
 #define tTrainerPicFadeState        data[2]
 #define tTimer                      data[3]
-#define tNidoranFSpriteId           data[4]
+#define tSableyeSpriteId           data[4]
 #define tTextCursorSpriteId         data[5]
 #define tPokeBallSpriteId           data[6]
 #define tPikachuPlatformSpriteId(i) data[7 + i] // Pikachu and the platform are built of three sprites,
@@ -766,7 +767,9 @@ static void Task_NewGameScene(u8 taskId)
         if (FreeTempTileDataBuffersIfPossible())
             return;
         ClearDialogWindowAndFrame(WIN_INTRO_TEXTBOX, TRUE);
+        FillBgTilemapBufferRect_Palette0(0, 0, 0, 0, 32, 32);
         FillBgTilemapBufferRect_Palette0(1, 0, 0, 0, 32, 32);
+        CopyBgTilemapBufferToVram(0);
         CopyBgTilemapBufferToVram(1);
         break;
     case 7:
@@ -1114,7 +1117,7 @@ static void Task_OakSpeech_Init(u8 taskId)
         LoadBgTiles(1, sOakSpeechResources->oakSpeechBackgroundTiles, size, 0);
         CopyToBgTilemapBuffer(1, sOakSpeech_Background_Tilemap, 0, 0);
         CopyBgTilemapBufferToVram(1);
-        CreateNidoranFSprite(taskId);
+        CreateSableyeSprite(taskId);
         LoadTrainerPic(OAK_PIC, 0);
         CreatePikachuOrPlatformSprites(taskId, SPRITE_TYPE_PLATFORM);
         PlayBGM(MUS_ROUTE24);
@@ -1162,11 +1165,11 @@ static void Task_OakSpeech_ThisWorld(u8 taskId)
     {
         OakSpeechPrintMessage(gOakSpeech_Text_ThisWorld, sOakSpeechResources->textSpeed);
         gTasks[taskId].tTimer = 30;
-        gTasks[taskId].func = Task_OakSpeech_ReleaseNidoranFFromPokeBall;
+        gTasks[taskId].func = Task_OakSpeech_ReleaseSableyeFromPokeBall;
     }
 }
 
-static void Task_OakSpeech_ReleaseNidoranFFromPokeBall(u8 taskId)
+static void Task_OakSpeech_ReleaseSableyeFromPokeBall(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
     u8 spriteId;
@@ -1175,7 +1178,7 @@ static void Task_OakSpeech_ReleaseNidoranFFromPokeBall(u8 taskId)
     {
         if (tTimer != 0)
             tTimer--;
-        spriteId = gTasks[taskId].tNidoranFSpriteId;
+        spriteId = gTasks[taskId].tSableyeSpriteId;
         gSprites[spriteId].invisible = FALSE;
         gSprites[spriteId].tSpriteTimer = 0;
         CreatePokeballSpriteToReleaseMon(spriteId, gSprites[spriteId].oam.paletteNum, 100, 66, 0, 0, 32, 0xFFFF1FFF);
@@ -1207,18 +1210,18 @@ static void Task_OakSpeech_IStudyPokemon(u8 taskId)
     if (!IsTextPrinterActive(WIN_INTRO_TEXTBOX))
     {
         OakSpeechPrintMessage(gOakSpeech_Text_IStudyPokemon, sOakSpeechResources->textSpeed);
-        gTasks[taskId].func = Task_OakSpeech_ReturnNidoranFToPokeBall;
+        gTasks[taskId].func = Task_OakSpeech_ReturnSableyeToPokeBall;
     }
 }
 
-static void Task_OakSpeech_ReturnNidoranFToPokeBall(u8 taskId)
+static void Task_OakSpeech_ReturnSableyeToPokeBall(u8 taskId)
 {
     u8 spriteId;
 
     if (!IsTextPrinterActive(WIN_INTRO_TEXTBOX))
     {
         ClearDialogWindowAndFrame(WIN_INTRO_TEXTBOX, TRUE);
-        spriteId = gTasks[taskId].tNidoranFSpriteId;
+        spriteId = gTasks[taskId].tSableyeSpriteId;
         gTasks[taskId].tPokeBallSpriteId = CreateTradePokeballSprite(spriteId, gSprites[spriteId].oam.paletteNum, 100, 66, 0, 0, 32, 0xFFFF1F3F);
         gTasks[taskId].tTimer = 48;
         gTasks[taskId].tSpriteTimer = 64;
@@ -1233,14 +1236,14 @@ static void Task_OakSpeech_TellMeALittleAboutYourself(u8 taskId)
     if (tSpriteTimer != 0)
     {
         if (tSpriteTimer < 24)
-            gSprites[tNidoranFSpriteId].y--;
+            gSprites[tSableyeSpriteId].y--;
         tSpriteTimer--;
     }
     else
     {
         if (tTimer == 48)
         {
-            DestroySprite(&gSprites[tNidoranFSpriteId]);
+            DestroySprite(&gSprites[tSableyeSpriteId]);
             DestroySprite(&gSprites[tPokeBallSpriteId]);
         }
         if (tTimer != 0)
@@ -1282,14 +1285,15 @@ static void Task_OakSpeech_AskPlayerGender(u8 taskId)
         {
             tTrainerPicPosX = -60;
             ClearTrainerPic();
-            OakSpeechPrintMessage(gOakSpeech_Text_AskPlayerGender, sOakSpeechResources->textSpeed);
-            gTasks[taskId].func = Task_OakSpeech_ShowGenderOptions;
+            gSaveBlock2Ptr->playerGender = MALE;
+            gTasks[taskId].func = Task_OakSpeech_LoadPlayerPic;
         }
     }
 }
 
 static void Task_OakSpeech_ShowGenderOptions(u8 taskId)
 {
+    gTasks[taskId].func = Task_OakSpeech_ClearGenderWindows;
     if (!IsTextPrinterActive(WIN_INTRO_TEXTBOX))
     {
         gTasks[taskId].tMenuWindowId = AddWindow(&sIntro_WindowTemplates[WIN_INTRO_BOYGIRL]);
@@ -1330,10 +1334,7 @@ static void Task_OakSpeech_ClearGenderWindows(u8 taskId)
 
 static void Task_OakSpeech_LoadPlayerPic(u8 taskId)
 {
-    if (gSaveBlock2Ptr->playerGender == MALE)
-        LoadTrainerPic(MALE_PLAYER_PIC, 0);
-    else
-        LoadTrainerPic(FEMALE_PLAYER_PIC, 0);
+    LoadTrainerPic(MALE_PLAYER_PIC, 0);
     CreateFadeOutTask(taskId, 2);
     gTasks[taskId].tTimer = 32;
     gTasks[taskId].func = Task_OakSpeech_YourNameWhatIsIt;
@@ -1404,48 +1405,28 @@ static void Task_OakSpeech_RepeatNameQuestion(u8 taskId)
 static void Task_OakSpeech_HandleRivalNameInput(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
-    s8 input = Menu_ProcessInput();
-    switch (input)
-    {
-    case 0: // NEW NAME
-        PlaySE(SE_SELECT);
-        BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
-        gTasks[taskId].func = Task_OakSpeech_DoNamingScreen;
-        break;
-    case 1: // Default name options
-    case 2: //
-    case 3: //
-    case 4: //
-        PlaySE(SE_SELECT);
-        ClearStdWindowAndFrameToTransparent(tMenuWindowId, TRUE);
-        RemoveWindow(tMenuWindowId);
-        GetDefaultName(sOakSpeechResources->hasPlayerBeenNamed, input - 1);
-        tNameNotConfirmed = TRUE;
-        gTasks[taskId].func = Task_OakSpeech_ConfirmName;
-        break;
-    case MENU_B_PRESSED:
-        break;
-    }
+    StringCopy(gSaveBlock1Ptr->rivalName, "???");
+    ClearStdWindowAndFrameToTransparent(tMenuWindowId, TRUE);
+    RemoveWindow(tMenuWindowId);
+    tNameNotConfirmed = TRUE;
+    gTasks[taskId].func = Task_OakSpeech_ConfirmName;
 }
 
 static void Task_OakSpeech_DoNamingScreen(u8 taskId)
 {
     if (!gPaletteFade.active)
     {
-        GetDefaultName(sOakSpeechResources->hasPlayerBeenNamed, 0);
-        if (sOakSpeechResources->hasPlayerBeenNamed == FALSE)
-        {
-            DoNamingScreen(NAMING_SCREEN_PLAYER, gSaveBlock2Ptr->playerName, gSaveBlock2Ptr->playerGender, 0, 0, CB2_ReturnFromNamingScreen);
-        }
-        else
-        {
-            ClearStdWindowAndFrameToTransparent(gTasks[taskId].tMenuWindowId, TRUE);
-            RemoveWindow(gTasks[taskId].tMenuWindowId);
-            DoNamingScreen(NAMING_SCREEN_RIVAL, gSaveBlock1Ptr->rivalName, 0, 0, 0, CB2_ReturnFromNamingScreen);
-        }
-        DestroyPikachuOrPlatformSprites(taskId, SPRITE_TYPE_PLATFORM);
+        StringCopy(gSaveBlock2Ptr->playerName, "VAEL");
+        StringCopy(gSaveBlock1Ptr->rivalName, "???");
+        gSaveBlock2Ptr->playerGender = MALE;
         FreeAllWindowBuffers();
+        SetMainCallback2(CB2_ReturnFromNamingScreen);
+        gTasks[taskId].func = Task_OakSpeech_WaitForNamingCallback;
     }
+}
+
+static void Task_OakSpeech_WaitForNamingCallback(u8 taskId)
+{
 }
 
 static void Task_OakSpeech_ConfirmName(u8 taskId)
@@ -1471,7 +1452,6 @@ static void Task_OakSpeech_ConfirmName(u8 taskId)
             }
             else
             {
-                CreateYesNoMenu(&sIntro_WindowTemplates[WIN_INTRO_YESNO], FONT_NORMAL, 0, 2, GetStdWindowBaseTileNum(), 14, 0);
                 gTasks[taskId].func = Task_OakSpeech_HandleConfirmNameInput;
             }
         }
@@ -1480,33 +1460,17 @@ static void Task_OakSpeech_ConfirmName(u8 taskId)
 
 static void Task_OakSpeech_HandleConfirmNameInput(u8 taskId)
 {
-    s8 input = Menu_ProcessInputNoWrapClearOnChoose();
-    switch (input)
+    gTasks[taskId].tTimer = 40;
+    if (sOakSpeechResources->hasPlayerBeenNamed == FALSE)
     {
-    case 0: // YES
-        PlaySE(SE_SELECT);
-        gTasks[taskId].tTimer = 40;
-        if (sOakSpeechResources->hasPlayerBeenNamed == FALSE)
-        {
-            ClearDialogWindowAndFrame(WIN_INTRO_TEXTBOX, TRUE);
-            CreateFadeInTask(taskId, 2);
-            gTasks[taskId].func = Task_OakSpeech_FadeOutPlayerPic;
-        }
-        else
-        {
-            StringExpandPlaceholders(gStringVar4, gOakSpeech_Text_RememberRivalsName);
-            OakSpeechPrintMessage(gStringVar4, sOakSpeechResources->textSpeed);
-            gTasks[taskId].func = Task_OakSpeech_FadeOutRivalPic;
-        }
-        break;
-    case 1: // NO
-    case MENU_B_PRESSED:
-        PlaySE(SE_SELECT);
-        if (sOakSpeechResources->hasPlayerBeenNamed == FALSE)
-            gTasks[taskId].func = Task_OakSpeech_FadeOutForPlayerNamingScreen;
-        else
-            gTasks[taskId].func = Task_OakSpeech_RepeatNameQuestion;
-        break;
+        ClearDialogWindowAndFrame(WIN_INTRO_TEXTBOX, TRUE);
+        CreateFadeInTask(taskId, 2);
+        gTasks[taskId].func = Task_OakSpeech_FadeOutPlayerPic;
+    }
+    else
+    {
+        OakSpeechPrintMessage(gOakSpeech_Text_RememberRivalsName, sOakSpeechResources->textSpeed);
+        gTasks[taskId].func = Task_OakSpeech_FadeOutRivalPic;
     }
 }
 
@@ -1518,9 +1482,18 @@ static void Task_OakSpeech_FadeOutPlayerPic(u8 taskId)
     {
         ClearTrainerPic();
         if (tTimer != 0)
+        {
             tTimer--;
+        }
         else
-            gTasks[taskId].func = Task_OakSpeech_FadeInRivalPic;
+        {
+            LoadTrainerPic(MALE_PLAYER_PIC, 0);
+            gTasks[taskId].tTrainerPicPosX = 0;
+            gSpriteCoordOffsetX = 0;
+            ChangeBgX(2, 0, BG_COORD_SET);
+            CreateFadeOutTask(taskId, 2);
+            gTasks[taskId].func = Task_OakSpeech_LetsGo;
+        }
     }
 }
 
@@ -1569,10 +1542,7 @@ static void Task_OakSpeech_ReshowPlayersPic(u8 taskId)
         }
         else
         {
-            if (gSaveBlock2Ptr->playerGender == MALE)
-                LoadTrainerPic(MALE_PLAYER_PIC, 0);
-            else
-                LoadTrainerPic(FEMALE_PLAYER_PIC, 0);
+            LoadTrainerPic(MALE_PLAYER_PIC, 0);
             gTasks[taskId].tTrainerPicPosX = 0;
             gSpriteCoordOffsetX = 0;
             ChangeBgX(2, 0, BG_COORD_SET);
@@ -1840,10 +1810,7 @@ static void CB2_ReturnFromNamingScreen(void)
         taskId = CreateTask(Task_OakSpeech_ConfirmName, 0);
         if (sOakSpeechResources->hasPlayerBeenNamed == FALSE)
         {
-            if (gSaveBlock2Ptr->playerGender == MALE)
-                LoadTrainerPic(MALE_PLAYER_PIC, 0);
-            else
-                LoadTrainerPic(FEMALE_PLAYER_PIC, 0);
+            LoadTrainerPic(MALE_PLAYER_PIC, 0);
         }
         else
         {
@@ -1871,7 +1838,7 @@ static void CB2_ReturnFromNamingScreen(void)
     gMain.state++;
 }
 
-static void CreateNidoranFSprite(u8 taskId)
+static void CreateSableyeSprite(u8 taskId)
 {
     u8 spriteId;
 
@@ -1882,7 +1849,7 @@ static void CreateNidoranFSprite(u8 taskId)
     gSprites[spriteId].callback = SpriteCallbackDummy;
     gSprites[spriteId].oam.priority = 1;
     gSprites[spriteId].invisible = TRUE;
-    gTasks[taskId].tNidoranFSpriteId = spriteId;
+    gTasks[taskId].tSableyeSpriteId = spriteId;
 }
 
 #define sBodySpriteId data[0]
@@ -2154,7 +2121,7 @@ static void GetDefaultName(u8 hasPlayerBeenNamed, u8 rivalNameChoice)
 #undef tTrainerPicPosX
 #undef tTrainerPicFadeState
 #undef tTimer
-#undef tNidoranFSpriteId
+#undef tSableyeSpriteId
 #undef tTextCursorSpriteId
 #undef tPokeBallSpriteId
 #undef tMenuWindowId

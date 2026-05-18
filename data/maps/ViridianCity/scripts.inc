@@ -74,7 +74,7 @@ ViridianCity_EventScript_GymDoor::
 	end
 
 ViridianCity_EventScript_Boy::
-	msgbox ViridianCity_Text_CanCarryMonsAnywhere, MSGBOX_NPC
+	msgbox ViridianCity_Text_YouCameFromPallet, MSGBOX_NPC
 	end
 
 @ Other old man, not the tutorial old man

@@ -190,7 +190,7 @@ gOakSpeech_Text_WelcomeToTheWorld::
     .string "But something told me I had to.\p$"
 
 gOakSpeech_Text_ThisWorld::
-    .string "This world…$"
+    .string "This world...$"
 
 gOakSpeech_Text_IsInhabitedFarAndWide::
     .string "...has been quiet lately.\p"
@@ -213,32 +213,29 @@ gOakSpeech_Text_TellMeALittleAboutYourself::
 
 gOakSpeech_Text_YourNameWhatIsIt::
     .string "Your name.\p"
-    .string "I need to hear you say it.\p$"
+    .string "Tell me your name.\p$"
 
 gOakSpeech_Text_SoYourNameIsPlayer::
-    .string "...{PLAYER}.\p"
-    .string "I thought so.\p$"
+    .string "...VAEL.\p$"
 
 gOakSpeech_Text_WhatWasHisName::
-    .string "There is another.\p"
-    .string "Someone who has been\n"
-    .string "watching you.\p"
-    .string "From a distance.\p$"
+    .string "This is my grandson.\p"
+    .string "He's been your rival since you both\n"
+    .string "were babies.\p"
+    .string "…Erm, what was his name now?$"
 
 gOakSpeech_Text_YourRivalsNameWhatWasIt::
-    .string "Do you know\n"
-    .string "this name?\p$"
+    .string "Your rival's name, what was it now?$"
 
 gOakSpeech_Text_ConfirmRivalName::
-    .string "...{RIVAL}.\p$"
+    .string "...???$"
 
 gOakSpeech_Text_RememberRivalsName::
-    .string "Remember it.\p$"
+    .string "That's right! I remember now!\n"
+    .string "His name is ???!\p$"
 
 gOakSpeech_Text_LetsGo::
-    .string "{PLAYER}.\p"
-    .string "Something is already\n"
-    .string "waiting for you.\p"
-    .string "It has been waiting\n"
-    .string "for a long time.\p"
-    .string "Go.\p$"
+    .string "VAEL.\p"
+    .string "Something is already waiting\n"
+    .string "for you.\p"
+    .string "Go.$"

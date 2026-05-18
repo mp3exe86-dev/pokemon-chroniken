@@ -1,12 +1,6 @@
-PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou::
-    .string "You were staring at those\n"
-    .string "things again this morning.\p"
-    .string "I didn't touch them.\p"
-    .string "Be careful out there.$"
-
-PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou::
-    .string "You were staring at those\n"
-    .string "things again this morning.\p"
+PalletTown_PlayersHouse_1F_Text_MomWarning::
+    .string "You were staring at those things\n"
+    .string "again this morning.\p"
     .string "I didn't touch them.\p"
     .string "Be careful out there.$"
 

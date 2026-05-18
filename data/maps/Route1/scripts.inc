@@ -1,6 +1,24 @@
 Route1_MapScripts::
 	.byte 0
 
+Route1_EventScript_NorthGate::
+	goto_if_set FLAG_STARTER_CHOSEN, Route1_EventScript_NorthGate_Pass
+	lockall
+	applymovement LOCALID_PLAYER, Route1_Movement_PushBack
+	waitmovement 0
+	msgbox Route1_Text_NoPassWithoutPokemon, MSGBOX_DEFAULT
+	releaseall
+	end
+
+Route1_EventScript_NorthGate_Pass::
+	end
+
+Route1_Movement_PushBack:
+	walk_down
+	walk_down
+	walk_down
+	step_end
+
 Route1_EventScript_MartClerk::
 	lock
 	faceplayer
