@@ -33,3 +33,10 @@ Route1_Text_NoPassWithoutPokemon::
     .string "That is simply\n"
     .string "how things work here.$"
 
+
+Route1_Text_NorthBlockade::
+    .string "A trainer without a Pokémon\n"
+    .string "cannot pass.\p"
+    .string "That is not a rule.\p"
+    .string "That is simply\n"
+    .string "how things work here.$"
