@@ -15,3 +15,18 @@ Route21_North_EventScript_AbsolBall::
 
 Route21_North_Text_AbsolBall::
 	.string "Found a POKé BALL!\nA strange Pokémon\nwas inside...$"
+
+Route21_North_EventScript_FossilScientist::
+	lock
+	faceplayer
+	msgbox Route21_North_House_Text_FossilScientist, MSGBOX_DEFAULT
+	givemon SPECIES_ABSOL, 10, ITEM_NONE
+	setflag FLAG_HIDE_ROUTE21_NORTH_SCIENTIST
+	release
+	end
+
+Route21_North_House_Text_FossilScientist::
+	.string "I found this one\nnear the old stones.\p"
+	.string "It wouldn't leave.\p"
+	.string "I think it was\nwaiting for someone.\p"
+	.string "Take it.$"

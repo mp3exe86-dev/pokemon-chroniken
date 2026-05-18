@@ -28,6 +28,7 @@
     "gMapGroup_IndoorRoute16",
     "gMapGroup_IndoorRoute18",
     "gMapGroup_IndoorRoute19",
+    "gMapGroup_IndoorRoute21",
     "gMapGroup_IndoorRoute22",
     "gMapGroup_IndoorRoute23",
     "gMapGroup_IndoorRoute25",
@@ -472,6 +473,9 @@
   ],
   "gMapGroup_IndoorRoute19": [
     "Route19_UnusedHouse"
+  ],
+  "gMapGroup_IndoorRoute21": [
+    "Route21_North_House"
   ],
   "gMapGroup_IndoorRoute22": [
     "Route22_NorthEntrance"

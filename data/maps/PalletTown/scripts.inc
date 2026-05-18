@@ -165,24 +165,6 @@ PalletTown_Movement_PlayerWalkToLabFromHouse::
 	step_end
 
 
-PalletTown_EventScript_OakTriggerLeft::
-	setvar VAR_TEMP_1, 0
-	goto PalletTown_EventScript_OakTrigger
-	end
-
-PalletTown_EventScript_OakTriggerRight::
-	setvar VAR_TEMP_1, 1
-	goto PalletTown_EventScript_OakTrigger
-	end
-
-PalletTown_EventScript_SignLadyTrigger::
-	lockall
-	applymovement LOCALID_PALLET_SIGN_LADY, Common_Movement_FacePlayer
-	waitmovement 0
-	call PalletTown_EventScript_SignLadyShowSign
-	releaseall
-	end
-
 PalletTown_EventScript_OakTrigger::
 	famechecker FAMECHECKER_OAK, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
 	textcolor NPC_TEXT_COLOR_MALE
@@ -328,31 +310,31 @@ PalletTown_Movement_PlayerEnterLab::
 	step_end
 
 PalletTown_EventScript_SignLady::
-	goto_if_set FLAG_STARTER_CHOSEN, PalletTown_EventScript_SignLadyDone
+	goto_if_set FLAG_GOT_WINGULL, PalletTown_EventScript_SignLadyDone
 	lock
 	faceplayer
 	msgbox PalletTown_Text_SignLady, MSGBOX_DEFAULT
 	givemon SPECIES_WINGULL, 5, ITEM_NONE
-	setflag FLAG_STARTER_CHOSEN
+	setflag FLAG_GOT_WINGULL
 	release
 	end
 
 PalletTown_EventScript_SignLadyDone::
-	msgbox PalletTown_Text_SignLady, MSGBOX_NPC
+	msgbox PalletTown_Text_SignLadyDone, MSGBOX_NPC
 	end
 
 PalletTown_EventScript_FatMan::
-	goto_if_set FLAG_STARTER_CHOSEN, PalletTown_EventScript_FatManDone
+	goto_if_set FLAG_GOT_RALTS, PalletTown_EventScript_FatManDone
 	lock
 	faceplayer
-	msgbox PalletTown_Text_CanStoreItemsAndMonsInPC, MSGBOX_DEFAULT
+	msgbox PalletTown_Text_FatMan, MSGBOX_DEFAULT
 	givemon SPECIES_RALTS, 5, ITEM_NONE
-	setflag FLAG_STARTER_CHOSEN
+	setflag FLAG_GOT_RALTS
 	release
 	end
 
 PalletTown_EventScript_FatManDone::
-	msgbox PalletTown_Text_CanStoreItemsAndMonsInPC, MSGBOX_NPC
+	msgbox PalletTown_Text_FatManDone, MSGBOX_NPC
 	end
 
 PalletTown_EventScript_OaksLabSign::

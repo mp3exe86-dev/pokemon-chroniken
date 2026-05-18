@@ -1525,6 +1525,8 @@
 #define FLAG_0x8FE                                                  (SYS_FLAGS + 0xFE)
 #define FLAG_0x8FF                                                  (SYS_FLAGS + 0xFF)
 
+#define FLAG_GOT_WINGULL    FLAG_0x8FD
+#define FLAG_GOT_RALTS      FLAG_0x8FE
 #define FLAG_STARTER_CHOSEN FLAG_0x8FF
 #define FLAGS_COUNT (FLAG_STARTER_CHOSEN + 1)
 

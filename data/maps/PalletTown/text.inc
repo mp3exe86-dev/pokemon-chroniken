@@ -16,8 +16,26 @@ PalletTown_Text_RaisingMonsToo::
     .string "protect me.$"
 
 PalletTown_Text_SignLady::
-    .string "Something is different\nthis year.\p"
-    .string "Even the Pokémon\nseem to know it.$"
+    .string "This little one has been\nsitting on my windowsill\n"
+    .string "for three days.\p"
+    .string "Watching the road.\p"
+    .string "I think it's waiting\nfor someone.\p"
+    .string "...Maybe you.$"
+
+PalletTown_Text_SignLadyDone::
+    .string "You already have\na companion.\p"
+    .string "This one will wait\nfor someone else.$"
+
+PalletTown_Text_FatMan::
+    .string "Found this one\nnear the old stones.\p"
+    .string "It wouldn't leave.\p"
+    .string "Kept looking at me\nlike it knew something\n"
+    .string "I didn't.\p"
+    .string "Take it.$"
+
+PalletTown_Text_FatManDone::
+    .string "You already carry\nsomething with you.\p"
+    .string "This one feels it too.$"
 
 PalletTown_Text_CanStoreItemsAndMonsInPC::
     .string "Technology is incredible!\p"

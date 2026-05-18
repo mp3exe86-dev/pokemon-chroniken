@@ -460,6 +460,7 @@ gStdScriptsEnd::
 	.include "data/maps/Route18_EastEntrance_1F/scripts.inc"
 	.include "data/maps/Route18_EastEntrance_2F/scripts.inc"
 	.include "data/maps/Route19_UnusedHouse/scripts.inc"
+	.include "data/maps/Route21_North_House/scripts.inc"
 	.include "data/maps/Route22_NorthEntrance/scripts.inc"
 	.include "data/maps/Route23_UnusedHouse/scripts.inc"
 	.include "data/maps/Route25_SeaCottage/scripts.inc"
