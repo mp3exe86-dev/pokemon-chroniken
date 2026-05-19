@@ -75,5 +75,5 @@ Route1_EventScript_StoneHouseMan::
 Route1_Text_StoneHouseMan::
 	.string "I've been waiting here\nfor seventeen years.\p"
 	.string "I'm not sure what for.\p"
-	.string "...Take this.\p"
+	.string "Take this.\p"
 	.string "I don't need it\nanymore.$"

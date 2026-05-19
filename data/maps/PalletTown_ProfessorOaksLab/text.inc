@@ -208,8 +208,10 @@ PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream::
     .string "POKéMON history!$"
 
 PalletTown_ProfessorOaksLab_Text_OakMonsAroundWorldWait::
-    .string "POKéMON around the world wait for\n"
-    .string "you, {PLAYER}!$"
+    .string "OAK: There are things out there\n"
+    .string "I cannot explain.\p"
+    .string "Go. Find them\n"
+    .string "before I do.$"
 
 PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex::
     .string "Ah, {PLAYER}!\n"
@@ -224,13 +226,15 @@ PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex::
     .string "little harder.$"
 
 PalletTown_ProfessorOaksLab_Text_OakComeSeeMeSometime::
-    .string "OAK: Come see me sometime.\p"
-    .string "After all, I want to know how your\n"
-    .string "POKéDEX is coming along.$"
+    .string "OAK: Come back\n"
+    .string "when you have answers.\p"
+    .string "I'll have more\n"
+    .string "questions.$"
 
 PalletTown_ProfessorOaksLab_Text_BlankEncyclopedia::
-    .string "It's like an encyclopedia, but the\n"
-    .string "pages are blank.$"
+    .string "Something was recorded\n"
+    .string "here, once.\p"
+    .string "The rest is silence.$"
 
 PalletTown_ProfessorOaksLab_Text_ThoseArePokeBalls::
     .string "Those are POKé BALLS.\n"
@@ -240,38 +244,40 @@ PalletTown_ProfessorOaksLab_Text_OaksLastMon::
     .string "That's PROF. OAK's last POKéMON.$"
 
 PalletTown_ProfessorOaksLab_Text_PressStartToOpenMenu::
-    .string "Press START to open the MENU!$"
+    .string "Everything you carry\n"
+    .string "is in the menu.\p"
+    .string "Press START.$"
 
 PalletTown_ProfessorOaksLab_Text_SaveOptionInMenu::
-    .string "The SAVE option is on the MENU.\n"
-    .string "Use it regularly.$"
+    .string "The world does not wait.\p"
+    .string "Save often.$"
 
 PalletTown_ProfessorOaksLab_Text_AllMonTypesHaveStrongAndWeakPoints::
-    .string "All POKéMON types have strong and\n"
-    .string "weak points against others.$"
+    .string "Everything has\n"
+    .string "a weakness.\p"
+    .string "Everything.$"
 
 PalletTown_ProfessorOaksLab_Text_EmailMessage::
-    .string "There's an e-mail message here.\p"
-    .string "…\p"
-    .string "Finally!\n"
-    .string "The ultimate TRAINERS of the\l"
-    .string "POKéMON LEAGUE are ready to\l"
-    .string "take on all comers!\p"
-    .string "Bring your best POKéMON and see\n"
-    .string "how you rate as a TRAINER!\p"
-    .string "POKéMON LEAGUE HQ\n"
-    .string "INDIGO PLATEAU\p"
-    .string "PROF. OAK, please visit us!\n"
-    .string "…$"
+    .string "There's a message here.\p"
+    .string "Someone asking questions.\n"
+    .string "No one has answered.\p"
+    .string "Not yet.$"
 
 PalletTown_ProfessorOaksLab_Text_ProfessorLeftEarly::
-    .string "The professor left early today.\n"
-    .string "He seemed... unsettled.\p"
-    .string "He didn't say where he was going.$"
+    .string "The professor's notes\n"
+    .string "are everywhere.\p"
+    .string "He was working on\n"
+    .string "something last night.\p"
+    .string "The pages are all\n"
+    .string "out of order.$"
 
 PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide::
-    .string "I study POKéMON as PROF. OAK's\n"
-    .string "AIDE.$"
+    .string "I've worked here\n"
+    .string "for six years.\p"
+    .string "I've never seen him\n"
+    .string "like this before.\p"
+    .string "Something has him\n"
+    .string "worried.$"
 
 PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons::
     .string "Hi, {PLAYER}. I bet you've become\n"
@@ -292,10 +298,11 @@ PalletTown_ProfessorOaksLab_Text_OakIsGoingToHaveRadioShow::
     .string "OAK's POKéMON SEMINAR.$"
 
 PalletTown_ProfessorOaksLab_Text_OakIsAuthorityOnMons::
-    .string "PROF. OAK may not look like much,\n"
-    .string "but he's the authority on POKéMON.\p"
-    .string "Many POKéMON TRAINERS hold him in\n"
-    .string "high regard.$"
+    .string "He left these for you.\p"
+    .string "I don't know\n"
+    .string "what they mean.\p"
+    .string "Neither did he,\n"
+    .string "I think.$"
 
 PalletTown_ProfessorOaksLab_Text_OakFavorToAskYouPlayer::
     .string "Ah, now this is excellent!\p"
