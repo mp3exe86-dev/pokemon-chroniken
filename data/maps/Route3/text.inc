@@ -1,102 +1,104 @@
 Route3_Text_TunnelFromCeruleanTiring::
-    .string "Whew… I better take a rest…\n"
-    .string "Groan…\p"
-    .string "That tunnel from CERULEAN takes a\n"
-    .string "lot out of you!$"
+    .string "I've been sitting here\n"
+    .string "for an hour.\p"
+    .string "Something in Mt. Moon\n"
+    .string "followed me out.\p"
+    .string "I'm not going back.$"
 
 Route3_Text_ColtonIntro::
-    .string "Hey!\n"
-    .string "I saw you in VIRIDIAN FOREST!$"
+    .string "I saw you in\n"
+    .string "Viridian Forest.\p"
+    .string "Did you feel it too?$"
 
 Route3_Text_ColtonDefeat::
-    .string "You beat me again!$"
+    .string "You beat me again.$"
 
 Route3_Text_ColtonPostBattle::
-    .string "There are other kinds of POKéMON\n"
-    .string "than the ones you find in forests.$"
+    .string "Whatever it is,\n"
+    .string "it's moving east.$"
 
 Route3_Text_BenIntro::
-    .string "Hi!\n"
-    .string "I like shorts!\p"
-    .string "They're delightfully comfy and\n"
-    .string "easy to wear!$"
+    .string "I haven't seen another\n"
+    .string "trainer in days.\p"
+    .string "Where is everyone?$"
 
 Route3_Text_BenDefeat::
-    .string "I don't believe it!$"
+    .string "At least you're real.$"
 
 Route3_Text_BenPostBattle::
-    .string "Are you using a POKéMON CENTER's\n"
-    .string "PC for storing your POKéMON?\p"
-    .string "Each BOX can hold up to\n"
-    .string "30 POKéMON.$"
+    .string "Something emptied\n"
+    .string "this route.$"
 
 Route3_Text_JaniceIntro::
-    .string "Excuse me!\n"
-    .string "You looked at me, didn't you?$"
+    .string "Don't go into Mt. Moon\n"
+    .string "at night.\p"
+    .string "I mean it.$"
 
 Route3_Text_JaniceDefeat::
-    .string "You're mean!$"
+    .string "You'll see.$"
 
 Route3_Text_JanicePostBattle::
-    .string "You shouldn't be staring if you\n"
-    .string "don't want to battle!$"
+    .string "Some things shouldn't\n"
+    .string "be found.$"
 
 Route3_Text_GregIntro::
-    .string "Are you a TRAINER?\n"
-    .string "Let's get with it right away!$"
+    .string "I caught something weird\n"
+    .string "in the grass today.\p"
+    .string "It looked back at me.$"
 
 Route3_Text_GregDefeat::
-    .string "If I had new POKéMON, I would've\n"
-    .string "won!$"
+    .string "It knew too.$"
 
 Route3_Text_GregPostBattle::
-    .string "If a POKéMON BOX on the PC gets\n"
-    .string "full, just switch to another BOX.$"
+    .string "Keep moving.$"
 
 Route3_Text_SallyIntro::
-    .string "That look you gave me…\n"
-    .string "It's so intriguing!$"
+    .string "Are you heading to\n"
+    .string "Mt. Moon?\p"
+    .string "I turned back.$"
 
 Route3_Text_SallyDefeat::
-    .string "Be nice!$"
+    .string "Smart.$"
 
 Route3_Text_SallyPostBattle::
-    .string "You can avoid battles by not\n"
-    .string "letting TRAINERS see you.$"
+    .string "The cave makes sounds\n"
+    .string "at night.$"
 
 Route3_Text_CalvinIntro::
-    .string "Hey! You're not wearing shorts!\n"
-    .string "What's wrong with you?$"
+    .string "You feel that?\n"
+    .string "The ground is warmer\p"
+    .string "here than usual.$"
 
 Route3_Text_CalvinDefeat::
-    .string "Lost!\n"
-    .string "Lost! Lost!$"
+    .string "Strange.$"
 
 Route3_Text_CalvinPostBattle::
-    .string "I always wear shorts, even in\n"
-    .string "winter. That's my policy.$"
+    .string "It's been like this\n"
+    .string "for three days.$"
 
 Route3_Text_JamesIntro::
-    .string "I'll battle you with the POKéMON\n"
-    .string "I just caught.$"
+    .string "The bugs here are\n"
+    .string "different from the forest.\p"
+    .string "They don't run away.$"
 
 Route3_Text_JamesDefeat::
-    .string "Done like dinner!$"
+    .string "They didn't fight either.$"
 
 Route3_Text_JamesPostBattle::
-    .string "Trained POKéMON are stronger than\n"
-    .string "the wild ones.$"
+    .string "Something changed\n"
+    .string "in the tall grass.$"
 
 Route3_Text_RobinIntro::
-    .string "Eek!\n"
-    .string "Did you touch me?$"
+    .string "You came from Viridian?\n"
+    .string "Something felt wrong\p"
+    .string "there today.$"
 
 Route3_Text_RobinDefeat::
-    .string "That's it?$"
+    .string "I knew it.$"
 
 Route3_Text_RobinPostBattle::
-    .string "ROUTE 4 is at the foot of\n"
-    .string "MT. MOON.$"
+    .string "Mt. Moon is just ahead.\n"
+    .string "Don't linger inside.$"
 
 Route3_Text_RouteSign::
     .string "ROUTE 3\n"

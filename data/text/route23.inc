@@ -1,16 +1,24 @@
 Text_OnlySkilledTrainersAllowedThrough::
-	.string "Only truly skilled TRAINERS are\n"
-	.string "allowed through.\p"
-	.string "You don't have the {STR_VAR_1}\n"
-	.string "yet!$"
+	.string "Only those who\n"
+	.string "have proven themselves\p"
+	.string "may pass.\p"
+	.string "You don't have\n"
+	.string "the {STR_VAR_1} yet.$"
 
 Text_CantLetYouPass::
-	.string "Rules are rules.\n"
-	.string "I can't let you pass.$"
+	.string "I cannot let\n"
+	.string "you through.\p"
+	.string "Something on the\n"
+	.string "other side is\p"
+	.string "waiting for you.\p"
+	.string "You're not ready.$"
 
 Text_OhThatsBadgeGoRightAhead::
-	.string "Oh! That is the {STR_VAR_1}!\n"
-	.string "Go right ahead.$"
+	.string "The {STR_VAR_1}.\p"
+	.string "You earned this.\p"
+	.string "Go through.\p"
+	.string "Something is waiting\n"
+	.string "for you.$"
 
 Text_OnlyPassWithBadgeDontHaveYet::
 	.string "You can pass here only if you have\n"

@@ -1,15 +1,21 @@
 @ Male and female text identical, differ (presumably) in JP
 Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreMale::
-    .string "My POKéMON's ashes are stored in\n"
-    .string "POKéMON TOWER.\p"
-    .string "You can have this TM.\n"
-    .string "I don't need it anymore…$"
+    .string "My Pokemon's ashes\n"
+    .string "are in Pokemon Tower.\p"
+    .string "I watched something\n"
+    .string "land on the roof\p"
+    .string "last night.\p"
+    .string "Take this.\n"
+    .string "I don't need it.$"
 
 Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreFemale::
-    .string "My POKéMON's ashes are stored in\n"
-    .string "POKéMON TOWER.\p"
-    .string "You can have this TM.\n"
-    .string "I don't need it anymore…$"
+    .string "My Pokemon's ashes\n"
+    .string "are in Pokemon Tower.\p"
+    .string "I watched something\n"
+    .string "land on the roof\p"
+    .string "last night.\p"
+    .string "Take this.\n"
+    .string "I don't need it.$"
 
 Route12_NorthEntrance_2F_Text_ReceivedTM27FromLittleGirl::
     .string "{PLAYER} received TM27\n"

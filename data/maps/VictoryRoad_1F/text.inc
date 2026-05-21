@@ -1,22 +1,35 @@
 VictoryRoad_1F_Text_NaomiIntro::
-    .string "I wonder if you are good enough\n"
-    .string "for me?$"
+    .string "Are you good enough?\p"
+    .string "This road asks\n"
+    .string "that question.\p"
+    .string "It doesn't accept\n"
+    .string "weak answers.$"
 
 VictoryRoad_1F_Text_NaomiDefeat::
-    .string "I lost out…$"
+    .string "Your answer was\n"
+    .string "better than mine.$"
 
 VictoryRoad_1F_Text_NaomiPostBattle::
-    .string "I never wanted to lose to anybody,\n"
-    .string "especially to a younger kid…$"
+    .string "I never wanted\n"
+    .string "to lose.\p"
+    .string "But this road\n"
+    .string "teaches you things\p"
+    .string "you didn't ask to learn.$"
 
 VictoryRoad_1F_Text_RolandoIntro::
-    .string "I can see you're good.\n"
-    .string "Let me see exactly how good!$"
+    .string "I can see\n"
+    .string "you've come far.\p"
+    .string "This road changes\n"
+    .string "people.\p"
+    .string "Let me see\n"
+    .string "what it made you.$"
 
 VictoryRoad_1F_Text_RolandoDefeat::
-    .string "I had a chance…$"
+    .string "It made you\n"
+    .string "something I'm not.$"
 
 VictoryRoad_1F_Text_RolandoPostBattle::
-    .string "Tch!\n"
-    .string "I concede, you are better than I!$"
+    .string "You belong here.\p"
+    .string "Not everyone who\n"
+    .string "enters this road does.$"
 

@@ -1,18 +1,21 @@
 Route4_Text_TrippedOverGeodude::
-    .string "Ouch! I tripped over a rocky\n"
-    .string "POKéMON, GEODUDE!$"
+    .string "I heard something\n"
+    .string "moving in the rocks.\p"
+    .string "It wasn't a Pokemon\n"
+    .string "I knew.$"
 
 Route4_Text_CrissyIntro::
-    .string "I came to MT. MOON in search of\n"
-    .string "mushroom POKéMON.$"
+    .string "I came to Mt. Moon\n"
+    .string "looking for something.\p"
+    .string "I found it.\p"
+    .string "I wish I hadn't.$"
 
 Route4_Text_CrissyDefeat::
-    .string "After all I did to catch them!$"
+    .string "It doesn't matter.$"
 
 Route4_Text_CrissyPostBattle::
-    .string "There might not be any more\n"
-    .string "mushrooms here.\p"
-    .string "I think I got them all.$"
+    .string "Don't go looking\n"
+    .string "for things in there.$"
 
 Route4_Text_MtMoonEntrance::
     .string "MT. MOON\n"
@@ -23,13 +26,12 @@ Route4_Text_RouteSign::
     .string "MT. MOON - CERULEAN CITY$"
 
 Text_MegaPunchTeach::
-    .string "A punch of roaring ferocity!\p"
-    .string "Packed with destructive power!\p"
-    .string "When the chips are down,\n"
-    .string "MEGA PUNCH is the ultimate attack!\l"
-    .string "You agree, yes?\p"
-    .string "Now!\n"
-    .string "Let me teach it to your POKéMON!$"
+    .string "I've been teaching\n"
+    .string "this move for years.\p"
+    .string "Lately my Pokemon\n"
+    .string "refuse to practice it.\p"
+    .string "They sense something\n"
+    .string "nearby.$"
 
 Text_MegaPunchDeclined::
     .string "You'll be back when you understand\n"
@@ -47,13 +49,11 @@ Text_MegaPunchTaught::
     .string "only his silly kicking over there.$"
 
 Text_MegaKickTeach::
-    .string "A kick of brutal ferocity!\p"
-    .string "Packed with destructive power!\p"
-    .string "When you get right down to it,\n"
-    .string "MEGA KICK is the ultimate attack!\l"
-    .string "Don't you agree?\p"
-    .string "Okay!\n"
-    .string "I'll teach it to your POKéMON!$"
+    .string "Power means nothing\n"
+    .string "if you don't know\p"
+    .string "what you're fighting.\p"
+    .string "Take the move.\n"
+    .string "You'll need it.$"
 
 Text_MegaKickDeclined::
     .string "You'll come crawling back when you\n"
@@ -71,9 +71,9 @@ Text_MegaKickTaught::
     .string "only simple punching over there.$"
 
 Route4_Text_PeopleLikeAndRespectBrock::
-    .string "Oh, wow, that's the BOULDERBADGE!\n"
-    .string "You got it from BROCK, didn't you?\p"
-    .string "BROCK is cool. He's not just tough.\n"
-    .string "People like and respect him.\p"
-    .string "I want to become a GYM LEADER\n"
-    .string "like him.$"
+    .string "You came from\n"
+    .string "Mt. Moon?\p"
+    .string "People keep coming out\n"
+    .string "looking different.\p"
+    .string "Like they saw something\n"
+    .string "they can't explain.$"

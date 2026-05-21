@@ -1,7 +1,7 @@
 Route6_NorthEntrance_Text_ThirstyOnGuardDuty::
-    .string "I'm on guard duty.\n"
-    .string "Gee, I'm thirsty, though!\p"
-    .string "Oh, wait there, the road's closed.$"
+    .string "The road is closed.\p"
+    .string "I've been standing here\n"
+    .string "so long I forgot why.$"
 
 Route6_NorthEntrance_Text_ThatTeaLooksTasty::
     .string "Oh, that TEA…\n"
@@ -22,5 +22,8 @@ Route6_NorthEntrance_Text_ThanksIllShareTeaWithGuards::
     .string "guards!$"
 
 Route6_NorthEntrance_Text_HiHowsItGoing::
-    .string "Hi, how's it going?$"
+    .string "Something came through\n"
+    .string "here last night.\p"
+    .string "I didn't see what it was.\p"
+    .string "Just keep moving.$"
 

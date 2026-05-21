@@ -1,28 +1,32 @@
 Route4_PokemonCenter_1F_Text_CanHaveSixMonsWithYou::
-    .string "Okay, set six POKé BALLS in my\n"
-    .string "belt…\p"
-    .string "Yeah, that'll do it. At most, you\n"
-    .string "can have six POKéMON with you.$"
+    .string "I counted my Pokeballs\n"
+    .string "six times today.\p"
+    .string "I keep losing count\n"
+    .string "after three.$"
 
 Route4_PokemonCenter_1F_Text_TeamRocketAttacksCerulean::
-    .string "TEAM ROCKET attacks CERULEAN\n"
-    .string "citizens…\p"
-    .string "Not a day goes by without TEAM\n"
-    .string "ROCKET being in the news.$"
+    .string "Something is wrong\n"
+    .string "in Cerulean City.\p"
+    .string "The Pokemon there\n"
+    .string "are restless.\p"
+    .string "No one wants to\n"
+    .string "talk about it.$"
 
 Route4_PokemonCenter_1F_Text_LaddieBuyMagikarpForJust500::
-    .string "MAN: Hello there, laddie!\n"
-    .string "Have I got a deal just for you!\p"
-    .string "I'll let you have a secret POKéMON\n"
-    .string "- a MAGIKARP - for just ¥500!\p"
-    .string "So, you'll buy it, am I right?$"
+    .string "This one is different\n"
+    .string "from the others.\p"
+    .string "It watched me for\n"
+    .string "three days before\p"
+    .string "I caught it.\p"
+    .string "¥500. Take it.$"
 
 Route4_PokemonCenter_1F_Text_SweetieBuyMagikarpForJust500::
-    .string "MAN: Hello there, sweetie pie!\n"
-    .string "Have I got a deal just for you!\p"
-    .string "I'll let you have a secret POKéMON\n"
-    .string "- a MAGIKARP - for just ¥500!\p"
-    .string "So, you'll buy it, am I right?$"
+    .string "This one is different\n"
+    .string "from the others.\p"
+    .string "It watched me for\n"
+    .string "three days before\p"
+    .string "I caught it.\p"
+    .string "¥500. Take it.$"
 
 Route4_PokemonCenter_1F_Text_PaidOutrageouslyForMagikarp::
     .string "{PLAYER} paid an outrageous ¥500\n"
@@ -44,11 +48,15 @@ Route4_PokemonCenter_1F_Text_IDontGiveRefunds::
     .string "You knew what you were getting!$"
 
 Route4_PokemonCenter_1F_Text_ShouldStoreMonsUsingPC::
-    .string "Sometimes, you'll have too many\n"
-    .string "POKéMON with you to add any more.\p"
-    .string "In that case, you should just\n"
-    .string "store some using any PC.$"
+    .string "I saw a trainer\n"
+    .string "leave Mt. Moon yesterday.\p"
+    .string "He didn't have\n"
+    .string "any Pokemon left.\p"
+    .string "He wouldn't say why.$"
 
 Route4_PokemonCenter_1F_Text_ItsANewspaper::
-    .string "It's a newspaper.$"
+    .string "The ink is smudged.\p"
+    .string "The date is wrong.\p"
+    .string "The headline reads:\n"
+    .string "'Nothing happened.$'"
 

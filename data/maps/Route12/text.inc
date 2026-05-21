@@ -18,89 +18,109 @@ Text_PlayedPokeFlute::
     .string "{PLAYER} played the POKé FLUTE.$"
 
 Route12_Text_NedIntro::
-    .string "Yeah!\n"
-    .string "I got a bite here!$"
+    .string "I got a bite\n"
+    .string "three hours ago.\p"
+    .string "It pulled the rod\n"
+    .string "down and let go.\p"
+    .string "Too heavy for\n"
+    .string "any fish I know.$"
 
 Route12_Text_NedDefeat::
-    .string "Tch!\n"
-    .string "Just a small fry…$"
+    .string "Still waiting for\n"
+    .string "it to come back.$"
 
 Route12_Text_NedPostBattle::
-    .string "Hang on!\n"
-    .string "My line's snagged!$"
+    .string "Don't fish here\n"
+    .string "after dark.$"
 
 Route12_Text_ChipIntro::
-    .string "Be patient.\n"
-    .string "Fishing is a waiting game.$"
+    .string "Patience.\p"
+    .string "Whatever is down\n"
+    .string "there is also patient.\p"
+    .string "We've been waiting\n"
+    .string "each other out.$"
 
 Route12_Text_ChipDefeat::
-    .string "That one got away!$"
+    .string "It's still waiting.$"
 
 Route12_Text_ChipPostBattle::
-    .string "With a better ROD, I could catch\n"
-    .string "better POKéMON…$"
+    .string "I don't know\n"
+    .string "which of us\p"
+    .string "will give up first.$"
 
 Route12_Text_JustinIntro::
-    .string "I'm searching for a MOON STONE.\n"
-    .string "Have you found one?$"
+    .string "I've been looking\n"
+    .string "for a Moon Stone.\p"
+    .string "I found something\n"
+    .string "that looks like one.\p"
+    .string "It looks back.$"
 
 Route12_Text_JustinDefeat::
-    .string "Oww!$"
+    .string "It's still looking.$"
 
 Route12_Text_JustinPostBattle::
-    .string "I could have made my POKéMON\n"
-    .string "evolve with a MOON STONE.\p"
-    .string "I would have won then, I bet.$"
+    .string "Don't pick up\n"
+    .string "stones that\p"
+    .string "reflect nothing.$"
 
 Route12_Text_LucaIntro::
-    .string "Electricity is my specialty.\p"
-    .string "I don't know a thing about POKéMON\n"
-    .string "of the sea, though.$"
+    .string "I know electricity.\p"
+    .string "What's in this water\n"
+    .string "feels electrical\p"
+    .string "but isn't.$"
 
 Route12_Text_LucaDefeat::
-    .string "Unplugged!$"
+    .string "Wrong charge.$"
 
 Route12_Text_LucaPostBattle::
-    .string "Water conducts electricity, so you\n"
-    .string "should zap sea POKéMON.$"
+    .string "Something runs\n"
+    .string "through this route\p"
+    .string "that has no name.$"
 
 Route12_Text_HankIntro::
-    .string "The FISHING FOOL versus POKéMON\n"
-    .string "KID!$"
+    .string "I've fished every\n"
+    .string "route in Kanto.\p"
+    .string "This water is\n"
+    .string "different.\p"
+    .string "Something looks\n"
+    .string "up from below.$"
 
 Route12_Text_HankDefeat::
-    .string "Touch too much!$"
+    .string "You looked too.$"
 
 Route12_Text_HankPostBattle::
-    .string "I guess you get to be good at\n"
-    .string "what you like.\p"
-    .string "Well, you beat me at POKéMON,\n"
-    .string "but you can't top me at fishing.$"
+    .string "Don't stare into\n"
+    .string "the water too long.$"
 
 Route12_Text_ElliotIntro::
-    .string "I love fishing, don't get me wrong.\p"
-    .string "But it'd be best if I also had more\n"
-    .string "work.$"
+    .string "I used to love\n"
+    .string "fishing.\p"
+    .string "I pulled something\n"
+    .string "up last week\p"
+    .string "that I threw back.\p"
+    .string "I haven't fished since.$"
 
 Route12_Text_ElliotDefeat::
-    .string "It's not easy…$"
+    .string "I remember now.$"
 
 Route12_Text_ElliotPostBattle::
-    .string "It's all right.\n"
-    .string "Losing doesn't bug me anymore.$"
+    .string "Some things should\n"
+    .string "stay at the bottom.$"
 
 Route12_Text_AndrewIntro::
-    .string "What's catching?\p"
-    .string "You never know what you could\n"
-    .string "catch!$"
+    .string "You never know\n"
+    .string "what you could catch.\p"
+    .string "I caught something\n"
+    .string "I couldn't identify.\p"
+    .string "I let it go.\p"
+    .string "It didn't leave.$"
 
 Route12_Text_AndrewDefeat::
-    .string "Lost it!$"
+    .string "Still there.$"
 
 Route12_Text_AndrewPostBattle::
-    .string "What, MAGIKARP?\p"
-    .string "I catch them all the time, sure.\n"
-    .string "But, boy are they wimpy.$"
+    .string "Some catches\n"
+    .string "follow you home.$"
 
 Route12_Text_RouteSign::
     .string "ROUTE 12 \n"
@@ -110,16 +130,22 @@ Route12_Text_SportfishingArea::
     .string "SPORTFISHING AREA$"
 
 Route12_Text_JesIntro::
-    .string "JES: If I win, I'm going to\n"
-    .string "propose to GIA.$"
+    .string "JES: If I win\n"
+    .string "I'm going to propose.\p"
+    .string "If I lose\n"
+    .string "I'm still going to propose.\p"
+    .string "I just need\n"
+    .string "a reason to stop\p"
+    .string "standing here.$"
 
 Route12_Text_JesDefeat::
-    .string "JES: Oh, please, why couldn't you\n"
-    .string "let us win?$"
+    .string "JES: Still standing here.$"
 
 Route12_Text_JesPostBattle::
-    .string "JES: Oh, GIA, forgive me,\n"
-    .string "my love!$"
+    .string "JES: Neither of us\n"
+    .string "can move.\p"
+    .string "We've been here\n"
+    .string "two days.$"
 
 Route12_Text_JesNotEnoughMons::
     .string "JES: GIA and I, we'll be\n"
@@ -128,15 +154,20 @@ Route12_Text_JesNotEnoughMons::
     .string "two POKéMON of your own.$"
 
 Route12_Text_GiaIntro::
-    .string "GIA: Hey, JES…\p"
-    .string "If we win, I'll marry you!$"
+    .string "GIA: We stopped walking\n"
+    .string "and couldn't start again.\p"
+    .string "Say yes to\n"
+    .string "the battle.\p"
+    .string "It's the only thing\n"
+    .string "that still makes sense.$"
 
 Route12_Text_GiaDefeat::
-    .string "GIA: Oh, but why?$"
+    .string "GIA: At least something happened.$"
 
 Route12_Text_GiaPostBattle::
-    .string "GIA: JES, you silly!\n"
-    .string "You ruined this!$"
+    .string "GIA: Thank you.\p"
+    .string "We'll figure out\n"
+    .string "the rest.$"
 
 Route12_Text_GiaNotEnoughMons::
     .string "GIA: I can't bear to battle\n"

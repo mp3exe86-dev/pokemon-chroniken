@@ -4,13 +4,21 @@ PowerPlant_MapScripts::
 	.byte 0
 
 PowerPlant_OnResume::
-	call_if_set FLAG_SYS_SPECIAL_WILD_BATTLE, PowerPlant_EventScript_TryRemoveStaticMon
+	call_if_set FLAG_SYS_SPECIAL_WILD_BATTLE, PowerPlant_EventScript_ResumeAfterBattle
 	end
 
-PowerPlant_EventScript_TryRemoveStaticMon::
+PowerPlant_EventScript_ResumeAfterBattle::
+	goto_if_set FLAG_HOOH_IN_BATTLE, PowerPlant_EventScript_HoOhResume
+	@ Zapdos or Electrode battle interrupted
 	specialvar VAR_RESULT, GetBattleOutcome
 	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_Return
 	removeobject VAR_LAST_TALKED
+	return
+
+PowerPlant_EventScript_HoOhResume::
+	clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	clearflag FLAG_HOOH_IN_BATTLE
+	setflag FLAG_HOOH_ENCOUNTERED
 	return
 
 PowerPlant_OnTransition::
@@ -119,3 +127,41 @@ PowerPlant_EventScript_FoughtElectrode2::
 	setflag FLAG_FOUGHT_POWER_PLANT_ELECTRODE_2
 	goto EventScript_RemoveStaticMon
 	end
+
+PowerPlant_EventScript_HoOh::
+	goto_if_unset FLAG_HOOH_AWAKENED, PowerPlant_EventScript_HoOhNotReady
+	goto_if_set FLAG_HOOH_ENCOUNTERED, PowerPlant_EventScript_HoOhGone
+	lockall
+	message PowerPlant_Text_HoOhApproach
+	waitmessage
+	waitbuttonpress
+	closemessage
+	waitse
+	playmoncry SPECIES_HO_OH, CRY_MODE_ENCOUNTER
+	waitmoncry
+	delay 20
+	playbgm MUS_ENCOUNTER_GYM_LEADER, 0
+	waitbuttonpress
+	setwildbattle SPECIES_HO_OH, 50
+	setflag FLAG_HOOH_IN_BATTLE
+	setflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	special StartLegendaryBattle
+	waitstate
+	clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	clearflag FLAG_HOOH_IN_BATTLE
+	setflag FLAG_HOOH_ENCOUNTERED
+	releaseall
+	end
+
+PowerPlant_EventScript_HoOhNotReady::
+	end
+
+PowerPlant_EventScript_HoOhGone::
+	msgbox PowerPlant_Text_HoOhGone, MSGBOX_SIGN
+	end
+
+PowerPlant_Text_HoOhApproach:
+	.string "The air is burning.\pSomething ancient\ncircles above.$"
+
+PowerPlant_Text_HoOhGone:
+	.string "The air is still.\pNothing burns above.$"

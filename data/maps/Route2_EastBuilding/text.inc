@@ -27,6 +27,10 @@ Route2_EastBuilding_Text_ExplainHM05::
     .string "of caves and dungeons.$"
 
 Route2_EastBuilding_Text_CanGetThroughRockTunnel::
-    .string "Once a POKéMON learns FLASH, you\n"
-    .string "can get through ROCK TUNNEL.$"
+    .string "I used to play here\n"
+    .string "every evening.\p"
+    .string "The Pokemon would\n"
+    .string "gather and listen.\p"
+    .string "They don't come\n"
+    .string "anymore.$"
 

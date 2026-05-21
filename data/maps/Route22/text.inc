@@ -62,5 +62,8 @@ Route22_Text_LateRivalVictory::
 
 Route22_Text_LeagueGateSign::
 	.string "POKéMON LEAGUE\n"
-	.string "Front Gate$"
+	.string "Front Gate\p"
+	.string "Some who enter\n"
+	.string "don't come back\n"
+	.string "the same.$"
 

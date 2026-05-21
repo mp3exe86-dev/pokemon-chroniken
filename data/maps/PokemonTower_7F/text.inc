@@ -1,38 +1,49 @@
 PokemonTower_7F_Text_Grunt1Intro::
     .string "What do you want?\n"
-    .string "Why are you here?$"
+    .string "Why are you here?\p"
+    .string "We ask ourselves\n"
+    .string "that too lately.$"
 
 PokemonTower_7F_Text_Grunt1Defeat::
-    .string "I give up!$"
+    .string "I give up.$"
 
 PokemonTower_7F_Text_Grunt1PostBattle::
-    .string "I'm not going to forget this!$"
+    .string "I won't forget this.\p"
+    .string "I won't forget\n"
+    .string "what I saw\n"
+    .string "in this tower either.$"
 
 PokemonTower_7F_Text_Grunt2Intro::
-    .string "This old guy marched right up to\n"
-    .string "our HIDEOUT.\p"
-    .string "Then, he starts ranting about how\n"
-    .string "TEAM ROCKET's abusing POKéMON.\p"
-    .string "So, we're just talking it over as\n"
-    .string "adults.$"
+    .string "This old man came\n"
+    .string "to our hideout\n"
+    .string "ranting about Pokemon.\p"
+    .string "We brought him here\n"
+    .string "to talk it over.\p"
+    .string "The tower had\n"
+    .string "other ideas.$"
 
 PokemonTower_7F_Text_Grunt2Defeat::
-    .string "Please!\n"
-    .string "No more!$"
+    .string "No more.$"
 
 PokemonTower_7F_Text_Grunt2PostBattle::
-    .string "POKéMON are only good for making\n"
-    .string "money. Why not use them?\p"
-    .string "You stay out of our business!$"
+    .string "Pokemon are for\n"
+    .string "making money.\p"
+    .string "That's what I\n"
+    .string "told myself before\n"
+    .string "I came here.$"
 
 PokemonTower_7F_Text_Grunt3Intro::
-    .string "You're not saving anyone, kid!$"
+    .string "You're not saving anyone.\p"
+    .string "Neither are we\n"
+    .string "anymore.$"
 
 PokemonTower_7F_Text_Grunt3Defeat::
-    .string "Don't fight us ROCKETS!$"
+    .string "Don't fight us.$"
 
 PokemonTower_7F_Text_Grunt3PostBattle::
-    .string "You're not getting away with this!$"
+    .string "You're not getting\n"
+    .string "away with this.\p"
+    .string "Neither are we.$"
 
 PokemonTower_7F_Text_MrFujiThankYouFollowMe::
     .string "MR. FUJI: Heh?\n"
@@ -47,4 +58,3 @@ PokemonTower_7F_Text_MrFujiThankYouFollowMe::
     .string "concern.\p"
     .string "Follow me to my home, POKéMON\n"
     .string "HOUSE, at the foot of this tower.$"
-

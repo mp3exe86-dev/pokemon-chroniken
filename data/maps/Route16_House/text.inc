@@ -1,8 +1,11 @@
 Route16_House_Text_FoundMySecretRetreat::
-    .string "Oh, dear.\n"
-    .string "You've found my secret retreat.\p"
-    .string "Please don't tell anyone I'm here.\n"
-    .string "I'll make it up to you with this!$"
+    .string "I've been in\n"
+    .string "this house for\p"
+    .string "three days.\p"
+    .string "Something circles outside\n"
+    .string "at night.\p"
+    .string "Take this and go.\p"
+    .string "Fly away from here.$"
 
 Route16_House_Text_ReceivedHM02FromGirl::
     .string "{PLAYER} received HM02\n"

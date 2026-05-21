@@ -9,13 +9,25 @@ SeafoamIslands_B4F_MapScripts::
 	.byte 0
 
 SeafoamIslands_B4F_OnResume::
-	call_if_set FLAG_SYS_SPECIAL_WILD_BATTLE, SeafoamIslands_B4F_EventScript_TryRemoveArticuno
+	call_if_set FLAG_SYS_SPECIAL_WILD_BATTLE, SeafoamIslands_B4F_EventScript_ResumeAfterBattle
 	end
 
-SeafoamIslands_B4F_EventScript_TryRemoveArticuno::
+SeafoamIslands_B4F_EventScript_ResumeAfterBattle::
+	goto_if_set FLAG_FOUGHT_ARTICUNO, SeafoamIslands_B4F_EventScript_CheckLugiaResume
+	@ Articuno battle interrupted
 	specialvar VAR_RESULT, GetBattleOutcome
 	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_Return
 	removeobject VAR_LAST_TALKED
+	return
+
+SeafoamIslands_B4F_EventScript_CheckLugiaResume::
+	goto_if_unset FLAG_LUGIA_ENCOUNTERED, SeafoamIslands_B4F_EventScript_LugiaInterrupted
+	clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	return
+
+SeafoamIslands_B4F_EventScript_LugiaInterrupted::
+	clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	setflag FLAG_LUGIA_ENCOUNTERED
 	return
 
 SeafoamIslands_B4F_OnTransition::
@@ -194,3 +206,39 @@ SeafoamIslands_B4F_EventScript_BoulderHintSign::
 SeafoamIslands_B4F_EventScript_FastCurrentSign::
 	msgbox SeafoamIslands_B4F_Text_DangerFastCurrent, MSGBOX_SIGN
 	end
+
+SeafoamIslands_B4F_EventScript_Lugia::
+	goto_if_unset FLAG_LUGIA_AWAKENED, SeafoamIslands_B4F_EventScript_LugiaNotReady
+	goto_if_set FLAG_LUGIA_ENCOUNTERED, SeafoamIslands_B4F_EventScript_LugiaGone
+	lockall
+	message SeafoamIslands_B4F_Text_LugiaApproach
+	waitmessage
+	waitbuttonpress
+	closemessage
+	waitse
+	playmoncry SPECIES_LUGIA, CRY_MODE_ENCOUNTER
+	waitmoncry
+	delay 20
+	playbgm MUS_ENCOUNTER_GYM_LEADER, 0
+	waitbuttonpress
+	setwildbattle SPECIES_LUGIA, 50
+	setflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	special StartLegendaryBattle
+	waitstate
+	clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	setflag FLAG_LUGIA_ENCOUNTERED
+	releaseall
+	end
+
+SeafoamIslands_B4F_EventScript_LugiaNotReady::
+	end
+
+SeafoamIslands_B4F_EventScript_LugiaGone::
+	msgbox SeafoamIslands_B4F_Text_LugiaGone, MSGBOX_SIGN
+	end
+
+SeafoamIslands_B4F_Text_LugiaApproach:
+	.string "The water shifts.\pSomething ancient\nrises from below.$"
+
+SeafoamIslands_B4F_Text_LugiaGone:
+	.string "The water is calm.\pNothing stirs below.$"

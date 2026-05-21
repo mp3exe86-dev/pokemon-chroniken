@@ -16,6 +16,34 @@ Route2_House_Text_FossilScientist::
 	.string "I think it was\nwaiting for someone.\p"
 	.string "Take it.$"
 
+Route2_House_EventScript_Researcher::
+	goto_if_set FLAG_ROUTE2_HOUSE_RESEARCHER_DONE, Route2_House_EventScript_Researcher_After
+	lock
+	faceplayer
+	msgbox Route2_House_Text_Researcher, MSGBOX_DEFAULT
+	giveitem ITEM_ENIGMA_BERRY
+	setflag FLAG_ROUTE2_HOUSE_RESEARCHER_DONE
+	release
+	end
+
+Route2_House_EventScript_Researcher_After::
+	lock
+	faceplayer
+	msgbox Route2_House_Text_Researcher_After, MSGBOX_DEFAULT
+	release
+	end
+
+Route2_House_Text_Researcher::
+	.string "I've been mapping\nthese routes for years.\p"
+	.string "Something changed\nthree winters ago.\p"
+	.string "The Pokemon started\nmoving differently.\p"
+	.string "Like they knew\nsomething was coming.\p"
+	.string "Take this. You'll\nneed it out there.$"
+
+Route2_House_Text_Researcher_After::
+	.string "Don't ask me what\nit does.\p"
+	.string "I'm not sure\nanyone knows.$"
+
 Route2_House_EventScript_Scientist::
 	msgbox Route2_House_Text_FaintedMonsCanUseFieldMoves, MSGBOX_NPC
 	end

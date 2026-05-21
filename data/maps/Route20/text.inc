@@ -1,120 +1,168 @@
 Route20_Text_BarryIntro::
-    .string "The water is shallow here.\n"
-    .string "There are many people swimming.$"
+    .string "The water is shallow here.\p"
+    .string "Many people swim here.\p"
+    .string "Fewer come back\n"
+    .string "through than go in.$"
 
 Route20_Text_BarryDefeat::
-    .string "Splash!$"
+    .string "Keep count.$"
 
 Route20_Text_BarryPostBattle::
-    .string "I wish I could ride my POKéMON.\n"
-    .string "I bet you're not tired.$"
+    .string "The numbers don't\n"
+    .string "add up anymore.$"
 
 Route20_Text_ShirleyIntro::
-    .string "SEAFOAM is a quiet getaway.\n"
-    .string "I'm vacationing here.$"
+    .string "Seafoam is a\n"
+    .string "quiet getaway.\p"
+    .string "Too quiet now.\p"
+    .string "The island stopped\n"
+    .string "making sound\p"
+    .string "three days ago.$"
 
 Route20_Text_ShirleyDefeat::
-    .string "Quit it!$"
+    .string "Still silent.$"
 
 Route20_Text_ShirleyPostBattle::
-    .string "There's a huge cavern underneath\n"
-    .string "this island.$"
+    .string "Islands shouldn't\n"
+    .string "be this quiet.\p"
+    .string "Something absorbed it.$"
 
 Route20_Text_TiffanyIntro::
-    .string "I love floating with the fishes\n"
-    .string "here among the waves.$"
+    .string "I love floating\n"
+    .string "with the fish.\p"
+    .string "Something floats\n"
+    .string "here that isn't\p"
+    .string "a fish.\p"
+    .string "I try not\n"
+    .string "to touch it.$"
 
 Route20_Text_TiffanyDefeat::
-    .string "Yowch!$"
+    .string "It moved.$"
 
 Route20_Text_TiffanyPostBattle::
-    .string "Want to float with me?$"
+    .string "It follows warmth.\p"
+    .string "Swim cold if\n"
+    .string "you can.$"
 
 Route20_Text_IreneIntro::
-    .string "Are you on vacation, too?$"
+    .string "Are you on\n"
+    .string "vacation too?\p"
+    .string "I came for vacation.\p"
+    .string "I keep forgetting\n"
+    .string "what I was\p"
+    .string "resting from.$"
 
 Route20_Text_IreneDefeat::
-    .string "No mercy at all!$"
+    .string "I remember now.$"
 
 Route20_Text_IrenePostBattle::
-    .string "SEAFOAM used to be a single island\n"
-    .string "in the distant past.$"
+    .string "Thank you.\p"
+    .string "The battle cleared\n"
+    .string "something.$"
 
 Route20_Text_DeanIntro::
-    .string "Check out my buff physique!$"
+    .string "I train every day.\p"
+    .string "Something in this\n"
+    .string "water has been\p"
+    .string "training longer.$"
 
 Route20_Text_DeanDefeat::
-    .string "Wimpy!$"
+    .string "Much longer.$"
 
 Route20_Text_DeanPostBattle::
-    .string "I should've been buffing up my\n"
-    .string "POKéMON, not me!$"
+    .string "I felt it\n"
+    .string "watching my form.\p"
+    .string "Like it was\n"
+    .string "learning something.$"
 
 Route20_Text_DarrinIntro::
-    .string "Why are you riding a POKéMON?\n"
-    .string "Can't you swim?$"
+    .string "Why ride a\n"
+    .string "Pokemon? Can't you swim?\p"
+    .string "I swim everywhere.\p"
+    .string "I don't anymore.\p"
+    .string "Not since I\n"
+    .string "saw what swims here.$"
 
 Route20_Text_DarrinDefeat::
-    .string "Ouch!\n"
-    .string "Torpedoed!$"
+    .string "You'll understand.$"
 
 Route20_Text_DarrinPostBattle::
-    .string "Riding a POKéMON sure looks fun!$"
+    .string "Some water isn't\n"
+    .string "for swimming.$"
 
 Route20_Text_RogerIntro::
-    .string "I rode my bird POKéMON here.$"
+    .string "I rode my\n"
+    .string "bird Pokemon here.\p"
+    .string "It refused to\n"
+    .string "fly over the island.\p"
+    .string "We came around.$"
 
 Route20_Text_RogerDefeat::
-    .string "Oh, no!\n"
-    .string "Now what am I to do?$"
+    .string "It knows something.$"
 
 Route20_Text_RogerPostBattle::
-    .string "My birds are exhausted.\n"
-    .string "They can't FLY me back!$"
+    .string "Birds don't avoid\n"
+    .string "places without reason.$"
 
 Route20_Text_NoraIntro::
-    .string "My boyfriend gave me big pearls.$"
+    .string "My partner dove\n"
+    .string "for these pearls.\p"
+    .string "He came back\n"
+    .string "up with them\p"
+    .string "and something else.\p"
+    .string "He won't say what.$"
 
 Route20_Text_NoraDefeat::
-    .string "Oh, no!\n"
-    .string "My pearls were in them!$"
+    .string "He still won't.$"
 
 Route20_Text_NoraPostBattle::
-    .string "Will my pearls grow bigger inside\n"
-    .string "CLOYSTER?$"
+    .string "Some things from\n"
+    .string "the deep shouldn't\p"
+    .string "come up.$"
 
 Route20_Text_MissyIntro::
-    .string "I swam here from CINNABAR ISLAND.\n"
-    .string "It wasn't easy, I tell you.$"
+    .string "I swam from\n"
+    .string "Cinnabar Island.\p"
+    .string "The water between\n"
+    .string "here and there\p"
+    .string "changed last week.\p"
+    .string "I could feel\n"
+    .string "something beneath me\p"
+    .string "the whole way.$"
 
 Route20_Text_MissyDefeat::
-    .string "I'm so disappointed!$"
+    .string "It's still there.$"
 
 Route20_Text_MissyPostBattle::
-    .string "POKéMON have taken over an\n"
-    .string "abandoned mansion on CINNABAR.\p"
-    .string "They call it the POKéMON MANSION\n"
-    .string "now.$"
+    .string "It followed me\n"
+    .string "from Cinnabar.\p"
+    .string "Or it was\n"
+    .string "always here.$"
 
 Route20_Text_MelissaIntro::
-    .string "CINNABAR, in the west, has a LAB\n"
-    .string "for POKéMON.\p"
-    .string "My daddy works there.$"
+    .string "My father works\n"
+    .string "at the lab\p"
+    .string "on Cinnabar.\p"
+    .string "He stopped answering\n"
+    .string "his messages\p"
+    .string "two weeks ago.$"
 
 Route20_Text_MelissaDefeat::
-    .string "Wait!\n"
-    .string "You're supposed to wait!$"
+    .string "I'm going to find him.$"
 
 Route20_Text_MelissaPostBattle::
-    .string "CINNABAR is a volcanic island.\p"
-    .string "I heard it rose out of the sea\n"
-    .string "when a volcano erupted.$"
+    .string "He said the\n"
+    .string "experiments were almost done.\p"
+    .string "He didn't say\n"
+    .string "which experiments.$"
 
 Route20_Text_SeafoamIslands::
     .string "SEAFOAM ISLANDS$"
 
 Route20_Text_MistyTrainsHere::
-    .string "Strong TRAINERS and WATER POKéMON\n"
-    .string "are common sights in these parts.\p"
-    .string "They say that MISTY of the\n"
-    .string "CERULEAN GYM trains here.$"
+    .string "Strong trainers come\n"
+    .string "to these waters.\p"
+    .string "Something stronger\n"
+    .string "came recently.\p"
+    .string "It didn't come\n"
+    .string "to train.$"

@@ -951,6 +951,7 @@
 #define FLAG_0x398               0x398
 #define FLAG_0x399               0x399
 #define FLAG_0x39A               0x39A
+#define FLAG_ROUTE2_HOUSE_RESEARCHER_DONE FLAG_0x39A
 #define FLAG_0x39B               0x39B
 #define FLAG_0x39C               0x39C
 #define FLAG_0x39D               0x39D
@@ -1525,9 +1526,19 @@
 #define FLAG_0x8FE                                                  (SYS_FLAGS + 0xFE)
 #define FLAG_0x8FF                                                  (SYS_FLAGS + 0xFF)
 
-#define FLAG_GOT_WINGULL    FLAG_0x8FD
-#define FLAG_GOT_RALTS      FLAG_0x8FE
-#define FLAG_STARTER_CHOSEN FLAG_0x8FF
+#define FLAG_GOT_WINGULL         FLAG_0x8FD
+#define FLAG_GOT_RALTS           FLAG_0x8FE
+#define FLAG_STARTER_CHOSEN      FLAG_0x8FF
+#define FLAG_SUICUNE_ENCOUNTERED FLAG_0x8FC
+#define FLAG_ROAMERS_INITIALIZED FLAG_0x8FB
+#define FLAG_LUGIA_AWAKENED      FLAG_0x8FA
+#define FLAG_LUGIA_ENCOUNTERED   FLAG_0x8F9
+#define FLAG_HOOH_AWAKENED       FLAG_0x8F8
+#define FLAG_HOOH_ENCOUNTERED    FLAG_0x8F7
+#define FLAG_HOOH_IN_BATTLE      FLAG_0x8F6
+#define FLAG_GOT_ROUTE1_BERRY_1       FLAG_0x8F5
+#define FLAG_GOT_ROUTE1_BERRY_2       FLAG_0x8F4
+#define FLAG_MYSTERY_HOUSE_WOMAN_DONE FLAG_0x8F3
 #define FLAGS_COUNT (FLAG_STARTER_CHOSEN + 1)
 
 // Special Flags (Stored in EWRAM (sSpecialFlags, not in the SaveBlock)

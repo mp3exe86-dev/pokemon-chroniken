@@ -1,27 +1,30 @@
 FuchsiaCity_SafariZone_Entrance_Text_WelcomeToSafariZone::
-    .string "Welcome to the SAFARI ZONE!$"
+    .string "Welcome to the\n"
+    .string "Safari Zone.\p"
+    .string "Something in here\n"
+    .string "welcomes you too.$"
 
 FuchsiaCity_SafariZone_Entrance_Text_PlaySafariGameFor500::
-    .string "For just ¥500, you can play the\n"
-    .string "SAFARI GAME.\p"
-    .string "You can roam the wide-open safari\n"
-    .string "and catch what you like.\p"
-    .string "Would you like to play?$"
+    .string "For just 500,\n"
+    .string "you can explore\n"
+    .string "the Safari Zone.\p"
+    .string "Pokemon you've never\n"
+    .string "seen wait inside.\p"
+    .string "Would you like\n"
+    .string "to play?$"
 
 FuchsiaCity_SafariZone_Entrance_Text_ThatllBe500WeOnlyUseSpecialBalls::
-    .string "That'll be ¥500, please!\p"
-    .string "We only use a special kind of \n"
-    .string "POKé BALLS here.$"
+    .string "That'll be 500 please.$"
 
 FuchsiaCity_SafariZone_Entrance_Text_PlayerReceived30SafariBalls::
     .string "{PLAYER} received 30 SAFARI BALLS\n"
     .string "from the attendant.$"
 
 FuchsiaCity_SafariZone_Entrance_Text_CallYouOnPAWhenYouRunOut::
-    .string "We'll call you on the PA when you\n"
-    .string "run out of time or SAFARI BALLS.\p"
-    .string "Well, I'll wish you the best of\n"
-    .string "luck!$"
+    .string "We'll call you\n"
+    .string "when time runs out.\p"
+    .string "Good luck.\p"
+    .string "You'll need it.$"
 
 FuchsiaCity_SafariZone_Entrance_Text_OkayPleaseComeAgain::
     .string "Okay.\n"
@@ -32,12 +35,17 @@ FuchsiaCity_SafariZone_Entrance_Text_OopsNotEnoughMoney::
     .string "Not enough money!$"
 
 FuchsiaCity_SafariZone_Entrance_Text_GoingToLeaveSafariZoneEarly::
-    .string "Are you going to leave the\n"
-    .string "SAFARI ZONE early?$"
+    .string "Leaving the Safari\n"
+    .string "Zone early?\p"
+    .string "Something in here\n"
+    .string "will notice.$"
 
 FuchsiaCity_SafariZone_Entrance_Text_PleaseReturnSafariBalls::
-    .string "Please return any SAFARI BALLS\n"
-    .string "you may have left.$"
+    .string "Return any Safari\n"
+    .string "Balls you have left.\p"
+    .string "Did you catch\n"
+    .string "what you came for?\p"
+    .string "Come again.$"
 
 FuchsiaCity_SafariZone_Entrance_Text_GoodLuck::
     .string "Good luck!$"
@@ -51,23 +59,27 @@ FuchsiaCity_SafariZone_Entrance_Text_FirstTimeAtSafariZone::
     .string "the SAFARI ZONE?$"
 
 FuchsiaCity_SafariZone_Entrance_Text_ExplainSafariZone::
-    .string "The SAFARI ZONE actually has\n"
-    .string "four zones in it.\p"
-    .string "Each zone has different kinds of\n"
-    .string "POKéMON, even some rare ones.\p"
-    .string "Use the supplied SAFARI BALLS to\n"
-    .string "catch them.\p"
-    .string "You can also throw BAIT or ROCKS\n"
-    .string "besides the SAFARI BALLS.\p"
-    .string "If you throw BAIT, the POKéMON\n"
-    .string "becomes less likely to flee, but\l"
-    .string "harder to catch.\p"
-    .string "If you throw ROCKS, the POKéMON\n"
-    .string "becomes more likely to flee, but\l"
-    .string "easier to catch.\p"
-    .string "When you run out of time or SAFARI\n"
-    .string "BALLS, it's game over for you!$"
+    .string "The Safari Zone\n"
+    .string "has four areas.\p"
+    .string "Each has different\n"
+    .string "Pokemon.\p"
+    .string "Some rare ones\n"
+    .string "that don't appear\n"
+    .string "anywhere else.\p"
+    .string "Use Safari Balls\n"
+    .string "to catch them.\p"
+    .string "Throw Bait to\n"
+    .string "keep them calm.\p"
+    .string "Throw Rocks to\n"
+    .string "weaken them.\p"
+    .string "When time runs\n"
+    .string "out you'll be\n"
+    .string "called back.\p"
+    .string "Some who enter\n"
+    .string "don't want to\n"
+    .string "leave.$"
 
 FuchsiaCity_SafariZone_Entrance_Text_SorryYoureARegularHere::
-    .string "Sorry, you're a regular here!$"
+    .string "You've been here before.\p"
+    .string "Welcome back.$"
 

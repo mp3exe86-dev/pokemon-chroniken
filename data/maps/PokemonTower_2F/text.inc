@@ -31,8 +31,10 @@ PokemonTower_2F_Text_RivalPostBattle::
     .string "Smell ya later!$"
 
 PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts::
-    .string "Even we could not identify the\n"
-    .string "wayward ghosts.\p"
-    .string "A SILPH SCOPE might be able to\n"
-    .string "unmask them.$"
-
+    .string "Even we could\n"
+    .string "not identify the\n"
+    .string "wayward spirits.\p"
+    .string "A Silph Scope\n"
+    .string "might unmask them.\p"
+    .string "Some things should\n"
+    .string "stay masked.$"

@@ -1,7 +1,8 @@
 Route24_Text_JustEarnedFabulousPrize::
-    .string "Congratulations! You beat our\n"
-    .string "five contest TRAINERS!\p"
-    .string "You just earned a fabulous prize!$"
+    .string "You defeated all five.\p"
+    .string "Something is watching\n"
+    .string "from the other side.\p"
+    .string "Here.$"
 
 Route24_Text_ReceivedNuggetFromMysteryTrainer::
     .string "{PLAYER} received a NUGGET\n"
@@ -11,90 +12,120 @@ Route24_Text_YouDontHaveAnyRoom::
     .string "You don't have any room!$"
 
 Route24_Text_JoinTeamRocket::
-    .string "By the way, how would you like to\n"
-    .string "join TEAM ROCKET?\p"
-    .string "We're a group of professional\n"
-    .string "criminals specializing in POKéMON!\p"
-    .string "Want to join?\p"
-    .string "Are you sure?\p"
-    .string "Come on, join us!\p"
-    .string "I'm telling you to join!\p"
-    .string "…Okay, you need convincing!\p"
-    .string "I'll make you an offer you can't\n"
-    .string "refuse!$"
+    .string "Impressive.\p"
+    .string "We've been watching\n"
+    .string "you since Pallet.\p"
+    .string "Team Rocket sees\n"
+    .string "potential in you.\p"
+    .string "We collect rare things.\p"
+    .string "POKéMON. Information.\p"
+    .string "People like you.\p"
+    .string "Join us.\p"
+    .string "You'll understand what\n"
+    .string "we're really looking for.\p"
+    .string "No?\p"
+    .string "Then we have\n"
+    .string "a problem.$"
 
 Route24_Text_RocketDefeat::
-    .string "Arrgh!\n"
-    .string "You are good!$"
+    .string "You are exactly\n"
+    .string "what we were\p"
+    .string "looking for.\p"
+    .string "And exactly what\n"
+    .string "we can't control.$"
 
 Route24_Text_YoudBecomeTopRocketLeader::
-    .string "With your ability, you'd become\n"
-    .string "a top leader in TEAM ROCKET.\p"
-    .string "Come on, think of the opportunity!\n"
-    .string "Don't let this chance go to waste.$"
+    .string "Someday you'll understand\n"
+    .string "what we were\p"
+    .string "really collecting.\p"
+    .string "It wasn't POKéMON.$"
 
 Route24_Text_ShaneIntro::
-    .string "I saw your feat from the grass!$"
+    .string "I watched from\n"
+    .string "the grass.\p"
+    .string "The people on\n"
+    .string "that bridge aren't\p"
+    .string "what they seem.$"
 
 Route24_Text_ShaneDefeat::
-    .string "I thought not!$"
+    .string "Neither are you.$"
 
 Route24_Text_ShanePostBattle::
-    .string "I hid because the people on the\n"
-    .string "bridge frightened me.$"
+    .string "I hid because\n"
+    .string "the bridge frightened me.\p"
+    .string "You walked straight\n"
+    .string "across.$"
 
 Route24_Text_EthanIntro::
-    .string "Okay! I'm No. 5!\n"
-    .string "I'll stomp you!$"
+    .string "Fifth.\p"
+    .string "Last one.\p"
+    .string "Whatever you feel\n"
+    .string "right now remember it.\p"
+    .string "This is the\n"
+    .string "moment before you\p"
+    .string "know.$"
 
 Route24_Text_EthanDefeat::
-    .string "Whoa!\n"
-    .string "Too much!$"
+    .string "You're ready.$"
 
 Route24_Text_EthanPostBattle::
-    .string "I did my best. I have no regrets!$"
+    .string "Cross the bridge.\p"
+    .string "You've earned the\n"
+    .string "right to know.$"
 
 Route24_Text_ReliIntro::
-    .string "I'm No. 4!\n"
-    .string "Getting tired?$"
+    .string "Fourth.\p"
+    .string "Almost there.\p"
+    .string "Something on the\n"
+    .string "other side has\p"
+    .string "been watching since\n"
+    .string "you started.$"
 
 Route24_Text_ReliDefeat::
-    .string "I lost, too!$"
+    .string "It's still watching.$"
 
 Route24_Text_ReliPostBattle::
-    .string "I did my best, so I've no regrets!$"
+    .string "No regrets.\p"
+    .string "Just keep moving.$"
 
 Route24_Text_TimmyIntro::
-    .string "Here's No. 3!\n"
-    .string "I won't be easy!$"
+    .string "Third.\p"
+    .string "Halfway across.\p"
+    .string "The water below\n"
+    .string "looks wrong from here.$"
 
 Route24_Text_TimmyDefeat::
-    .string "Ow!\n"
-    .string "Stomped flat!$"
+    .string "Don't look down.$"
 
 Route24_Text_TimmyPostBattle::
-    .string "I did my best. I have no regrets!$"
+    .string "I told you.$"
 
 Route24_Text_AliIntro::
-    .string "I'm second!\n"
-    .string "Now it's serious!$"
+    .string "Second trainer.\p"
+    .string "The bridge feels\n"
+    .string "different when you\p"
+    .string "reach the middle.$"
 
 Route24_Text_AliDefeat::
-    .string "How could I lose?$"
+    .string "I felt it too.$"
 
 Route24_Text_AliPostBattle::
-    .string "I did my best. I have no regrets!$"
+    .string "Keep going.\p"
+    .string "Don't look down.$"
 
 Route24_Text_CaleIntro::
-    .string "People call this the NUGGET\n"
-    .string "BRIDGE!\p"
-    .string "Beat us five TRAINERS and win\n"
-    .string "a fabulous prize!\p"
-    .string "Think you got what it takes?$"
+    .string "Five trainers stand\n"
+    .string "between you and\p"
+    .string "the other side.\p"
+    .string "Beat us all\n"
+    .string "and see what\p"
+    .string "you've earned.$"
 
 Route24_Text_CaleDefeat::
-    .string "Whoo!\n"
-    .string "Good stuff!$"
+    .string "I did my best.$"
 
 Route24_Text_CalePostBattle::
-    .string "I did my best. I have no regrets!$"
+    .string "No regrets.\p"
+    .string "Whatever is waiting\n"
+    .string "at the end\p"
+    .string "was worth it.$"

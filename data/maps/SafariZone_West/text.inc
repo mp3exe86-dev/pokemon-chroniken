@@ -1,20 +1,29 @@
 SafariZone_West_Text_RestHouse::
-    .string "REST HOUSE$"
+    .string "REST HOUSE\p"
+    .string "Something tried to\n"
+    .string "enter last night.\p"
+    .string "We didn't open.$"
 
 SafariZone_West_Text_PleaseFindWardensLostTeeth::
     .string "REQUEST NOTICE\p"
-    .string "Please find the SAFARI WARDEN's\n"
-    .string "lost GOLD TEETH.\l"
+    .string "The Safari Warden\n"
+    .string "lost his Gold Teeth.\p"
     .string "They're around here somewhere.\p"
-    .string "Reward offered!\n"
-    .string "Contact: WARDEN$"
+    .string "He's been looking\n"
+    .string "for three weeks.\p"
+    .string "The Zone won't\n"
+    .string "let him find them.$"
 
 SafariZone_West_Text_SearchForSecretHouse::
-    .string "TRAINER TIPS\p"
-    .string "Zone Exploration Campaign!\n"
-    .string "The Search for the SECRET HOUSE!$"
+    .string "AREA 3\p"
+    .string "Something in this\n"
+    .string "zone has been\n"
+    .string "here longer than\n"
+    .string "the Safari Zone itself.$"
 
 SafariZone_West_Text_AreaSign::
     .string "AREA 3\n"
-    .string "EAST: CENTER AREA$"
+    .string "EAST: CENTER AREA\p"
+    .string "Don't go east\n"
+    .string "after dark.$"
 

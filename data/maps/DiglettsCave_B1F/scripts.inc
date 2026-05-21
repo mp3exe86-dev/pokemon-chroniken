@@ -5,3 +5,11 @@ DiglettsCave_B1F_MapScripts::
 DiglettsCave_B1F_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_DIGLETTS_CAVE_B1F
 	end
+
+DiglettsCave_B1F_EventScript_HoOhSign::
+	msgbox DiglettsCave_B1F_Text_HoOhSign, MSGBOX_SIGN
+	setflag FLAG_HOOH_AWAKENED
+	end
+
+DiglettsCave_B1F_Text_HoOhSign:
+	.string "Fire does not die.\nIt waits.$"

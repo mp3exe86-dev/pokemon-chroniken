@@ -1,10 +1,17 @@
 Route16_NorthEntrance_2F_Text_OnBikeRideWithGirlfriend::
-    .string "I'm on a relaxing ride on my new\n"
-    .string "bike with my girlfriend.$"
+    .string "I'm riding with\n"
+    .string "my girlfriend.\p"
+    .string "We've been going\n"
+    .string "downhill for a while.\p"
+    .string "The road should\n"
+    .string "have ended by now.$"
 
 Route16_NorthEntrance_2F_Text_RidingTogetherOnNewBikes::
-    .string "We're going riding together on our\n"
-    .string "new bikes.$"
+    .string "We're riding together.\p"
+    .string "We started this morning.\p"
+    .string "The bottom of\n"
+    .string "the hill keeps\p"
+    .string "moving further away.$"
 
 Route16_NorthEntrance_2F_Text_ItsCeladonDeptStore::
     .string "Let's see what the binoculars have\n"

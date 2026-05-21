@@ -22,30 +22,29 @@ Route1_Movement_PushBack:
 Route1_EventScript_MartClerk::
 	lock
 	faceplayer
-	goto_if_set FLAG_GOT_POTION_ON_ROUTE_1, Route1_EventScript_AlreadyGotPotion
-	msgbox Route1_Text_WorkAtPokeMartTakeSample
-	textcolor NPC_TEXT_COLOR_NEUTRAL
-	checkitemspace ITEM_POTION
-	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
-	bufferitemname STR_VAR_2, ITEM_POTION
-	playfanfare MUS_LEVEL_UP
-	message Text_ObtainedTheX
-	waitmessage
-	waitfanfare
-	additem ITEM_POTION
-	msgbox Route1_Text_PutPotionAway
-	call EventScript_RestorePrevTextColor
-	setflag FLAG_GOT_POTION_ON_ROUTE_1
+	goto_if_set FLAG_GOT_ROUTE1_BERRY_1, Route1_EventScript_MartClerkDone
+	msgbox Route1_Text_MartClerk, MSGBOX_DEFAULT
+	giveitem ITEM_ORAN_BERRY
+	setflag FLAG_GOT_ROUTE1_BERRY_1
 	release
 	end
 
-Route1_EventScript_AlreadyGotPotion::
-	msgbox Route1_Text_ComeSeeUsIfYouNeedPokeBalls
+Route1_EventScript_MartClerkDone::
 	release
 	end
 
 Route1_EventScript_Boy::
-	msgbox Route1_Text_CanJumpFromLedges, MSGBOX_NPC
+	lock
+	faceplayer
+	goto_if_set FLAG_GOT_ROUTE1_BERRY_2, Route1_EventScript_BoyDone
+	msgbox Route1_Text_Boy, MSGBOX_DEFAULT
+	giveitem ITEM_PECHA_BERRY
+	setflag FLAG_GOT_ROUTE1_BERRY_2
+	release
+	end
+
+Route1_EventScript_BoyDone::
+	release
 	end
 
 Route1_EventScript_RouteSign::
@@ -77,3 +76,13 @@ Route1_Text_StoneHouseMan::
 	.string "I'm not sure what for.\p"
 	.string "Take this.\p"
 	.string "I don't need it\nanymore.$"
+
+Route1_Text_MartClerk:
+	.string "I've been walking\nthis route every day.\p"
+	.string "I always find these\nnear the tall grass.\p"
+	.string "Take one.$"
+
+Route1_Text_Boy:
+	.string "My mom said I could\ngo as far as Viridian.\p"
+	.string "I found this on\nthe ground.\p"
+	.string "You can have it.$"

@@ -1,78 +1,91 @@
 Route10_Text_MarkIntro::
-    .string "Wow, you came all the way here?\n"
-    .string "Maybe you're a POKéMANIAC, too?\l"
-    .string "Want to see my collection?$"
+    .string "I collect rare\n"
+    .string "Pokemon.\p"
+    .string "I saw something here\n"
+    .string "I couldn't catch.\p"
+    .string "It looked back at me\n"
+    .string "and left.$"
 
 Route10_Text_MarkDefeat::
-    .string "Humph.\n"
-    .string "I'm not angry!$"
+    .string "It watched that too.$"
 
 Route10_Text_MarkPostBattle::
-    .string "I have more rare POKéMON at home!$"
+    .string "Some things don't\n"
+    .string "want to be collected.$"
 
 Route10_Text_ClarkIntro::
-    .string "Ha-hahah-ah-ha!$"
+    .string "Something up there\n"
+    .string "made a sound I\p"
+    .string "didn't recognize.$"
 
 Route10_Text_ClarkDefeat::
-    .string "Ha-haha!\n"
-    .string "Not laughing!\l"
-    .string "Ha-hay fever! Haha-ha-choo!$"
+    .string "It made it again.$"
 
 Route10_Text_ClarkPostBattle::
-    .string "Haha-ha-choo!\n"
-    .string "Ha-choo!\l"
-    .string "Snort! Snivel!$"
+    .string "I laughed because\n"
+    .string "I didn't know\p"
+    .string "what else to do.$"
 
 Route10_Text_HermanIntro::
-    .string "Hi, kid!\n"
-    .string "Want to see my POKéMON?$"
+    .string "I found a Pokemon\n"
+    .string "up here I've never\p"
+    .string "seen before.\p"
+    .string "It wasn't in\n"
+    .string "the Pokedex.$"
 
 Route10_Text_HermanDefeat::
-    .string "Oh, no!\n"
-    .string "My POKéMON!$"
+    .string "Neither are you.$"
 
 Route10_Text_HermanPostBattle::
-    .string "I don't like you.\n"
-    .string "I don't like anyone better than me!$"
+    .string "I'm not telling\n"
+    .string "anyone what I saw.\p"
+    .string "They wouldn't\n"
+    .string "believe me.$"
 
 Route10_Text_HeidiIntro::
-    .string "I've been out at a POKéMON GYM\n"
-    .string "a few times.\p"
-    .string "…But I always lose.$"
+    .string "I trained for weeks\n"
+    .string "to come up here.\p"
+    .string "Now that I'm here\n"
+    .string "I don't know why.$"
 
 Route10_Text_HeidiDefeat::
-    .string "Ohh!\n"
-    .string "After all my training!$"
+    .string "Neither do I.$"
 
 Route10_Text_HeidiPostBattle::
-    .string "I noticed some POKéMANIACS\n"
-    .string "prowling around.\p"
-    .string "Can you imagine? Them?\n"
-    .string "Up here in the mountains?$"
+    .string "Something drew me\n"
+    .string "here.\p"
+    .string "I can feel it\n"
+    .string "still pulling.$"
 
 Route10_Text_TrentIntro::
-    .string "Ah!\n"
-    .string "This mountain air is delicious!$"
+    .string "The air up here\n"
+    .string "changed this morning.\p"
+    .string "It tastes like\n"
+    .string "something is burning.$"
 
 Route10_Text_TrentDefeat::
-    .string "That cleared my head!$"
+    .string "Still burning.$"
 
 Route10_Text_TrentPostBattle::
-    .string "I feel bloated on mountain air!$"
+    .string "Not fire.\n"
+    .string "Something else.\p"
+    .string "I don't have\n"
+    .string "a word for it.$"
 
 Route10_Text_CarolIntro::
-    .string "I'm feeling a bit faint.\n"
-    .string "I haven't hiked in some time.$"
+    .string "I've been hiking\n"
+    .string "this route for days.\p"
+    .string "I can't remember\n"
+    .string "where I started.$"
 
 Route10_Text_CarolDefeat::
-    .string "I'm too tired.\n"
-    .string "I wasn't up for it.$"
+    .string "I still can't.$"
 
 Route10_Text_CarolPostBattle::
-    .string "The POKéMON here in the mountains\n"
-    .string "are so chunky…\p"
-    .string "I wish there were pink POKéMON\n"
-    .string "with a floral pattern!$"
+    .string "The mountains look\n"
+    .string "different than they did.\p"
+    .string "I don't know\n"
+    .string "which way is home.$"
 
 Route10_Text_RockTunnelDetourToLavender::
     .string "ROCK TUNNEL\n"

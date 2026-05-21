@@ -1,34 +1,51 @@
 Route18_Text_WiltonIntro::
-    .string "I always check every grassy area\n"
-    .string "for new POKéMON.$"
+    .string "I check every\n"
+    .string "grassy area for\p"
+    .string "new Pokemon.\p"
+    .string "I found something\n"
+    .string "in the grass here\p"
+    .string "that left before\n"
+    .string "I could see it.$"
 
 Route18_Text_WiltonDefeat::
-    .string "Tch!$"
+    .string "It was watching.$"
 
 Route18_Text_WiltonPostBattle::
-    .string "I wish I had a BIKE!$"
+    .string "The grass was\n"
+    .string "warm where\p"
+    .string "it had been.\p"
+    .string "Nothing warm lives here.$"
 
 Route18_Text_RamiroIntro::
-    .string "Kurukkoo!\n"
-    .string "How do you like my birdcall?$"
+    .string "I learned this\n"
+    .string "birdcall years ago.\p"
+    .string "Something answered it\n"
+    .string "last week.\p"
+    .string "It wasn't a bird.$"
 
 Route18_Text_RamiroDefeat::
-    .string "I had to bug you!$"
+    .string "Don't call back.$"
 
 Route18_Text_RamiroPostBattle::
-    .string "I collect sea POKéMON on weekends\n"
-    .string "because the sea is so close.$"
+    .string "If you hear\n"
+    .string "a call you\p"
+    .string "don't recognize\n"
+    .string "don't answer it.$"
 
 Route18_Text_JacobIntro::
-    .string "This is my turf!\n"
-    .string "Get out of here!$"
+    .string "This is my turf.\p"
+    .string "I've been saying that\n"
+    .string "for three days.\p"
+    .string "Something else\n"
+    .string "claimed it last night.$"
 
 Route18_Text_JacobDefeat::
-    .string "Darn!$"
+    .string "It won't fight back.$"
 
 Route18_Text_JacobPostBattle::
-    .string "This is my fave area for catching\n"
-    .string "POKéMON.$"
+    .string "It just waits.\p"
+    .string "I don't know\n"
+    .string "what it's waiting for.$"
 
 Route18_Text_RouteSign::
     .string "ROUTE 18\n"

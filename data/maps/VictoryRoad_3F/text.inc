@@ -1,11 +1,10 @@
 Text_DoubleEdgeTeach::
-    .string "You should be proud of yourself,\n"
-    .string "having battled your way through\l"
-    .string "VICTORY ROAD so courageously.\p"
-    .string "In recognition of your feat,\n"
-    .string "I'll teach you DOUBLE-EDGE.\p"
-    .string "Would you like me to teach that\n"
-    .string "technique?$"
+    .string "You battled through\n"
+    .string "this road.\p"
+    .string "That means something.\p"
+    .string "I'll teach you\n"
+    .string "Double-Edge.\p"
+    .string "Use it well.$"
 
 Text_DoubleEdgeDeclined::
     .string "I'll teach you the technique\n"
@@ -22,60 +21,85 @@ Text_DoubleEdgeTaught::
     .string "out!$"
 
 VictoryRoad_3F_Text_GeorgeIntro::
-    .string "I heard rumors of a child prodigy.$"
+    .string "I heard rumors\n"
+    .string "of someone coming.\p"
+    .string "Not just strong.\p"
+    .string "Different.$"
 
 VictoryRoad_3F_Text_GeorgeDefeat::
-    .string "The rumors were true!$"
+    .string "The rumors were right.$"
 
 VictoryRoad_3F_Text_GeorgePostBattle::
-    .string "So, it was you who beat GIOVANNI\n"
-    .string "of TEAM ROCKET?$"
+    .string "Whatever you faced\n"
+    .string "before reaching here\p"
+    .string "marked you.\p"
+    .string "I can see it.$"
 
 VictoryRoad_3F_Text_AlexaIntro::
-    .string "TRAINERS live to seek stronger\n"
-    .string "opponents.$"
+    .string "Trainers seek stronger\n"
+    .string "opponents.\p"
+    .string "Something on this\n"
+    .string "road sought us.$"
 
 VictoryRoad_3F_Text_AlexaDefeat::
-    .string "Oh!\n"
-    .string "So strong!$"
+    .string "It found something\n"
+    .string "worthy in you.$"
 
 VictoryRoad_3F_Text_AlexaPostBattle::
-    .string "By fighting tough battles, you get\n"
-    .string "stronger.$"
+    .string "Fighting changes you.\p"
+    .string "This road changes\n"
+    .string "you more than most.$"
 
 VictoryRoad_3F_Text_CarolineIntro::
-    .string "I'll show you just how good you\n"
-    .string "are. Not!$"
+    .string "I'll show you\n"
+    .string "how good you are.\p"
+    .string "This road showed\n"
+    .string "me things about\p"
+    .string "myself I didn't\n"
+    .string "want to see.$"
 
 VictoryRoad_3F_Text_CarolineDefeat::
-    .string "I'm furious!$"
+    .string "It showed me\n"
+    .string "more just now.$"
 
 VictoryRoad_3F_Text_CarolinePostBattle::
-    .string "You showed me just how good\n"
-    .string "I was…$"
+    .string "You showed me\n"
+    .string "what I'm missing.\p"
+    .string "I'll stay here\n"
+    .string "and find it.$"
 
 VictoryRoad_3F_Text_ColbyIntro::
-    .string "Only the chosen can pass here!$"
+    .string "Only the chosen\n"
+    .string "may pass.\p"
+    .string "I don't know\n"
+    .string "who chooses.\p"
+    .string "But something does.$"
 
 VictoryRoad_3F_Text_ColbyDefeat::
-    .string "I don't believe it!$"
+    .string "It chose you.$"
 
 VictoryRoad_3F_Text_ColbyPostBattle::
-    .string "All TRAINERS here are headed to\n"
-    .string "the POKéMON LEAGUE.\p"
-    .string "Don't let down your guard.$"
+    .string "Don't let your\n"
+    .string "guard down.\p"
+    .string "Whatever watches here\n"
+    .string "follows you to\p"
+    .string "the League.$"
 
 VictoryRoad_3F_Text_RayIntro::
-    .string "RAY: Together, the two of us are\n"
-    .string "destined for greatness!$"
+    .string "RAY: Together we're\n"
+    .string "destined for greatness.\p"
+    .string "RAY: Something on\n"
+    .string "this road tests\p"
+    .string "whether that's true.$"
 
 VictoryRoad_3F_Text_RayDefeat::
-    .string "RAY: Ludicrous!\n"
-    .string "This can't be!$"
+    .string "RAY: It answered.$"
 
 VictoryRoad_3F_Text_RayPostBattle::
-    .string "RAY: You've beaten us.\n"
-    .string "Greatness remains elusive…$"
+    .string "RAY: Greatness is\n"
+    .string "further than we thought.\p"
+    .string "RAY: But we saw\n"
+    .string "where it is.$"
 
 VictoryRoad_3F_Text_RayNotEnoughMons::
     .string "RAY: Together, the two of us are\n"
@@ -84,15 +108,19 @@ VictoryRoad_3F_Text_RayNotEnoughMons::
     .string "into battle with us.$"
 
 VictoryRoad_3F_Text_TyraIntro::
-    .string "TYRA: We're trying to become\n"
-    .string "champions together.$"
+    .string "TYRA: We're becoming\n"
+    .string "champions together.\p"
+    .string "TYRA: This road asks\n"
+    .string "if you deserve\p"
+    .string "what you're reaching for.$"
 
 VictoryRoad_3F_Text_TyraDefeat::
-    .string "TYRA: Oh, but…$"
+    .string "TYRA: You deserved it.$"
 
 VictoryRoad_3F_Text_TyraPostBattle::
-    .string "TYRA: You've taught me that power\n"
-    .string "can be infinite in shape and form.$"
+    .string "TYRA: Power has no\n"
+    .string "final shape.\p"
+    .string "TYRA: You proved that.$"
 
 VictoryRoad_3F_Text_TyraNotEnoughMons::
     .string "TYRA: You can't battle with us if\n"

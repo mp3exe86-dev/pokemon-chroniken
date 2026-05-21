@@ -216,7 +216,7 @@ gOakSpeech_Text_YourNameWhatIsIt::
     .string "Tell me your name.\p$"
 
 gOakSpeech_Text_SoYourNameIsPlayer::
-    .string "...VAEL.\p$"
+    .string "...{PLAYER}.\p$"
 
 gOakSpeech_Text_WhatWasHisName::
     .string "This is my grandson.\p"
@@ -228,14 +228,14 @@ gOakSpeech_Text_YourRivalsNameWhatWasIt::
     .string "Your rival's name, what was it now?$"
 
 gOakSpeech_Text_ConfirmRivalName::
-    .string "...???$"
+    .string "...{RIVAL}?\p$"
 
 gOakSpeech_Text_RememberRivalsName::
     .string "That's right! I remember now!\n"
     .string "His name is ???!\p$"
 
 gOakSpeech_Text_LetsGo::
-    .string "VAEL.\p"
+    .string "{PLAYER}.\p"
     .string "Something is already waiting\n"
     .string "for you.\p"
     .string "Go.$"

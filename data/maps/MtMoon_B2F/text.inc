@@ -1,74 +1,101 @@
 MtMoon_B2F_Text_MiguelIntro::
-    .string "Hey, stop!\p"
-    .string "I found these fossils!\n"
-    .string "They're both mine!$"
+    .string "Stop!\p"
+    .string "I found these fossils.\p"
+    .string "They were arranged\n"
+    .string "like someone left\n"
+    .string "them here on purpose.$"
 
 MtMoon_B2F_Text_MiguelDefeat::
-    .string "Okay!\n"
-    .string "I'll share!$"
+    .string "Okay. I'll share.$"
 
 MtMoon_B2F_Text_WellEachTakeAFossil::
-    .string "We'll each take a fossil!\n"
-    .string "No being greedy!$"
+    .string "Take one.\p"
+    .string "Cinnabar Island has\n"
+    .string "a lab that\n"
+    .string "can revive these.\p"
+    .string "I wonder what\n"
+    .string "they remember.$"
 
 MtMoon_B2F_Text_ThenThisFossilIsMine::
     .string "All right.\n"
     .string "Then this fossil is mine!$"
 
 MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils::
-    .string "Far away, on CINNABAR ISLAND,\n"
-    .string "there's a POKéMON LAB.\p"
-    .string "They do research on regenerating\n"
-    .string "fossils.$"
+    .string "On Cinnabar Island\n"
+    .string "there's a lab.\p"
+    .string "They revive fossils there.\p"
+    .string "Some of what\n"
+    .string "comes back isn't\n"
+    .string "quite right.$"
 
 MtMoon_B2F_Text_Grunt1Intro::
-    .string "We, TEAM ROCKET, shall find the\n"
-    .string "fossils!\p"
-    .string "Reviving POKéMON from them will\n"
-    .string "earn us huge riches!$"
+    .string "Team Rocket will\n"
+    .string "find the fossils.\p"
+    .string "Reviving them will\n"
+    .string "make us rich.\p"
+    .string "That's what we\n"
+    .string "tell ourselves.$"
 
 MtMoon_B2F_Text_Grunt1Defeat::
-    .string "Urgh!\n"
-    .string "Now I'm mad!$"
+    .string "Now I'm mad.$"
 
 MtMoon_B2F_Text_Grunt1PostBattle::
-    .string "You made me mad!\n"
-    .string "TEAM ROCKET will blacklist you!$"
+    .string "Team Rocket will\n"
+    .string "blacklist you.\p"
+    .string "It doesn't matter.\p"
+    .string "Nothing here matters\n"
+    .string "the way we\n"
+    .string "thought it would.$"
 
 MtMoon_B2F_Text_Grunt2Intro::
-    .string "We, TEAM ROCKET, are POKéMON\n"
-    .string "gangsters!\l"
-    .string "We strike fear with our strength!$"
+    .string "Team Rocket strikes\n"
+    .string "fear with our strength.\p"
+    .string "Something in this\n"
+    .string "cave struck fear\n"
+    .string "into us first.$"
 
 MtMoon_B2F_Text_Grunt2Defeat::
-    .string "I blew it!$"
+    .string "I blew it.$"
 
 MtMoon_B2F_Text_Grunt2PostBattle::
-    .string "Darn it all!\n"
-    .string "My associates won't stand for this!$"
+    .string "My associates won't\n"
+    .string "stand for this.\p"
+    .string "Neither will whatever\n"
+    .string "is watching from\n"
+    .string "the lower levels.$"
 
 MtMoon_B2F_Text_Grunt3Intro::
-    .string "We're pulling a big job here!\n"
-    .string "Get lost, kid!$"
+    .string "Big job here.\n"
+    .string "Get lost kid.\p"
+    .string "You don't want\n"
+    .string "to see what\n"
+    .string "we found.$"
 
 MtMoon_B2F_Text_Grunt3Defeat::
-    .string "So, you are good…$"
+    .string "So you are good.$"
 
 MtMoon_B2F_Text_Grunt3PostBattle::
-    .string "If you find a fossil, give it to me\n"
-    .string "and scram!$"
+    .string "If you find\n"
+    .string "a fossil give\n"
+    .string "it to me.\p"
+    .string "Or keep it.\p"
+    .string "I don't care anymore.$"
 
 MtMoon_B2F_Text_Grunt4Intro::
-    .string "Little kids shouldn't be messing\n"
-    .string "around with grown-ups!\p"
-    .string "It could be bad news!$"
+    .string "Kids shouldn't mess\n"
+    .string "with grown-ups here.\p"
+    .string "We're looking for\n"
+    .string "something older than\n"
+    .string "fossils.$"
 
 MtMoon_B2F_Text_Grunt4Defeat::
-    .string "I'm steamed!$"
+    .string "I'm steamed.$"
 
 MtMoon_B2F_Text_Grunt4PostBattle::
-    .string "POKéMON lived here long before\n"
-    .string "people came.$"
+    .string "Pokemon lived here\n"
+    .string "before people came.\p"
+    .string "Something else lived\n"
+    .string "here before Pokemon.$"
 
 MtMoon_B2F_Text_YouWantDomeFossil::
     .string "Do you want the DOME FOSSIL?$"
@@ -81,4 +108,3 @@ MtMoon_B2F_Text_ObtainedHelixFossil::
 
 MtMoon_B2F_Text_ObtainedDomeFossil::
     .string "Obtained the DOME FOSSIL!$"
-

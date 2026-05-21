@@ -1,116 +1,153 @@
 Route13_Text_SebastianIntro::
-    .string "My bird POKéMON want to battle\n"
-    .string "with you!$"
+    .string "My bird Pokemon\n"
+    .string "refuse to fly\p"
+    .string "over certain spots.$"
 
 Route13_Text_SebastianDefeat::
-    .string "My PIDGEY and PIDGEOTTO combo\n"
-    .string "lost?$"
+    .string "They were right.$"
 
 Route13_Text_SebastianPostBattle::
-    .string "My POKéMON look happy even though\n"
-    .string "they lost.$"
+    .string "There are places\n"
+    .string "here they won't\p"
+    .string "go near.$"
 
 Route13_Text_SusieIntro::
-    .string "I'm told I'm good for a kid.$"
+    .string "I'm told I'm good\n"
+    .string "for someone my age.\p"
+    .string "I'm told a lot\n"
+    .string "of things lately\p"
+    .string "that don't make sense.$"
 
 Route13_Text_SusieDefeat::
-    .string "Ohh!\n"
-    .string "I lost!$"
+    .string "That made sense.$"
 
 Route13_Text_SusiePostBattle::
-    .string "I want to become a good TRAINER.\n"
-    .string "I'll train hard, just watch.$"
+    .string "Thank you.\p"
+    .string "For a moment\n"
+    .string "things were normal.$"
 
 Route13_Text_ValerieIntro::
-    .string "Wow!\n"
-    .string "Your BADGES are too cool!$"
+    .string "Your badges are real.\p"
+    .string "I can tell.\p"
+    .string "Everything else\n"
+    .string "on this route\p"
+    .string "looks real but isn't.$"
 
 Route13_Text_ValerieDefeat::
-    .string "Not enough!$"
+    .string "You're real too.$"
 
 Route13_Text_ValeriePostBattle::
-    .string "You got those BADGES from GYM\n"
-    .string "LEADERS. I know!$"
+    .string "Stay on the path.\p"
+    .string "The grass moves\n"
+    .string "when nothing\p"
+    .string "is in it.$"
 
 Route13_Text_GwenIntro::
-    .string "My cute POKéMON wish to make your\n"
-    .string "acquaintance.$"
+    .string "My Pokemon wanted\n"
+    .string "to meet you.\p"
+    .string "They don't want\n"
+    .string "to meet anything\p"
+    .string "else out here.$"
 
 Route13_Text_GwenDefeat::
-    .string "Good going!\n"
-    .string "You totally won!$"
+    .string "They still like you.$"
 
 Route13_Text_GwenPostBattle::
-    .string "You have to make POKéMON battle\n"
-    .string "to toughen them up.$"
+    .string "They're hiding\n"
+    .string "from something else.\p"
+    .string "I don't ask what.$"
 
 Route13_Text_AlmaIntro::
-    .string "I found CARBOS in a cave once\n"
-    .string "while I was spelunking.$"
+    .string "I found something\n"
+    .string "in a cave once.\p"
+    .string "It wasn't Carbos.\p"
+    .string "I took it anyway.\p"
+    .string "I still don't know\n"
+    .string "what it was.$"
 
 Route13_Text_AlmaDefeat::
-    .string "Oh, too bad!\n"
-    .string "I just messed up!$"
+    .string "It's still in my bag.$"
 
 Route13_Text_AlmaPostBattle::
-    .string "CARBOS boosted the SPEED of my\n"
-    .string "POKéMON.$"
+    .string "Don't take things\n"
+    .string "from caves\p"
+    .string "that you can't name.$"
 
 Route13_Text_PerryIntro::
-    .string "I'm not going to lose.\n"
-    .string "Not when the wind's blowing my way!$"
+    .string "The wind is blowing\n"
+    .string "my way today.\p"
+    .string "Yesterday it blew\n"
+    .string "from somewhere\p"
+    .string "that doesn't exist.$"
 
 Route13_Text_PerryDefeat::
-    .string "The wind turned!$"
+    .string "It shifted again.$"
 
 Route13_Text_PerryPostBattle::
-    .string "I'm beat.\n"
-    .string "I guess I'll FLY home.$"
+    .string "Don't follow the wind\n"
+    .string "on this route.\p"
+    .string "It doesn't go\n"
+    .string "anywhere good.$"
 
 Route13_Text_LolaIntro::
-    .string "Sure, I'll play with you, sweetie.$"
+    .string "I'll play with you.\p"
+    .string "Everything else here\n"
+    .string "plays with me\p"
+    .string "without asking.$"
 
 Route13_Text_LolaDefeat::
-    .string "Oh!\n"
-    .string "You little beast!$"
+    .string "At least you asked.$"
 
 Route13_Text_LolaPostBattle::
-    .string "I wonder which is stronger, male or\n"
-    .string "female POKéMON?$"
+    .string "The wind here\n"
+    .string "has been wrong\p"
+    .string "for three days.$"
 
 Route13_Text_SheilaIntro::
-    .string "Do you want to battle some\n"
-    .string "POKéMON with me?$"
+    .string "Do you want to\n"
+    .string "battle with me?\p"
+    .string "I've been asking\n"
+    .string "everyone who passes.\p"
+    .string "No one has answered\n"
+    .string "until now.$"
 
 Route13_Text_SheilaDefeat::
-    .string "It's over already?$"
+    .string "You're the first\n"
+    .string "real thing today.$"
 
 Route13_Text_SheilaPostBattle::
-    .string "I don't know anything about\n"
-    .string "POKéMON actually.\p"
-    .string "The ones I use… I picked them\n"
-    .string "for their looks!$"
+    .string "I wasn't sure\n"
+    .string "you could hear me.$"
 
 Route13_Text_JaredIntro::
-    .string "What're you lookin' at?$"
+    .string "What're you\n"
+    .string "lookin' at?\p"
+    .string "Whatever it is\n"
+    .string "behind you is\p"
+    .string "worse.$"
 
 Route13_Text_JaredDefeat::
-    .string "Dang!\n"
-    .string "Stripped gears!$"
+    .string "Don't look.$"
 
 Route13_Text_JaredPostBattle::
-    .string "Get lost!$"
+    .string "Keep moving.\p"
+    .string "Don't stop on\n"
+    .string "this route.$"
 
 Route13_Text_RobertIntro::
-    .string "I always go with bird POKéMON.\n"
-    .string "I've dedicated myself to them.$"
+    .string "I've dedicated myself\n"
+    .string "to bird Pokemon.\p"
+    .string "They stopped singing\n"
+    .string "on this route\p"
+    .string "four days ago.$"
 
 Route13_Text_RobertDefeat::
-    .string "Out of power!$"
+    .string "Still silent.$"
 
 Route13_Text_RobertPostBattle::
-    .string "I wish I could fly like PIDGEY and\n"
-    .string "PIDGEOTTO…$"
+    .string "Birds know when\n"
+    .string "something is wrong\p"
+    .string "before we do.$"
 
 Route13_Text_LookToLeftOfThatPost::
     .string "TRAINER TIPS\p"

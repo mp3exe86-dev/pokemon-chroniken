@@ -1,105 +1,138 @@
 ViridianForest_Text_FriendsItchingToBattle::
-    .string "I came here with some friends to\n"
-    .string "catch us some BUG POKéMON!\p"
-    .string "They're all itching to get into\n"
-    .string "some POKéMON battles!$"
+    .string "I came with\n"
+    .string "friends to catch\n"
+    .string "bug Pokemon.\p"
+    .string "They split up\n"
+    .string "to search.\p"
+    .string "I haven't seen\n"
+    .string "them since.$"
 
 ViridianForest_Text_RickIntro::
-    .string "Hey! You have POKéMON!\n"
-    .string "Come on!\l"
-    .string "Let's battle 'em!$"
+    .string "You have Pokemon!\n"
+    .string "Let's battle!\p"
+    .string "Something else in\n"
+    .string "this forest has\n"
+    .string "Pokemon too.\p"
+    .string "I haven't seen\n"
+    .string "what kind.$"
 
 ViridianForest_Text_RickDefeat::
-    .string "No!\nCATERPIE can't hack it!$"
+    .string "Caterpie can't hack it.$"
 
 ViridianForest_Text_RickPostBattle::
-    .string "Ssh! You'll scare the bugs away.\n"
-    .string "Another time, okay?$"
+    .string "Quiet.\p"
+    .string "You'll scare the bugs.\p"
+    .string "Or attract something\n"
+    .string "that isn't a bug.$"
 
 ViridianForest_Text_DougIntro::
-    .string "Yo!\n"
-    .string "You can't jam out if you're a\l"
-    .string "POKéMON TRAINER!$"
+    .string "You can't leave\n"
+    .string "if you're a\n"
+    .string "trainer!\p"
+    .string "I've been trying\n"
+    .string "to leave for\n"
+    .string "an hour.$"
 
 ViridianForest_Text_DougDefeat::
-    .string "Huh?\n"
-    .string "I ran out of POKéMON!$"
+    .string "I ran out\n"
+    .string "of Pokemon.$"
 
 ViridianForest_Text_DougPostBattle::
-    .string "That totally stinks! I'm going to\n"
-    .string "catch some stronger ones!$"
+    .string "The forest is\n"
+    .string "wider than it\n"
+    .string "should be.\p"
+    .string "I keep reaching\n"
+    .string "the center.$"
 
 ViridianForest_Text_SammyIntro::
-    .string "Hey, wait up!\n"
-    .string "What's the hurry? Why the rush?$"
+    .string "What's the rush?\p"
+    .string "The forest doesn't\n"
+    .string "let you rush.\p"
+    .string "I learned that.$"
 
 ViridianForest_Text_SammyDefeat::
-    .string "I give!\n"
-    .string "You're good at this!$"
+    .string "You're good at this.$"
 
 ViridianForest_Text_SammyPostBattle::
-    .string "Sometimes, you can find stuff on\n"
-    .string "the ground.\p"
-    .string "I'm looking for the stuff I\n"
-    .string "dropped. Can you help me?$"
+    .string "I dropped something\n"
+    .string "in here.\p"
+    .string "When I found\n"
+    .string "it something else\n"
+    .string "had touched it.$"
 
 ViridianForest_Text_AnthonyIntro::
-    .string "I might be little, but I won't like\n"
-    .string "it if you go easy on me!$"
+    .string "I'm little but\n"
+    .string "don't go easy.\p"
+    .string "Something big in\n"
+    .string "this forest goes\n"
+    .string "easy on us.\p"
+    .string "I don't know why.$"
 
 ViridianForest_Text_AnthonyDefeat::
-    .string "Oh, boo.\n"
     .string "Nothing went right.$"
 
 ViridianForest_Text_AnthonyPostBattle::
-    .string "I lost some of my allowance…$"
+    .string "I lost my\n"
+    .string "allowance in here.\p"
+    .string "I think the\n"
+    .string "forest took it.$"
 
 ViridianForest_Text_CharlieIntro::
-    .string "Did you know that POKéMON evolve?$"
+    .string "Did you know\n"
+    .string "Pokemon evolve?\p"
+    .string "Something in this\n"
+    .string "forest evolved into\n"
+    .string "something I don't\n"
+    .string "recognize.$"
 
 ViridianForest_Text_CharlieDefeat::
-    .string "Oh!\n"
-    .string "I lost!$"
+    .string "I lost.$"
 
 ViridianForest_Text_CharliePostBattle::
-    .string "BUG POKéMON evolve quickly.\n"
-    .string "They're a lot of fun!$"
+    .string "Bug Pokemon evolve\n"
+    .string "quickly.\p"
+    .string "Whatever I saw\n"
+    .string "evolved faster.$"
 
 ViridianForest_Text_RanOutOfPokeBalls::
-    .string "I was throwing POKé BALLS to\n"
-    .string "catch POKéMON, and I ran out.\p"
-    .string "That's why you can never have too\n"
-    .string "many POKé BALLS.$"
+    .string "I ran out\n"
+    .string "of Pokeballs.\p"
+    .string "I found something\n"
+    .string "in the grass\n"
+    .string "I couldn't catch anyway.\p"
+    .string "It didn't run.$"
 
 ViridianForest_Text_AvoidGrassyAreasWhenWeak::
-    .string "TRAINER TIPS\p"
-    .string "If your POKéMON are weak and you\n"
-    .string "want to avoid battles, stay away\l"
-    .string "from grassy areas!$"
+    .string "Stay on the path.\p"
+    .string "The grass moves\n"
+    .string "when nothing is\n"
+    .string "in it.$"
 
 ViridianForest_Text_UseAntidoteForPoison::
-    .string "For poison, use ANTIDOTE!\n"
-    .string "Get it at POKéMON MARTS!$"
+    .string "Antidotes cure poison.\p"
+    .string "Nothing cures what\n"
+    .string "this forest leaves\n"
+    .string "behind.$"
 
 ViridianForest_Text_ContactOakViaPCToRatePokedex::
-    .string "TRAINER TIPS\p"
-    .string "Contact PROF. OAK via a PC to\n"
-    .string "get your POKéDEX evaluated!$"
+    .string "The Pokedex records\n"
+    .string "what you've seen.\p"
+    .string "Some things here\n"
+    .string "won't be recorded.$"
 
 ViridianForest_Text_CantCatchOwnedMons::
-    .string "TRAINER TIPS\p"
-    .string "You can't catch a POKéMON that\n"
-    .string "belongs to someone else.\p"
-    .string "Throw POKé BALLS only at wild\n"
-    .string "POKéMON to catch them!$"
+    .string "Don't take what\n"
+    .string "isn't yours.\p"
+    .string "The forest remembers.$"
 
 ViridianForest_Text_WeakenMonsBeforeCapture::
-    .string "TRAINER TIPS\p"
-    .string "Weaken POKéMON before attempting\n"
-    .string "capture!\p"
-    .string "When healthy, they may escape!$"
+    .string "Weaken before catching.\p"
+    .string "Some things here\n"
+    .string "cannot be caught.$"
 
 ViridianForest_Text_LeavingViridianForest::
     .string "LEAVING VIRIDIAN FOREST\n"
-    .string "PEWTER CITY AHEAD$"
-
+    .string "Pewter City ahead.\p"
+    .string "Something followed you\n"
+    .string "out.\p"
+    .string "Don't look back.$"

@@ -1,6 +1,8 @@
 DiglettsCave_SouthEntrance_Text_DiglettDugThisTunnel::
-    .string "Well, isn't this a surprise!\n"
-    .string "DIGLETT dug this long tunnel!\p"
-    .string "It goes right to VIRIDIAN CITY,\n"
-    .string "they tell me.$"
+    .string "Diglett dug this\n"
+    .string "tunnel long ago.\p"
+    .string "Something else has\n"
+    .string "been digging lately.\p"
+    .string "The holes are\n"
+    .string "the wrong shape.$"
 
