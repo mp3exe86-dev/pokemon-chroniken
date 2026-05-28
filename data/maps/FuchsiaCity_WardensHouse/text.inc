@@ -19,14 +19,19 @@ FuchsiaCity_WardensHouse_Text_WardenPoppedInHisTeeth::
     .string "The WARDEN popped in his teeth!$"
 
 FuchsiaCity_WardensHouse_Text_ThanksSonGiveYouSomething::
-    .string "WARDEN: Thanks, son!\n"
+    .string "WARDEN: Thanks son!\n"
     .string "You're a real lifesaver!\p"
-    .string "No one could understand a word\n"
-    .string "that I said, not a one!\p"
-    .string "I was too ashamed to show my face\n"
-    .string "around the OFFICE, even.\p"
-    .string "Let me give you something for your\n"
-    .string "trouble.$"
+    .string "Let me give\n"
+    .string "you something for\n"
+    .string "your trouble.\p"
+    .string "Also.\p"
+    .string "Don't go near\n"
+    .string "the west fence\n"
+    .string "at night.\p"
+    .string "I found my\n"
+    .string "teeth there.\p"
+    .string "I don't remember\n"
+    .string "how they got there.$"
 
 FuchsiaCity_WardensHouse_Text_ThanksLassieGiveYouSomething::
     .string "WARDEN: Thank you, lassie!\n"
@@ -43,12 +48,15 @@ FuchsiaCity_WardensHouse_Text_ReceivedHM04FromWarden::
     .string "from the WARDEN.$"
 
 FuchsiaCity_WardensHouse_Text_ExplainStrength::
-    .string "WARDEN: Inside HM04 you'll find\n"
-    .string "STRENGTH.\p"
-    .string "It lets POKéMON move boulders when\n"
-    .string "you're outside of battle.\p"
-    .string "Oh yes, did you find the SECRET\n"
-    .string "HOUSE in the SAFARI ZONE?$"
+    .string "WARDEN: Inside HM04\n"
+    .string "you'll find STRENGTH.\p"
+    .string "Oh yes.\n"
+    .string "Did you find\n"
+    .string "the Secret House\n"
+    .string "in the Safari Zone?\p"
+    .string "Nullveil found it\n"
+    .string "before you did.\p"
+    .string "It's been using it.$"
 
 @ Unused
 FuchsiaCity_WardensHouse_Text_YouHaveTooMuchStuff::
@@ -56,10 +64,21 @@ FuchsiaCity_WardensHouse_Text_YouHaveTooMuchStuff::
     .string "いっぱいやんけ！$"
 
 FuchsiaCity_WardensHouse_Text_MonPhotosFossilsOnDisplay::
-    .string "POKéMON photos and fossils are on\n"
-    .string "display.$"
+    .string "Pokemon photos and\n"
+    .string "fossils on display.\p"
+    .string "One photo was\n"
+    .string "taken at night.\p"
+    .string "West fence.\n"
+    .string "Something in frame.\p"
+    .string "Warden keeps it\n"
+    .string "face down.$"
 
 FuchsiaCity_WardensHouse_Text_OldMonMerchandiseOnDisplay::
-    .string "Old POKéMON merchandise is on\n"
-    .string "display.$"
-
+    .string "Old Pokemon merchandise\n"
+    .string "on display.\p"
+    .string "One item wasn't\n"
+    .string "put here by\n"
+    .string "the Warden.\p"
+    .string "He doesn't know\n"
+    .string "where it came from.\p"
+    .string "It faces west.$"

@@ -1,45 +1,84 @@
 VermilionCity_Text_GrimerMultipliesInSludge::
-    .string "We're careful about pollution here.\p"
-    .string "We've heard GRIMER multiplies in\n"
-    .string "toxic sludge.$"
+    .string "We're careful about\n"
+    .string "pollution here.\p"
+    .string "Grimer multiplies\n"
+    .string "in toxic sludge.\p"
+    .string "Something else has\n"
+    .string "been in the harbor.\p"
+    .string "It doesn't multiply.\p"
+    .string "It just passes through.$"
 
 VermilionCity_Text_DidYouSeeSSAnneInHarbor::
-    .string "Did you see the S.S. ANNE moored\n"
-    .string "in the harbor?$"
+    .string "Did you see the\n"
+    .string "S.S. Anne moored\n"
+    .string "in the harbor?\p"
+    .string "The Captain looked\n"
+    .string "nervous this time.\p"
+    .string "Kept watching the sky\n"
+    .string "between Vermilion\n"
+    .string "and the Sevii Islands.\p"
+    .string "Wouldn't say why.$"
 
 VermilionCity_Text_SSAnneHasDepartedForYear::
-    .string "So, the S.S. ANNE has departed?\p"
-    .string "She'll be back in VERMILION about\n"
-    .string "this time next year.$"
+    .string "The S.S. Anne\n"
+    .string "has departed.\p"
+    .string "She'll be back\n"
+    .string "this time next year.\p"
+    .string "The Captain left\n"
+    .string "quickly this time.\p"
+    .string "Usually he stays\n"
+    .string "for the sunset.\p"
+    .string "Not this year.$"
 
 VermilionCity_Text_BuildingOnThisLand::
-    .string "I'm putting up a building on this\n"
-    .string "plot of land. I own it all.\p"
-    .string "My POKéMON is tamping the land\n"
-    .string "to lay the foundation.$"
+    .string "I'm putting up\n"
+    .string "a building here.\p"
+    .string "I own all\n"
+    .string "this land.\p"
+    .string "My Machop is\n"
+    .string "tamping the foundation.\p"
+    .string "It keeps stopping\n"
+    .string "to look at the sky.\p"
+    .string "I've started doing it too.$"
 
 VermilionCity_Text_Machop::
-    .string "MACHOP: Guoh! Gogogoh!$"
+    .string "MACHOP: Guoh!\n"
+    .string "Gogogoh!$"
 
 VermilionCity_Text_MachopStompingLandFlat::
-    .string "A MACHOP is stomping the land flat.$"
+    .string "MACHOP stares upward.$"
 
 VermilionCity_Text_SSAnneVisitsOnceAYear::
-    .string "The S.S. ANNE is a famous luxury\n"
-    .string "cruise ship.\p"
-    .string "It visits VERMILION once a year.$"
+    .string "The S.S. Anne\n"
+    .string "is a famous\n"
+    .string "luxury cruise ship.\p"
+    .string "Visits Vermilion\n"
+    .string "once a year.\p"
+    .string "The crew has\n"
+    .string "been talking.\p"
+    .string "Something followed the\n"
+    .string "ship from the\n"
+    .string "Sevii Islands.\p"
+    .string "Big.\n"
+    .string "Fast.\n"
+    .string "Silent.$"
 
 VermilionCity_Text_CitySign::
     .string "VERMILION CITY\n"
-    .string "The Port of Exquisite Sunsets$"
+    .string "The Port of Exquisite Sunsets\p"
+    .string "The sunsets here\n"
+    .string "have a shadow in them now.$"
 
 VermilionCity_Text_SnorlaxBlockingRoute12::
-    .string "NOTICE!\p"
-    .string "ROUTE 12 may be blocked off by a\n"
-    .string "sleeping POKéMON.\p"
-    .string "Detour through ROCK TUNNEL to\n"
+    .string "NOTICE!\n"
+    .string "ROUTE 12 may be\n"
+    .string "blocked by a sleeping Pokemon.\p"
+    .string "Detour through\n"
+    .string "ROCK TUNNEL to\n"
     .string "LAVENDER TOWN.\p"
-    .string "VERMILION POLICE$"
+    .string "Something else blocks\n"
+    .string "the sky at night.\n"
+    .string "No detour for that.$"
 
 VermilionCity_Text_PokemonFanClubSign::
     .string "POKéMON FAN CLUB\n"
@@ -51,7 +90,10 @@ VermilionCity_Text_GymSign::
     .string "The Lightning American!$"
 
 VermilionCity_Text_VermilionHarbor::
-    .string "VERMILION HARBOR$"
+    .string "VERMILION HARBOR\p"
+    .string "Something has been\n"
+    .string "using it at night.\p"
+    .string "Not a ship.$"
 
 VermilionCity_Text_WelcomeToTheSSAnne::
     .string "Welcome to the S.S. ANNE!$"

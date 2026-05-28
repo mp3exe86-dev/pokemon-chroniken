@@ -1,15 +1,23 @@
 CeladonCity_DepartmentStore_4F_Text_GettingPokeDollAsPresent::
-    .string "I'm getting a present for my\n"
-    .string "girlfriend.\p"
-    .string "I guess a POKé DOLL will be it.\n"
-    .string "It's the popular thing.$"
+    .string "Getting a present\n"
+    .string "for my girlfriend.\n"
+    .string "A Poke Doll.\p"
+    .string "She asked for\n"
+    .string "something that keeps\n"
+    .string "ProtoGlyph away.\p"
+    .string "We don't sell that.\p"
+    .string "The doll will\n"
+    .string "have to do.$"
 
 CeladonCity_DepartmentStore_4F_Text_CanRunAwayWithPokeDoll::
-    .string "I heard something useful.\p"
-    .string "If a wild POKéMON appears, you can\n"
-    .string "distract it with a POKé DOLL.\p"
-    .string "You can run away while the wild\n"
-    .string "POKéMON is distracted.$"
+    .string "A Poke Doll\n"
+    .string "distracts wild Pokemon.\p"
+    .string "ProtoGlyph is not\n"
+    .string "distracted by dolls.\p"
+    .string "Not distracted by\n"
+    .string "anything we've tried.\p"
+    .string "It just moves\n"
+    .string "through.$"
 
 CeladonCity_DepartmentStore_4F_Text_FloorSign::
     .string "Express yourself with gifts!\n"

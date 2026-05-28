@@ -1,0 +1,36 @@
+CeruleanCity_ArchivarHouse_MapScripts::
+	.byte 0
+
+CeruleanCity_ArchivarHouse_EventScript_Archivar::
+	lock
+	faceplayer
+	goto_if_set FLAG_ARCHIVAR_CERULEAN_ITEM_GIVEN, CeruleanCity_ArchivarHouse_EventScript_ArchivarOfferStands
+	msgbox CeruleanCity_ArchivarHouse_Text_Challenge, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, CeruleanCity_ArchivarHouse_EventScript_ArchivarBattle
+	@ NEIN: Masterball einmalig
+	msgbox CeruleanCity_ArchivarHouse_Text_NoChoice, MSGBOX_DEFAULT
+	checkitemspace ITEM_MASTER_BALL
+	goto_if_eq VAR_RESULT, FALSE, CeruleanCity_ArchivarHouse_EventScript_ArchivarBagFull
+	giveitem_msg CeruleanCity_ArchivarHouse_Text_ObtainedMasterBall, ITEM_MASTER_BALL
+	setflag FLAG_ARCHIVAR_CERULEAN_ITEM_GIVEN
+	release
+	end
+
+CeruleanCity_ArchivarHouse_EventScript_ArchivarBattle::
+	trainerbattle_no_intro TRAINER_ARCHIVAR_CERULEAN, CeruleanCity_ArchivarHouse_Text_Lose
+	@ Sieg: NPC verschwindet dauerhaft
+	removeobject LOCALID_ARCHIVAR_CERULEAN
+	setflag FLAG_ARCHIVAR_CERULEAN_DEFEATED
+	msgbox CeruleanCity_ArchivarHouse_Text_Victory, MSGBOX_DEFAULT
+	release
+	end
+
+CeruleanCity_ArchivarHouse_EventScript_ArchivarOfferStands::
+	msgbox CeruleanCity_ArchivarHouse_Text_OfferStands, MSGBOX_DEFAULT
+	release
+	end
+
+CeruleanCity_ArchivarHouse_EventScript_ArchivarBagFull::
+	msgbox CeruleanCity_ArchivarHouse_Text_BagFull, MSGBOX_DEFAULT
+	release
+	end

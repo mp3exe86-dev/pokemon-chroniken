@@ -11,12 +11,19 @@ SaffronCity_Dojo_Text_MasterKoichiDefeat::
     .string "Arrgh! Beaten!$"
 
 SaffronCity_Dojo_Text_ChoosePrizedFightingMon::
-    .string "Indeed, I have lost!\p"
-    .string "But, I beseech you, do not take\n"
-    .string "our emblem as your trophy!\p"
-    .string "In return, I will give you a prized\n"
-    .string "FIGHTING POKéMON!\p"
-    .string "Choose whichever one you like!$"
+    .string "I have lost!\p"
+    .string "Do not take\n"
+    .string "our emblem.\n"
+    .string "In return take\n"
+    .string "a Fighting Pokemon.\n"
+    .string "Choose which you like.\p"
+    .string "Also.\p"
+    .string "We have been\n"
+    .string "training the same\n"
+    .string "day for a week.\p"
+    .string "We assumed it\n"
+    .string "was discipline.\p"
+    .string "It isn't discipline.$"
 
 SaffronCity_Dojo_Text_StayAndTrainWithUs::
     .string "Grunt!\n"
@@ -30,8 +37,12 @@ SaffronCity_Dojo_Text_MikeDefeat::
     .string "I give up!$"
 
 SaffronCity_Dojo_Text_MikePostBattle::
-    .string "You wait 'til you see our MASTER!\n"
-    .string "I'm a small fry compared to him!$"
+    .string "You wait until\n"
+    .string "you see our Master.\n"
+    .string "I'm a small fry.\p"
+    .string "The Master seems\n"
+    .string "younger this week.\p"
+    .string "We don't ask.$"
 
 SaffronCity_Dojo_Text_HidekiIntro::
     .string "I hear you're good!\n"
@@ -42,8 +53,14 @@ SaffronCity_Dojo_Text_HidekiDefeat::
     .string "One point!$"
 
 SaffronCity_Dojo_Text_HidekiPostBattle::
-    .string "Our MASTER is a pro fighter.\n"
-    .string "Be prepared to lose!$"
+    .string "Our Master is\n"
+    .string "a pro fighter.\n"
+    .string "Be prepared to lose.\p"
+    .string "He fought the\n"
+    .string "same bout yesterday\n"
+    .string "twice.\n"
+    .string "Won both times.\p"
+    .string "Same bout.$"
 
 SaffronCity_Dojo_Text_AaronIntro::
     .string "Hiyah!\n"
@@ -56,8 +73,14 @@ SaffronCity_Dojo_Text_AaronDefeat::
     .string "Stubbed fingers!$"
 
 SaffronCity_Dojo_Text_AaronPostBattle::
-    .string "The only thing that frightens us is\n"
-    .string "psychic power!$"
+    .string "I shatter boulders\n"
+    .string "for training every day.\p"
+    .string "The only thing\n"
+    .string "that frightens us\n"
+    .string "is psychic power.\p"
+    .string "Chronyx isn't psychic.\p"
+    .string "It's something worse.\p"
+    .string "Time.$"
 
 SaffronCity_Dojo_Text_HitoshiIntro::
     .string "Hwaah!\p"
@@ -69,8 +92,15 @@ SaffronCity_Dojo_Text_HitoshiDefeat::
     .string "I give up!$"
 
 SaffronCity_Dojo_Text_HitoshiPostBattle::
-    .string "The prime fighters across the land\n"
-    .string "train here.$"
+    .string "Prime fighters train here.\p"
+    .string "Someone else has\n"
+    .string "been training here\n"
+    .string "at night.\p"
+    .string "Leaves no marks.\p"
+    .string "Just takes an\n"
+    .string "hour from the\n"
+    .string "room.\p"
+    .string "Every night.$"
 
 SaffronCity_Dojo_Text_YouWantHitmonlee::
     .string "You want the hard-kicking\n"
@@ -92,11 +122,13 @@ SaffronCity_Dojo_Text_BetterNotGetGreedy::
     .string "Better not get greedy…$"
 
 SaffronCity_Dojo_Text_EnemiesOnEverySide::
-    .string "Enemies on every side!$"
+    .string "Enemies on every side.\p"
+    .string "Chronyx has no sides.$"
 
 SaffronCity_Dojo_Text_GoesAroundComesAround::
-    .string "What goes around comes around.$"
+    .string "What goes around\n"
+    .string "comes around.\p"
+    .string "Chronyx makes this literal.$"
 
 SaffronCity_Dojo_Text_FightingDojo::
     .string "FIGHTING DOJO$"
-

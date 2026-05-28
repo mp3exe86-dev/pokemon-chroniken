@@ -229,6 +229,17 @@ const struct Tileset gTileset_GenericBuilding1 =
     .callback = NULL,
 };
 
+const struct Tileset gTileset_OomerTiles =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_OomerTiles,
+    .palettes = gTilesetPalettes_OomerTiles,
+    .metatiles = gMetatiles_OomerTiles,
+    .metatileAttributes = gMetatileAttributes_OomerTiles,
+    .callback = NULL,
+};
+
 const struct Tileset gTileset_Lab =
 {
     .isCompressed = TRUE,

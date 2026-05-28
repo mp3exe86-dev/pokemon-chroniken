@@ -24,8 +24,15 @@ VermilionCity_House1_Text_OhThatsSoDisappointing::
     .string "That's so disappointing…$"
 
 VermilionCity_House1_Text_HowAreTheFishBiting::
-    .string "Hello there, {PLAYER}!\p"
-    .string "How are the fish biting?$"
+    .string "Hello there!\n"
+    .string "How are the\n"
+    .string "fish biting?\p"
+    .string "The harbor fish\n"
+    .string "have been hiding\n"
+    .string "this week.\p"
+    .string "Deep.\n"
+    .string "All at once.\p"
+    .string "Fish know things.$"
 
 VermilionCity_House1_Text_NoRoomForNiceGift::
     .string "Oh, no!\p"

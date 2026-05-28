@@ -1,5 +1,8 @@
 CeladonCity_Condominiums_1F_Text_Meowth::
-    .string "MEOWTH: Meow!$"
+    .string "MEOWTH: Nyaah!\p"
+    .string "MEOWTH drops a\n"
+    .string "stone with a\n"
+    .string "mark on it.$"
 
 CeladonCity_Condominiums_1F_Text_TryThisDrinkInstead::
     .string "You shouldn't spend all your money\n"
@@ -12,8 +15,20 @@ CeladonCity_Condominiums_1F_Text_NothingBeatsThirstLikeTea::
     .string "It really is the best.$"
 
 CeladonCity_Condominiums_1F_Text_MyDearMonsKeepMeCompany::
-    .string "My dear POKéMON keep me company.\n"
-    .string "MEOWTH even brings money home!$"
+    .string "Nothing beats thirst\n"
+    .string "like some hot tea.\p"
+    .string "My dear Pokemon\n"
+    .string "keep me company.\n"
+    .string "Meowth even brings\n"
+    .string "money home.\p"
+    .string "Meowth has been\n"
+    .string "bringing something else\n"
+    .string "home lately.\n"
+    .string "Small stones.\p"
+    .string "All with the\n"
+    .string "same mark on them.\p"
+    .string "I don't know\n"
+    .string "where it finds them.$"
 
 CeladonCity_Condominiums_1F_Text_DaisyComesToBuyTea::
     .string "Oh, hello, dearie.\n"

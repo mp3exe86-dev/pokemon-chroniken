@@ -16,5 +16,13 @@ VermilionCity_House2_Text_ThankYou::
 	.string "Thank you!$"
 
 VermilionCity_House2_Text_HowIsMyOldMon::
-	.string "How is my old {STR_VAR_2}?\p"
-	.string "My {STR_VAR_1} is doing great!$"
+	.string "Thank you!\n"
+	.string "How is my\n"
+	.string "old Spearow?\p"
+	.string "My Farfetch'd DUX\n"
+	.string "is doing great.\p"
+	.string "DUX won't go\n"
+	.string "outside at dusk.\p"
+	.string "Just stands at\n"
+	.string "the window.\n"
+	.string "Looking up.$"

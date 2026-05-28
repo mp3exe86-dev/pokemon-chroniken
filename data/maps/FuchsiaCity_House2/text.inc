@@ -27,11 +27,17 @@ FuchsiaCity_House2_Text_OhThatsDisappointing::
     .string "That's so disappointing…$"
 
 FuchsiaCity_House2_Text_HowAreTheFishBiting::
-    .string "Hello there, {PLAYER}!\p"
-    .string "How are the fish biting?$"
+    .string "Hello there!\n"
+    .string "How are the\n"
+    .string "fish biting?\p"
+    .string "The fish in\n"
+    .string "the west channels\n"
+    .string "haven't been biting.\p"
+    .string "Haven't been moving.\p"
+    .string "Something in the\n"
+    .string "water there.$"
 
 FuchsiaCity_House2_Text_YouHaveNoRoomForGift::
     .string "Oh, no!\p"
     .string "I had a gift for you, but you have\n"
     .string "no room for it!$"
-

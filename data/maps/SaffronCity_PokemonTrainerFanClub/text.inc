@@ -49,9 +49,13 @@ SaffronCity_PokemonTrainerFanClub_Text_EveryonesYourFanButICantBe::
     .string "I can't just stop being a fan.$"
 
 SaffronCity_PokemonTrainerFanClub_Text_TrainersCoolWhenBattling::
-    .string "I think TRAINERS are so cool when\n"
-    .string "they're battling.\p"
-    .string "Don't you think so, too?$"
+    .string "I think Trainers\n"
+    .string "are cool when battling.\p"
+    .string "Chronyx doesn't battle.\p"
+    .string "It just waits.\p"
+    .string "It has been\n"
+    .string "waiting a very\n"
+    .string "long time.$"
 
 SaffronCity_PokemonTrainerFanClub_Text_CanYouAutographShorts::
     .string "Oh! It's {PLAYER}!\n"
@@ -89,10 +93,15 @@ SaffronCity_PokemonTrainerFanClub_Text_BrocksFanToBitterEnd::
     .string "I'll be his fan to the bitter end!$"
 
 SaffronCity_PokemonTrainerFanClub_Text_BrocksLastWordOnCool::
-    .string "BROCK's the last word on cool,\n"
-    .string "end of story!\p"
-    .string "Now there's a guy who I want to\n"
-    .string "be like!$"
+    .string "Brock is my hero!\n"
+    .string "Got BROCK embroidered\n"
+    .string "on my shorts!\p"
+    .string "Brock said the\n"
+    .string "ground in Pewter\n"
+    .string "has been shaking again.\p"
+    .string "Different vibration now.\p"
+    .string "Not ProtoGlyph.\n"
+    .string "Something time-adjacent.$"
 
 SaffronCity_PokemonTrainerFanClub_Text_HadPleasureOfWatchingYouBattle::
     .string "{PLAYER}, I've had the pleasure of\n"
@@ -129,12 +138,15 @@ SaffronCity_PokemonTrainerFanClub_Text_YouveStillAWaysToGo::
     .string "You've still a ways to go!$"
 
 SaffronCity_PokemonTrainerFanClub_Text_YoullBeTalkedAboutIfYouKeepWinning::
-    .string "All of us gathered here are fans\n"
-    .string "of POKéMON TRAINERS.\p"
-    .string "The way they look in battle…\n"
-    .string "They are the picture of coolness.\p"
-    .string "Perhaps you will be talked about\n"
-    .string "here, too, if you keep winning.$"
+    .string "Hmm?\n"
+    .string "And you are?\p"
+    .string "Hoping to join\n"
+    .string "our Fan Club?\p"
+    .string "We've had the\n"
+    .string "same Tuesday three\n"
+    .string "times this week.\p"
+    .string "Our records are\n"
+    .string "confused.$"
 
 SaffronCity_PokemonTrainerFanClub_Text_WantToBeLikeYouOneDay::
     .string "It's {PLAYER}!\n"
@@ -164,8 +176,16 @@ SaffronCity_PokemonTrainerFanClub_Text_WontStopBeingSabrinasFan::
     .string "like her!$"
 
 SaffronCity_PokemonTrainerFanClub_Text_CanIBecomeCoolTrainerOneDay::
-    .string "I wonder if I can become a cool\n"
-    .string "TRAINER one day?$"
+    .string "I want to\n"
+    .string "be like Sabrina!\n"
+    .string "Psychic girl!\p"
+    .string "Sabrina said she\n"
+    .string "saw Chronyx in\n"
+    .string "a vision.\p"
+    .string "She won't describe it.\p"
+    .string "She just says\n"
+    .string "it's very old\n"
+    .string "and very patient.$"
 
 SaffronCity_PokemonTrainerFanClub_Text_TheWayYouBattleIsCool::
     .string "Oh, man, oh, man!\n"

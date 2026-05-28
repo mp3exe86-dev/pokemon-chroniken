@@ -10860,3 +10860,26 @@ static const struct TrainerMonNoItemDefaultMoves sParty_CueBallPaxton[] = {
         .species = SPECIES_MUK,
     },
 };
+
+static const struct TrainerMonNoItemDefaultMoves sParty_ArchivarCerulean[] = {
+    {
+        .iv = 31,
+        .lvl = 45,
+        .species = SPECIES_MISDREAVUS,
+    },
+    {
+        .iv = 31,
+        .lvl = 47,
+        .species = SPECIES_ABSOL,
+    },
+    {
+        .iv = 31,
+        .lvl = 48,
+        .species = SPECIES_GARDEVOIR,
+    },
+    {
+        .iv = 31,
+        .lvl = 50,
+        .species = SPECIES_DUSCLOPS,
+    },
+};

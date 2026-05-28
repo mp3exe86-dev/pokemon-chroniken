@@ -1982,6 +1982,18 @@
       "blockdata_filepath": "data/layouts/PewterCity_Museum_2F/map.bin"
     },
     {
+      "id": "LAYOUT_CERULEAN_CITY_ARCHIVAR_HOUSE",
+      "name": "CeruleanCity_ArchivarHouse_Layout",
+      "width": 10,
+      "height": 8,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_MtEmber",
+      "border_filepath": "data/layouts/CeruleanCity_ArchivarHouse/border.bin",
+      "blockdata_filepath": "data/layouts/CeruleanCity_ArchivarHouse/map.bin"
+    },
+    {
       "id": "LAYOUT_CERULEAN_CITY_HOUSE2",
       "name": "CeruleanCity_House2_Layout",
       "width": 10,

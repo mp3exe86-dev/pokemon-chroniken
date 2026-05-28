@@ -2,7 +2,9 @@ FuchsiaCity_SafariZone_Entrance_Text_WelcomeToSafariZone::
     .string "Welcome to the\n"
     .string "Safari Zone.\p"
     .string "Something in here\n"
-    .string "welcomes you too.$"
+    .string "also welcomes you.\p"
+    .string "We don't know\n"
+    .string "what it is.$"
 
 FuchsiaCity_SafariZone_Entrance_Text_PlaySafariGameFor500::
     .string "For just 500,\n"
@@ -24,7 +26,10 @@ FuchsiaCity_SafariZone_Entrance_Text_CallYouOnPAWhenYouRunOut::
     .string "We'll call you\n"
     .string "when time runs out.\p"
     .string "Good luck.\p"
-    .string "You'll need it.$"
+    .string "You'll need it.\p"
+    .string "Something in the\n"
+    .string "west area doesn't\n"
+    .string "run out of time.$"
 
 FuchsiaCity_SafariZone_Entrance_Text_OkayPleaseComeAgain::
     .string "Okay.\n"
@@ -45,7 +50,9 @@ FuchsiaCity_SafariZone_Entrance_Text_PleaseReturnSafariBalls::
     .string "Balls you have left.\p"
     .string "Did you catch\n"
     .string "what you came for?\p"
-    .string "Come again.$"
+    .string "Come again.\p"
+    .string "Nullveil was already\n"
+    .string "here when you arrived.$"
 
 FuchsiaCity_SafariZone_Entrance_Text_GoodLuck::
     .string "Good luck!$"
@@ -76,10 +83,10 @@ FuchsiaCity_SafariZone_Entrance_Text_ExplainSafariZone::
     .string "out you'll be\n"
     .string "called back.\p"
     .string "Some who enter\n"
-    .string "don't want to\n"
-    .string "leave.$"
+    .string "don't want to leave.\p"
+    .string "Nullveil never left.$"
 
 FuchsiaCity_SafariZone_Entrance_Text_SorryYoureARegularHere::
     .string "You've been here before.\p"
-    .string "Welcome back.$"
-
+    .string "Welcome back.\p"
+    .string "So has Nullveil.$"

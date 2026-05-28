@@ -1,17 +1,42 @@
 CeladonCity_Text_GotMyKoffingInCinnabar::
-    .string "I got my KOFFING in CINNABAR.\p"
-    .string "It's usually nice, but it breathes\n"
-    .string "poison when it's angry.$"
+    .string "Koffing evolved from\n"
+    .string "a Pokemon found\n"
+    .string "in Cinnabar Mansion.\p"
+    .string "Something else was\n"
+    .string "found near Celadon\n"
+    .string "last week.\p"
+    .string "Not in the Mansion.\p"
+    .string "In the street.\p"
+    .string "It left marks\n"
+    .string "in the stone.\p"
+    .string "Deep ones.$"
 
 CeladonCity_Text_GymIsGreatFullOfWomen::
-    .string "Heheh! This GYM is great!\n"
-    .string "It's full of women!$"
+    .string "Celadon Gym is\n"
+    .string "full of women.\n"
+    .string "Too intimidated to\n"
+    .string "go in there.\p"
+    .string "I'm more intimidated\n"
+    .string "by what's been\n"
+    .string "walking the streets\n"
+    .string "at night.\p"
+    .string "ProtoGlyph.\n"
+    .string "I saw it.\p"
+    .string "I'm not going\n"
+    .string "out after dark.$"
 
 CeladonCity_Text_GameCornerIsBadForCitysImage::
-    .string "CELADON takes pride in its efforts\n"
-    .string "to keep the city beautiful.\p"
-    .string "That's why the new GAME CORNER is\n"
-    .string "bad for our city's image.$"
+    .string "The Game Corner\n"
+    .string "brings in riffraff.\n"
+    .string "Bad for the\n"
+    .string "city's image.\p"
+    .string "Something worse has\n"
+    .string "been here.\n"
+    .string "Left marks in\n"
+    .string "the pavement outside.\p"
+    .string "Heavy.\n"
+    .string "Stone-like.\n"
+    .string "Very deep.$"
 
 CeladonCity_Text_BlewItAllAtSlots::
     .string "Moan…\n"
@@ -35,17 +60,22 @@ CeladonCity_Text_KeepOutOfTeamRocketsWay::
     .string "Keep out of TEAM ROCKET's way!$"
 
 CeladonCity_Text_ExplainXAccuracyDireHit::
-    .string "TRAINER TIPS\p"
-    .string "X ACCURACY boosts the accuracy of\n"
-    .string "techniques.\p"
-    .string "DIRE HIT jacks up the likelihood\n"
-    .string "of critical hits.\p"
-    .string "Get your items at the CELADON\n"
-    .string "DEPT. STORE!$"
+    .string "TRAINER TIPS\n"
+    .string "A good combination\n"
+    .string "of Pokemon types\n"
+    .string "leads to victory.\p"
+    .string "ProtoGlyph has no\n"
+    .string "type on record.\p"
+    .string "Combinations don't apply.$"
 
 CeladonCity_Text_CitySign::
     .string "CELADON CITY\n"
-    .string "The City of Rainbow Dreams$"
+    .string "The City of\n"
+    .string "Rainbow Dreams\p"
+    .string "The dreams here\n"
+    .string "have been heavier\n"
+    .string "lately.\n"
+    .string "More stone.$"
 
 CeladonCity_Text_GymSign::
     .string "CELADON CITY POKéMON GYM\n"
@@ -53,19 +83,25 @@ CeladonCity_Text_GymSign::
     .string "The Nature-Loving Princess!$"
 
 CeladonCity_Text_MansionSign::
-    .string "CELADON MANSION$"
+    .string "CELADON MANSION\p"
+    .string "ProtoGlyph passed here\n"
+    .string "last Tuesday.\p"
+    .string "The doorman didn't\n"
+    .string "open the door.$"
 
 CeladonCity_Text_DeptStoreSign::
     .string "Find what you need at the\n"
     .string "CELADON DEPT. STORE!$"
 
 CeladonCity_Text_GuardSpecProtectsFromStatus::
-    .string "TRAINER TIPS\p"
-    .string "GUARD SPEC. protects POKéMON\n"
-    .string "from status-reduction moves during\l"
-    .string "battle.\p"
-    .string "Get your items at the\n"
-    .string "CELADON DEPT. STORE!$"
+    .string "TRAINER TIPS\n"
+    .string "Poison afflicts Pokemon\n"
+    .string "with gradual damage\n"
+    .string "each turn.\p"
+    .string "ProtoGlyph leaves marks\n"
+    .string "that don't fade.\n"
+    .string "Not poison.\n"
+    .string "Just presence.$"
 
 CeladonCity_Text_PrizeExchangeSign::
     .string "COINS exchanged for prizes!\n"
@@ -76,12 +112,17 @@ CeladonCity_Text_GameCornerSign::
     .string "The playground for grown-ups!$"
 
 CeladonCity_Text_ScaldedTongueOnTea::
-    .string "Aaaagh, ow…\n"
-    .string "I scalded my tongue!\p"
-    .string "This nice old lady in the MANSION\n"
-    .string "gave me some TEA.\p"
-    .string "But it was boiling hot!\n"
-    .string "Gotta cool it to drink it.$"
+    .string "I ate something\n"
+    .string "hot.\n"
+    .string "Scalded my tongue.\p"
+    .string "I had tea\n"
+    .string "that was too hot.\p"
+    .string "ProtoGlyph passed the\n"
+    .string "tea house window\n"
+    .string "last night.\p"
+    .string "I wasn't the\n"
+    .string "only one who\n"
+    .string "saw it.$"
 
 Text_SoftboiledTeach::
     .string "Hello, there!\p"

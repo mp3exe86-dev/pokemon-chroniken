@@ -1,6 +1,12 @@
 VermilionCity_PokemonFanClub_Text_AdmirePikachusTail::
-    .string "Won't you admire my PIKACHU's\n"
-    .string "adorable tail?$"
+    .string "Admire my Pikachu's\n"
+    .string "adorable tail.\p"
+    .string "Twice as cute\n"
+    .string "as that Seel.\p"
+    .string "Both Pokemon have\n"
+    .string "been hiding under\n"
+    .string "the furniture since Tuesday.\p"
+    .string "Something outside.$"
 
 VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute::
     .string "Humph!\p"
@@ -8,10 +14,15 @@ VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute::
     .string "that one!$"
 
 VermilionCity_PokemonFanClub_Text_AdoreMySeel::
-    .string "I just adore my SEEL!\n"
-    .string "It's so lovable!\p"
-    .string "It squeals, “Kyuuuh,” when I\n"
-    .string "hug it!$"
+    .string "I adore my\n"
+    .string "Seel!\n"
+    .string "So lovable.\p"
+    .string "It squeals Kyuuuh\n"
+    .string "when I hug it.\p"
+    .string "This week it\n"
+    .string "won't come near\n"
+    .string "the windows.\p"
+    .string "Won't say why.$"
 
 VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive::
     .string "Oh, dear!\p"
@@ -19,10 +30,15 @@ VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive::
     .string "By double, I would say.$"
 
 VermilionCity_PokemonFanClub_Text_Pikachu::
-    .string "PIKACHU: Chu! Pikachu!$"
+    .string "PIKACHU: Chu!\n"
+    .string "Pikachu!\p"
+    .string "PIKACHU edges away\n"
+    .string "from the window.$"
 
 VermilionCity_PokemonFanClub_Text_Seel::
-    .string "SEEL: Kyuoo!$"
+    .string "SEEL: Kyuoo!\p"
+    .string "SEEL hides behind\n"
+    .string "the sofa.$"
 
 VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons::
     .string "I chair the POKéMON Fan Club!\p"
@@ -69,28 +85,53 @@ VermilionCity_PokemonFanClub_Text_ComeBackToHearStory::
     .string "hear my story!$"
 
 VermilionCity_PokemonFanClub_Text_DidntComeToSeeAboutMonsAgain::
-    .string "Hello, {PLAYER}!\p"
-    .string "Did you come see me about my\n"
-    .string "POKéMON again?\p"
+    .string "Hello {PLAYER}!\n"
+    .string "Did you come\n"
+    .string "to hear about\n"
+    .string "my Pokemon again?\p"
     .string "No?\n"
-    .string "Too bad!$"
+    .string "Too bad.\p"
+    .string "Rapidash has been\n"
+    .string "unusually calm lately.\p"
+    .string "She stares at\n"
+    .string "the harbor at\n"
+    .string "dusk and won't move.\p"
+    .string "Beautiful and unsettling.$"
 
 VermilionCity_PokemonFanClub_Text_MakeRoomForThis::
     .string "Make room for this!$"
 
 VermilionCity_PokemonFanClub_Text_ChairmanVeryVocalAboutPokemon::
-    .string "Our CHAIRMAN is very vocal about\n"
-    .string "POKéMON.$"
+    .string "Our Chairman is\n"
+    .string "very vocal about\n"
+    .string "his Pokemon.\p"
+    .string "He hasn't talked\n"
+    .string "much this week.\p"
+    .string "Just sits by\n"
+    .string "the window.\n"
+    .string "Watching the harbor.$"
 
 VermilionCity_PokemonFanClub_Text_ListenPolitelyToOtherTrainers::
-    .string "Let's all listen politely to other\n"
-    .string "TRAINERS!$"
+    .string "Let's all listen\n"
+    .string "politely to other\n"
+    .string "Trainers.\p"
+    .string "Something in the\n"
+    .string "harbor doesn't listen.$"
 
 VermilionCity_PokemonFanClub_Text_SomeoneBragsBragBack::
-    .string "If someone brags, brag right back!$"
+    .string "If someone brags\n"
+    .string "brag right back.\p"
+    .string "Nothing to brag\n"
+    .string "about what we've\n"
+    .string "seen at night.$"
 
 VermilionCity_PokemonFanClub_Text_ChairmanReallyAdoresHisMons::
-    .string "Our CHAIRMAN really does adore his\n"
-    .string "POKéMON.\p"
-    .string "But the person who is most liked by\n"
-    .string "POKéMON is DAISY, I think.$"
+    .string "The Chairman adores\n"
+    .string "his Pokemon.\p"
+    .string "But the person\n"
+    .string "most liked by\n"
+    .string "Pokemon is Daisy.\p"
+    .string "Something out there\n"
+    .string "isn't liked by\n"
+    .string "Pokemon at all.\p"
+    .string "They won't go near it.$"

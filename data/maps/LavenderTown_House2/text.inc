@@ -1,8 +1,15 @@
 LavenderTown_House2_Text_WantMeToRateNicknames::
-    .string "Hello, hello!\n"
-    .string "I am the official NAME RATER!\p"
-    .string "Want me to rate the nicknames of\n"
-    .string "your POKéMON?$"
+    .string "Hello hello!\n"
+    .string "I am the\n"
+    .string "official NAME RATER.\p"
+    .string "I rate nicknames\n"
+    .string "of Pokemon.\p"
+    .string "Four names have\n"
+    .string "been brought to\n"
+    .string "me lately.\p"
+    .string "Not Pokemon names.\p"
+    .string "I couldn't rate them.\p"
+    .string "They rated me instead.$"
 
 LavenderTown_House2_Text_CritiqueWhichMonsNickname::
     .string "Which POKéMON's nickname should\n"

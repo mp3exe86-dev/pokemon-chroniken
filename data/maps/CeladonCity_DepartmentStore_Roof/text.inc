@@ -51,10 +51,17 @@ CeladonCity_DepartmentStore_Roof_Text_ImNotThirstyAfterAll::
     .string "I'm not thirsty after all!$"
 
 CeladonCity_DepartmentStore_Roof_Text_MySisterIsImmature::
-    .string "My sister is a TRAINER, believe it\n"
-    .string "or not.\p"
-    .string "But, she's so immature, she drives\n"
-    .string "me nuts!$"
+    .string "My sister is\n"
+    .string "a Trainer.\n"
+    .string "She drives me nuts.\p"
+    .string "She saw ProtoGlyph\n"
+    .string "from up here\n"
+    .string "last Tuesday.\p"
+    .string "Now she won't\n"
+    .string "come to the roof.\p"
+    .string "I come alone.\p"
+    .string "I saw it too.\n"
+    .string "I don't tell her.$"
 
 CeladonCity_DepartmentStore_Roof_Text_ImThirstyIWantDrink::
     .string "I'm thirsty!\n"
