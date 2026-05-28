@@ -26,7 +26,7 @@ RockTunnel_1F_Text_OliverDefeat::
 
 RockTunnel_1F_Text_OliverPostBattle::
     .string "The Snorlax on\n"
-    .string "Route 12 forced\n"
+    .string "Schlummerweg II forced\n"
     .string "me to detour.\p"
     .string "I wish I'd\n"
     .string "stayed there.$"
@@ -107,8 +107,8 @@ RockTunnel_1F_Text_ArianaPostBattle::
     .string "Not from the battle.$"
 
 RockTunnel_1F_Text_RouteSign::
-    .string "ROCK TUNNEL\n"
-    .string "Cerulean {LEFT_ARROW}{RIGHT_ARROW} Lavender Town\p"
+    .string "FELSMORN\n"
+    .string "Tiefbruch {LEFT_ARROW}{RIGHT_ARROW} Nebelruf\p"
     .string "Some who enter\n"
     .string "from one side\n"
     .string "exit from the other\n"

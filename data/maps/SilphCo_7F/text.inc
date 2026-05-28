@@ -141,6 +141,6 @@ SilphCo_7F_Text_RivalPostBattle::
     .string "Smell ya!$"
 
 SilphCo_7F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
+    .string "SILPH DURITH HEAD OFFICE\n"
     .string "7F$"
 

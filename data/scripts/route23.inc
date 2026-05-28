@@ -29,7 +29,7 @@ Route23_EventScript_AlreadyRecognizedBadge::
 	release
 	end
 
-@ Duplicate of the below, only used for Boulder Badge
+@ Duplicate of the below, only used for Steinrune
 Route22_NorthEntrance_EventScript_BadgeGuard::
 	goto_if_ge VAR_MAP_SCENE_ROUTE23, VAR_TEMP_1, Route23_EventScript_AlreadyRecognizedBoulderBadge
 	switch VAR_TEMP_1

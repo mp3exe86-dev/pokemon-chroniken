@@ -1,4 +1,4 @@
-@ The text here is a copy/paste from Hoenn's Safari Zone, and any unused text was left untranslated
+@ The text here is a copy/paste from Hoenn's Eryn Vorn, and any unused text was left untranslated
 
 SafariZone_Text_WouldYouLikeToExit::
 	.string "Would you like to exit the SAFARI\n"

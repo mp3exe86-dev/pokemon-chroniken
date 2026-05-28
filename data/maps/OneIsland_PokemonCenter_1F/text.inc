@@ -296,7 +296,7 @@ OneIsland_PokemonCenter_1F_Text_BillsFirstMonWasAbra::
 
 OneIsland_PokemonCenter_1F_Text_BillsHometownInGoldenrod::
     .string "By the way, {PLAYER}, you're from\n"
-    .string "PALLET TOWN, aren't you?\p"
+    .string "URSPRUNG, aren't you?\p"
     .string "I've heard that it's a quiet and\n"
     .string "pleasant place.\p"
     .string "BILL's hometown is GOLDENROD CITY,\n"
@@ -314,7 +314,7 @@ OneIsland_PokemonCenter_1F_Text_BillCantStomachMilk::
 OneIsland_PokemonCenter_1F_Text_CameFromPalletDontKnowIt::
     .string "Oh, you're a stranger here!\n"
     .string "Hi! Where did you come from?\p"
-    .string "…PALLET TOWN?\n"
+    .string "…URSPRUNG?\n"
     .string "I don't know it!$"
 
 OneIsland_PokemonCenter_1F_Text_EnormousVolcanoOnIsland::

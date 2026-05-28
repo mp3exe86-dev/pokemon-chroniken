@@ -15,7 +15,7 @@ FuchsiaCity_Gym_Text_KogaDefeat::
     .string "Humph!\n"
     .string "You have proven your worth!\p"
     .string "Here!\n"
-    .string "Take the SOULBADGE!$"
+    .string "Take the SEELENRUNE!$"
 
 FuchsiaCity_Gym_Text_KogaPostBattle::
     .string "When afflicted by TOXIC, a POKéMON\n"
@@ -25,7 +25,7 @@ FuchsiaCity_Gym_Text_KogaPostBattle::
     .string "It will surely terrorize foes!$"
 
 FuchsiaCity_Gym_Text_KogaExplainSoulBadge::
-    .string "Now that you have the SOULBADGE,\n"
+    .string "Now that you have the SEELENRUNE,\n"
     .string "the DEFENSE of your POKéMON rises.\p"
     .string "It also lets you SURF outside of\n"
     .string "battle.\p"
@@ -89,7 +89,7 @@ FuchsiaCity_Gym_Text_NatePostBattle::
 FuchsiaCity_Gym_Text_PhilIntro::
     .string "Stop right there!\p"
     .string "The famed invisible walls of\n"
-    .string "FUCHSIA GYM have you frustrated?$"
+    .string "DORNVAEL GYM have you frustrated?$"
 
 FuchsiaCity_Gym_Text_PhilDefeat::
     .string "Whoa!\n"
@@ -131,7 +131,7 @@ FuchsiaCity_Gym_Text_ShawnPostBattle::
 FuchsiaCity_Gym_Text_GymGuyAdvice::
     .string "Yo!\n"
     .string "Champ in the making!\p"
-    .string "FUCHSIA GYM is a tricked-up place.\n"
+    .string "DORNVAEL GYM is a tricked-up place.\n"
     .string "It's riddled with invisible walls!\p"
     .string "KOGA might appear close, but he's\n"
     .string "blocked off.\p"
@@ -143,13 +143,13 @@ FuchsiaCity_Gym_Text_GymGuyPostVictory::
     .string "even now!$"
 
 FuchsiaCity_Gym_Text_GymStatue::
-    .string "FUCHSIA POKéMON GYM\n"
+    .string "DORNVAEL POKEMON GYM\n"
     .string "LEADER: KOGA\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}$"
 
 FuchsiaCity_Gym_Text_GymStatuePlayerWon::
-    .string "FUCHSIA POKéMON GYM\n"
+    .string "DORNVAEL POKEMON GYM\n"
     .string "LEADER: KOGA\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}, {PLAYER}$"

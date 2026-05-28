@@ -122,7 +122,7 @@ Route20_Text_NoraPostBattle::
 
 Route20_Text_MissyIntro::
     .string "I swam from\n"
-    .string "Cinnabar Island.\p"
+    .string "Zinnorath.\p"
     .string "The water between\n"
     .string "here and there\p"
     .string "changed last week.\p"
@@ -157,7 +157,7 @@ Route20_Text_MelissaPostBattle::
     .string "which experiments.$"
 
 Route20_Text_SeafoamIslands::
-    .string "SEAFOAM ISLANDS$"
+    .string "NEBELINSELN VON AERALITH$"
 
 Route20_Text_MistyTrainsHere::
     .string "Strong trainers come\n"

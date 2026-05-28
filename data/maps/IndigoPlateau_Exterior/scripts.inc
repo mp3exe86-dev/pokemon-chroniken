@@ -18,7 +18,7 @@ IndigoPlateau_Exterior_OnFrame::
 
 
 @ After beating the champion, you are warped to the main
-@ entrance of Indigo Plateau. This script starts running
+@ entrance of Indigrath. This script starts running
 @ immediately after your walking animation.
 @ The script is timed to the music.
 IndigoPlateau_Exterior_EventScript_Credits::

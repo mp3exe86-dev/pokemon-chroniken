@@ -10,7 +10,7 @@ VermilionCity_Text_GrimerMultipliesInSludge::
 
 VermilionCity_Text_DidYouSeeSSAnneInHarbor::
     .string "Did you see the\n"
-    .string "S.S. Anne moored\n"
+    .string "S.S. Erynvael moored\n"
     .string "in the harbor?\p"
     .string "The Captain looked\n"
     .string "nervous this time.\p"
@@ -20,7 +20,7 @@ VermilionCity_Text_DidYouSeeSSAnneInHarbor::
     .string "Wouldn't say why.$"
 
 VermilionCity_Text_SSAnneHasDepartedForYear::
-    .string "The S.S. Anne\n"
+    .string "The S.S. Erynvael\n"
     .string "has departed.\p"
     .string "She'll be back\n"
     .string "this time next year.\p"
@@ -49,7 +49,7 @@ VermilionCity_Text_MachopStompingLandFlat::
     .string "MACHOP stares upward.$"
 
 VermilionCity_Text_SSAnneVisitsOnceAYear::
-    .string "The S.S. Anne\n"
+    .string "The S.S. Erynvael\n"
     .string "is a famous\n"
     .string "luxury cruise ship.\p"
     .string "Visits Vermilion\n"
@@ -64,18 +64,18 @@ VermilionCity_Text_SSAnneVisitsOnceAYear::
     .string "Silent.$"
 
 VermilionCity_Text_CitySign::
-    .string "VERMILION CITY\n"
+    .string "MORLOND\n"
     .string "The Port of Exquisite Sunsets\p"
     .string "The sunsets here\n"
     .string "have a shadow in them now.$"
 
 VermilionCity_Text_SnorlaxBlockingRoute12::
     .string "NOTICE!\n"
-    .string "ROUTE 12 may be\n"
+    .string "SCHLUMMERWEG II may be\n"
     .string "blocked by a sleeping Pokemon.\p"
     .string "Detour through\n"
-    .string "ROCK TUNNEL to\n"
-    .string "LAVENDER TOWN.\p"
+    .string "FELSMORN to\n"
+    .string "NEBELRUF.\p"
     .string "Something else blocks\n"
     .string "the sky at night.\n"
     .string "No detour for that.$"
@@ -85,7 +85,7 @@ VermilionCity_Text_PokemonFanClubSign::
     .string "All POKéMON fans welcome!$"
 
 VermilionCity_Text_GymSign::
-    .string "VERMILION CITY POKéMON GYM\n"
+    .string "MORLOND POKéMON GYM\n"
     .string "LEADER: LT. SURGE\l"
     .string "The Lightning American!$"
 
@@ -96,16 +96,16 @@ VermilionCity_Text_VermilionHarbor::
     .string "Not a ship.$"
 
 VermilionCity_Text_WelcomeToTheSSAnne::
-    .string "Welcome to the S.S. ANNE!$"
+    .string "Welcome to the S.S. ERYNVAEL!$"
 
 VermilionCity_Text_DoYouHaveATicket::
-    .string "Welcome to the S.S. ANNE!\p"
+    .string "Welcome to the S.S. ERYNVAEL!\p"
     .string "Excuse me, do you have a ticket?$"
 
 VermilionCity_Text_FlashedSSTicket::
     .string "{FONT_NORMAL}{PLAYER} flashed the S.S. TICKET!\p"
     .string "{FONT_MALE}Great!\n"
-    .string "Welcome to the S.S. ANNE!$"
+    .string "Welcome to the S.S. ERYNVAEL!$"
 
 VermilionCity_Text_DontHaveNeededSSTicket::
     .string "{FONT_NORMAL}{PLAYER} doesn't have the needed\n"
@@ -167,7 +167,7 @@ VermilionCity_Text_Route2AideHasPackageForYou::
     .string "He had a package from PROF. OAK\n"
     .string "for you, {PLAYER}.\p"
     .string "He said he'd look for you around\n"
-    .string "ROUTE 2, {PLAYER}.\p"
-    .string "If you're in the ROUTE 2 area,\n"
+    .string "ALTER WEG, {PLAYER}.\p"
+    .string "If you're in the ALTER WEG area,\n"
     .string "please look for him.$"
 

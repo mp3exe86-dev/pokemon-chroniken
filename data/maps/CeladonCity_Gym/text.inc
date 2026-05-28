@@ -5,7 +5,7 @@ CeladonCity_Gym_Text_ErikaIntro::
     .string "…Oh, dear…\n"
     .string "I must have dozed off. Welcome.\p"
     .string "My name is ERIKA.\n"
-    .string "I am the LEADER of CELADON GYM.\p"
+    .string "I am the LEADER of JADENTHAL GYM.\p"
     .string "I am a student of the art of\n"
     .string "flower arranging.\p"
     .string "My POKéMON are solely of the\n"
@@ -19,7 +19,7 @@ CeladonCity_Gym_Text_ErikaDefeat::
     .string "I concede defeat.\l"
     .string "You are remarkably strong.\p"
     .string "I must confer on you the\n"
-    .string "RAINBOWBADGE.$"
+    .string "FARBRUNE.$"
 
 CeladonCity_Gym_Text_ErikaPostBattle::
     .string "You are cataloging POKéMON?\n"
@@ -28,7 +28,7 @@ CeladonCity_Gym_Text_ErikaPostBattle::
     .string "they were unattractive.$"
 
 CeladonCity_Gym_Text_ExplainRainbowBadgeTakeThis::
-    .string "The RAINBOWBADGE will make\n"
+    .string "The FARBRUNE will make\n"
     .string "POKéMON up to Lv. 50 obey.\p"
     .string "It also allows POKéMON to use\n"
     .string "STRENGTH in and out of battle.\p"
@@ -126,7 +126,7 @@ CeladonCity_Gym_Text_LoriPostBattle::
     .string "especially if I have to battle.$"
 
 CeladonCity_Gym_Text_MaryIntro::
-    .string "Welcome to CELADON GYM!\p"
+    .string "Welcome to JADENTHAL GYM!\p"
     .string "You'd better not underestimate\n"
     .string "the nice ladies here.$"
 
@@ -139,13 +139,13 @@ CeladonCity_Gym_Text_MaryPostBattle::
     .string "Wait until next time!$"
 
 CeladonCity_Gym_Text_GymStatue::
-    .string "CELADON POKéMON GYM\n"
+    .string "JADENTHAL POKEMON GYM\n"
     .string "LEADER: ERIKA\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}$"
 
 CeladonCity_Gym_Text_GymStatuePlayerWon::
-    .string "CELADON POKéMON GYM\n"
+    .string "JADENTHAL POKEMON GYM\n"
     .string "LEADER: ERIKA\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}, {PLAYER}$"

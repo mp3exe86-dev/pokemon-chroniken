@@ -1,7 +1,7 @@
 @ Male and female text identical, differ (presumably) in JP
 Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreMale::
     .string "My Pokemon's ashes\n"
-    .string "are in Pokemon Tower.\p"
+    .string "are in Nebelturm.\p"
     .string "I watched something\n"
     .string "land on the roof\p"
     .string "last night.\p"
@@ -10,7 +10,7 @@ Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreMale::
 
 Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymoreFemale::
     .string "My Pokemon's ashes\n"
-    .string "are in Pokemon Tower.\p"
+    .string "are in Nebelturm.\p"
     .string "I watched something\n"
     .string "land on the roof\p"
     .string "last night.\p"
@@ -38,5 +38,5 @@ Route12_NorthEntrance_2F_Text_TheresManFishing::
 Route12_NorthEntrance_2F_Text_ItsPokemonTower::
     .string "Let's see what the binoculars have\n"
     .string "to show…\p"
-    .string "It's POKéMON TOWER!$"
+    .string "It's NEBELTURM!$"
 

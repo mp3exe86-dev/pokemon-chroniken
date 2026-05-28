@@ -6,7 +6,7 @@ Route4_PokemonCenter_1F_Text_CanHaveSixMonsWithYou::
 
 Route4_PokemonCenter_1F_Text_TeamRocketAttacksCerulean::
     .string "Something is wrong\n"
-    .string "in Cerulean City.\p"
+    .string "in Tiefbruch.\p"
     .string "The Pokemon there\n"
     .string "are restless.\p"
     .string "No one wants to\n"
@@ -49,7 +49,7 @@ Route4_PokemonCenter_1F_Text_IDontGiveRefunds::
 
 Route4_PokemonCenter_1F_Text_ShouldStoreMonsUsingPC::
     .string "I saw a trainer\n"
-    .string "leave Mt. Moon yesterday.\p"
+    .string "leave Mondrath yesterday.\p"
     .string "He didn't have\n"
     .string "any Pokemon left.\p"
     .string "He wouldn't say why.$"

@@ -1558,7 +1558,7 @@ void ChooseSendDaycareMon(void)
     gMain.savedCallback = CB2_ReturnToField;
 }
 
-// Route 5 Daycare
+// Steinsektor III Daycare
 
 void PutMonInRoute5Daycare(void)
 {

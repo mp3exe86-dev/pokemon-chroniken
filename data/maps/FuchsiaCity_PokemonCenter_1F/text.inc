@@ -11,7 +11,7 @@ FuchsiaCity_PokemonCenter_1F_Text_CantBecomeGoodTrainerWithOneMon::
 FuchsiaCity_PokemonCenter_1F_Text_PokemonLeagueWestOfViridian::
     .string "There's a narrow\n"
     .string "trail west of\n"
-    .string "Viridian City.\p"
+    .string "Erynval.\p"
     .string "Leads to the\n"
     .string "Pokemon League HQ.\p"
     .string "Something also uses\n"
@@ -22,7 +22,7 @@ FuchsiaCity_PokemonCenter_1F_Text_PokemonLeagueWestOfViridian::
 
 FuchsiaCity_PokemonCenter_1F_Text_VisitSafariZoneForPokedex::
     .string "Rare Pokemon in\n"
-    .string "the Safari Zone.\p"
+    .string "the Eryn Vorn.\p"
     .string "Work on your\n"
     .string "Pokedex there.\p"
     .string "There's one entry\n"

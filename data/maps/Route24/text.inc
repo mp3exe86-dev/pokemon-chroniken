@@ -14,7 +14,7 @@ Route24_Text_YouDontHaveAnyRoom::
 Route24_Text_JoinTeamRocket::
     .string "Impressive.\p"
     .string "We've been watching\n"
-    .string "you since Pallet.\p"
+    .string "you since Ursprung.\p"
     .string "Team Rocket sees\n"
     .string "potential in you.\p"
     .string "We collect rare things.\p"

@@ -1,5 +1,5 @@
 CinnabarIsland_PokemonCenter_1F_Text_CinnabarGymLocked::
-    .string "I came to visit the CINNABAR GYM,\n"
+    .string "I came to visit the ZINNORATH GYM,\n"
     .string "but the door is locked tight.\p"
     .string "There should be a key for it\n"
     .string "somewhere.\p"

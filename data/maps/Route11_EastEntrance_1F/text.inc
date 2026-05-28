@@ -4,7 +4,7 @@ Route11_EastEntrance_1F_Text_BagIsFull::
     .string "いっぱい　みたい　だね$"
 
 Route11_EastEntrance_1F_Text_ManInLavenderRatesNames::
-    .string "Lavender Town is\n"
+    .string "Nebelruf is\n"
     .string "just ahead.\p"
     .string "The Name Rater there\n"
     .string "changed his own name.\p"
@@ -12,7 +12,7 @@ Route11_EastEntrance_1F_Text_ManInLavenderRatesNames::
     .string "what to.$"
 
 Route11_EastEntrance_1F_Text_RockTunnelToReachLavender::
-    .string "Rock Tunnel is\n"
+    .string "Felsmorn is\n"
     .string "pitch black inside.\p"
     .string "But some people say\n"
     .string "they could see fine.\p"

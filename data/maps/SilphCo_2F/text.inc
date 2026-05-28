@@ -41,7 +41,7 @@ SilphCo_2F_Text_Grunt2Defeat::
     .string "I goofed!$"
 
 SilphCo_2F_Text_Grunt2PostBattle::
-    .string "SILPH CO. will be associated with\n"
+    .string "SILPH DURITH will be associated with\n"
     .string "TEAM ROCKET!$"
 
 Text_ThunderWaveTeach::
@@ -69,6 +69,6 @@ Text_ThunderWaveTaught::
     .string "won't work on some POKéMON.$"
 
 SilphCo_2F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
+    .string "SILPH DURITH HEAD OFFICE\n"
     .string "2F$"
 

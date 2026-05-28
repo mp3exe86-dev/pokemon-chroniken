@@ -17,7 +17,7 @@ LavenderTown_House1_Text_RocketsKilledCubonesMother::
 
 LavenderTown_House1_Text_GhostOfPokemonTowerIsGone::
     .string "The ghost of\n"
-    .string "Pokemon Tower is gone.\p"
+    .string "Nebelturm is gone.\p"
     .string "Someone soothed its\n"
     .string "restless spirit.\p"
     .string "The four names\n"

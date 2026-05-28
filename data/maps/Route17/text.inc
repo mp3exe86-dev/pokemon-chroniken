@@ -149,7 +149,7 @@ Route17_Text_WilliamPostBattle::
 
 Route17_Text_WatchOutForDiscardedItems::
     .string "CYCLING ROAD\n"
-    .string "Fuchsia City ahead.\p"
+    .string "Dornvael ahead.\p"
     .string "Some riders never\n"
     .string "arrive.$"
 
@@ -166,8 +166,8 @@ Route17_Text_PressBToStayInPlace::
     .string "narrower than it appears.$"
 
 Route17_Text_RouteSign::
-    .string "ROUTE 17\n"
-    .string "CELADON CITY - FUCHSIA CITY$"
+    .string "STURMSEKTOR II\n"
+    .string "JADENTHAL - DORNVAEL$"
 
 Route17_Text_DontThrowGameThrowBalls::
     .string "You are being\n"

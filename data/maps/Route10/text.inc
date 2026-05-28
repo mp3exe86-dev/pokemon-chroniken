@@ -88,12 +88,12 @@ Route10_Text_CarolPostBattle::
     .string "which way is home.$"
 
 Route10_Text_RockTunnelDetourToLavender::
-    .string "ROCK TUNNEL\n"
-    .string "Detour to LAVENDER TOWN$"
+    .string "FELSMORN\n"
+    .string "Detour to NEBELRUF$"
 
 Route10_Text_RockTunnel::
-    .string "ROCK TUNNEL$"
+    .string "FELSMORN$"
 
 Route10_Text_PowerPlant::
-    .string "POWER PLANT$"
+    .string "RUNENWERK VELKARIS$"
 

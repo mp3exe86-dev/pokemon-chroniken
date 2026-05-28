@@ -42,6 +42,6 @@ SilphCo_9F_Text_Grunt2PostBattle::
     .string "My brothers will avenge me!$"
 
 SilphCo_9F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
+    .string "SILPH DURITH HEAD OFFICE\n"
     .string "9F$"
 

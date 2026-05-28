@@ -15,7 +15,7 @@ VictoryRoad_2F_Text_DawsonPostBattle::
     .string "saw had a name.$"
 
 VictoryRoad_2F_Text_DaisukeIntro::
-    .string "This is Victory Road.\n"
+    .string "This is Pfad der Gefallenen.\n"
     .string "The final test.\p"
     .string "Some tests reveal\n"
     .string "what you're made of.\p"
@@ -59,11 +59,11 @@ VictoryRoad_2F_Text_VincentDefeat::
 VictoryRoad_2F_Text_VincentPostBattle::
     .string "You earned the\n"
     .string "right to be\p"
-    .string "on Victory Road.\p"
+    .string "on Pfad der Gefallenen.\p"
     .string "Don't waste it.$"
 
 VictoryRoad_2F_Text_GregoryIntro::
-    .string "Is Victory Road\n"
+    .string "Is Pfad der Gefallenen\n"
     .string "too tough?\p"
     .string "Many trainers turn\n"
     .string "back here.\p"

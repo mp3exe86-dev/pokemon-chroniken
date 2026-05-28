@@ -5,7 +5,7 @@ Route4_Text_TrippedOverGeodude::
     .string "I knew.$"
 
 Route4_Text_CrissyIntro::
-    .string "I came to Mt. Moon\n"
+    .string "I came to Mondrath\n"
     .string "looking for something.\p"
     .string "I found it.\p"
     .string "I wish I hadn't.$"
@@ -18,12 +18,12 @@ Route4_Text_CrissyPostBattle::
     .string "for things in there.$"
 
 Route4_Text_MtMoonEntrance::
-    .string "MT. MOON\n"
+    .string "MONDRATH\n"
     .string "Tunnel Entrance$"
 
 Route4_Text_RouteSign::
-    .string "ROUTE 4\n"
-    .string "MT. MOON - CERULEAN CITY$"
+    .string "STEINSEKTOR II\n"
+    .string "MONDRATH - TIEFBRUCH$"
 
 Text_MegaPunchTeach::
     .string "I've been teaching\n"
@@ -72,7 +72,7 @@ Text_MegaKickTaught::
 
 Route4_Text_PeopleLikeAndRespectBrock::
     .string "You came from\n"
-    .string "Mt. Moon?\p"
+    .string "Mondrath?\p"
     .string "People keep coming out\n"
     .string "looking different.\p"
     .string "Like they saw something\n"

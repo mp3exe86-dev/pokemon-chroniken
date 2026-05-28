@@ -22,10 +22,10 @@ PewterCity_Gym_Text_BrockDefeat::
     .string "I lost.\p"
     .string "As proof of your victory, I confer\n"
     .string "on you this…the official POKéMON\l"
-    .string "LEAGUE BOULDERBADGE.\p"
-    .string "{FONT_NORMAL}{PLAYER} received the BOULDERBADGE\n"
+    .string "LEAGUE STEINRUNE.\p"
+    .string "{FONT_NORMAL}{PLAYER} received the STEINRUNE\n"
     .string "from BROCK!{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}\p"
-    .string "{FONT_MALE}Just having the BOULDERBADGE makes\n"
+    .string "{FONT_MALE}Just having the STEINRUNE makes\n"
     .string "your POKéMON more powerful.\p"
     .string "It also enables the use of the\n"
     .string "move FLASH outside of battle.\p"
@@ -109,13 +109,13 @@ PewterCity_Gym_Text_YoureChampMaterial::
     .string "You're POKéMON champ material!$"
 
 PewterCity_Gym_Text_GymStatue::
-    .string "PEWTER POKéMON GYM\n"
+    .string "KHAZFELD POKEMON GYM\n"
     .string "LEADER: BROCK\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}$"
 
 PewterCity_Gym_Text_GymStatuePlayerWon::
-    .string "PEWTER POKéMON GYM\n"
+    .string "KHAZFELD POKEMON GYM\n"
     .string "LEADER: BROCK\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}, {PLAYER}$"

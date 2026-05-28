@@ -9,7 +9,7 @@ FuchsiaCity_Text_DidYouTrySafariGame::
     .string "Nothing works on it.$"
 
 FuchsiaCity_Text_SafariZoneZooInFront::
-    .string "Safari Zone has\n"
+    .string "Eryn Vorn has\n"
     .string "a zoo out front.\p"
     .string "Safari Game out back.\p"
     .string "Something else is\n"
@@ -20,7 +20,7 @@ FuchsiaCity_Text_SafariZoneZooInFront::
     .string "Nullveil.\p"
     .string "They say it\n"
     .string "was there before\n"
-    .string "the Safari Zone.$"
+    .string "the Eryn Vorn.$"
 
 FuchsiaCity_Text_WheresSara::
     .string "ERIK: Where's SARA?\n"
@@ -40,14 +40,14 @@ FuchsiaCity_Text_ItemBallInThere::
     .string "Were you wanting that?\p"
     .string "Me too.\p"
     .string "There's something else\n"
-    .string "in the Safari Zone\n"
+    .string "in the Eryn Vorn\n"
     .string "that nobody put there.\p"
     .string "The workers won't\n"
     .string "go near it at night.\p"
     .string "Nullveil.$"
 
 FuchsiaCity_Text_CitySign::
-    .string "FUCHSIA CITY\n"
+    .string "DORNVAEL\n"
     .string "Behold! It's Passion Pink!\p"
     .string "The nights here\n"
     .string "are less pink.\n"
@@ -55,7 +55,7 @@ FuchsiaCity_Text_CitySign::
 
 FuchsiaCity_Text_SafariZoneSign::
     .string "POKEMON PARADISE\n"
-    .string "SAFARI ZONE\p"
+    .string "ERYN VORN\p"
     .string "Something in there\n"
     .string "didn't come through\n"
     .string "the entrance.$"
@@ -67,7 +67,7 @@ FuchsiaCity_Text_SafariGameSign::
     .string "cannot be caught.$"
 
 FuchsiaCity_Text_WardensHomeSign::
-    .string "SAFARI ZONE\n"
+    .string "ERYN VORN\n"
     .string "WARDEN'S HOME\p"
     .string "The Warden stopped\n"
     .string "sleeping in the\n"
@@ -77,11 +77,11 @@ FuchsiaCity_Text_WardensHomeSign::
 
 FuchsiaCity_Text_SafariZoneOfficeSign::
     .string "POKéMON PARADISE!\n"
-    .string "Welcome to the SAFARI ZONE!\l"
-    .string "SAFARI ZONE OFFICE$"
+    .string "Welcome to the ERYN VORN!\l"
+    .string "ERYN VORN OFFICE$"
 
 FuchsiaCity_Text_GymSign::
-    .string "FUCHSIA CITY POKéMON GYM\n"
+    .string "DORNVAEL POKéMON GYM\n"
     .string "LEADER: KOGA\l"
     .string "The Poisonous Ninja Master$"
 

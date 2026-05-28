@@ -1,7 +1,7 @@
 CeladonCity_Text_GotMyKoffingInCinnabar::
     .string "Koffing evolved from\n"
     .string "a Pokemon found\n"
-    .string "in Cinnabar Mansion.\p"
+    .string "in Herrenhaus Zinnorath.\p"
     .string "Something else was\n"
     .string "found near Celadon\n"
     .string "last week.\p"
@@ -69,7 +69,7 @@ CeladonCity_Text_ExplainXAccuracyDireHit::
     .string "Combinations don't apply.$"
 
 CeladonCity_Text_CitySign::
-    .string "CELADON CITY\n"
+    .string "JADENTHAL\n"
     .string "The City of\n"
     .string "Rainbow Dreams\p"
     .string "The dreams here\n"
@@ -78,7 +78,7 @@ CeladonCity_Text_CitySign::
     .string "More stone.$"
 
 CeladonCity_Text_GymSign::
-    .string "CELADON CITY POKéMON GYM\n"
+    .string "JADENTHAL POKéMON GYM\n"
     .string "LEADER: ERIKA\l"
     .string "The Nature-Loving Princess!$"
 

@@ -4,7 +4,7 @@ CeruleanCity_ArchivarHouse_Text_Challenge:
 	.string "I keep records\n"
 	.string "of four names.\p"
 	.string "ProtoGlyph.\n"
-	.string "Aeralith.\l"
+	.string "Aeralith.\p"
 	.string "Nullveil.\n"
 	.string "Chronyx.\p"
 	.string "Do you seek\n"

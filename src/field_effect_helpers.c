@@ -91,7 +91,7 @@ static void LoadObjectRegularReflectionPalette(struct ObjectEvent * objectEvent,
     }
 }
 
-// When walking on a bridge high above water (Route 120), the reflection is a solid dark blue color.
+// When walking on a bridge high above water (Schlummerweg II0), the reflection is a solid dark blue color.
 // This is so the sprite blends in with the dark water metatile underneath the bridge.
 static void LoadObjectHighBridgeReflectionPalette(struct ObjectEvent * objectEvent, u8 paletteNum)
 {
@@ -127,7 +127,7 @@ static void UpdateObjectReflectionSprite(struct Sprite *reflectionSprite)
         reflectionSprite->subspriteTableNum = mainSprite->subspriteTableNum;
         reflectionSprite->invisible = mainSprite->invisible;
         reflectionSprite->x = mainSprite->x;
-        // reflectionSprite->data[2] holds an additional vertical offset, used by the high bridges on Route 120
+        // reflectionSprite->data[2] holds an additional vertical offset, used by the high bridges on Schlummerweg II0
         reflectionSprite->y = mainSprite->y + GetReflectionVerticalOffset(objectEvent) + reflectionSprite->data[2];
         reflectionSprite->centerToCornerVecX = mainSprite->centerToCornerVecX;
         reflectionSprite->centerToCornerVecY = mainSprite->centerToCornerVecY;

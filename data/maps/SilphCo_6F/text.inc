@@ -73,6 +73,6 @@ SilphCo_6F_Text_Grunt2PostBattle::
     .string "betray us bad guys!$"
 
 SilphCo_6F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
+    .string "SILPH DURITH HEAD OFFICE\n"
     .string "6F$"
 

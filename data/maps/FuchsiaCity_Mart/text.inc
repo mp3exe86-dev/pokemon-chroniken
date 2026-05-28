@@ -1,6 +1,6 @@
 FuchsiaCity_Mart_Text_DontTheyHaveSafariZonePennants::
     .string "Don't they have\n"
-    .string "Safari Zone pennants?\p"
+    .string "Eryn Vorn pennants?\p"
     .string "Some paper lanterns?\n"
     .string "Calendars?\p"
     .string "They used to\n"

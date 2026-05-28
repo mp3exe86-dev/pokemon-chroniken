@@ -1,5 +1,5 @@
 SilphCo_3F_Text_WhatAmIToDo::
-    .string "I work for SILPH CO.\n"
+    .string "I work for SILPH DURITH\n"
     .string "What am I to do?$"
 
 SilphCo_3F_Text_YouAndYourMonsSavedUs::
@@ -18,7 +18,7 @@ SilphCo_3F_Text_GruntPostBattle::
 
 SilphCo_3F_Text_JoseIntro::
     .string "I support TEAM ROCKET more than\n"
-    .string "I support SILPH CO.!$"
+    .string "I support SILPH DURITH!$"
 
 SilphCo_3F_Text_JoseDefeat::
     .string "You really got me!$"
@@ -29,6 +29,6 @@ SilphCo_3F_Text_JosePostBattle::
     .string "them, they'd let me study POKéMON.$"
 
 SilphCo_3F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
+    .string "SILPH DURITH HEAD OFFICE\n"
     .string "3F$"
 

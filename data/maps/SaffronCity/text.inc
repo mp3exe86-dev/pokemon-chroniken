@@ -63,7 +63,7 @@ SaffronCity_Text_FlewHereOnPidgeot::
     .string "I flew here\n"
     .string "on my Pidgeot\n"
     .string "when I read\n"
-    .string "about Silph.\p"
+    .string "about Silph Durith.\p"
     .string "Already over?\n"
     .string "I missed everything.\p"
     .string "My Pidgeot says\n"
@@ -80,7 +80,7 @@ SaffronCity_Text_Pidgeot::
 SaffronCity_Text_SawRocketBossEscaping::
     .string "I saw the\n"
     .string "Rocket Boss escaping\n"
-    .string "Silph's building.\p"
+    .string "Silph Durith's building.\p"
     .string "He ran fast.\p"
     .string "But he looked\n"
     .string "old when he\n"
@@ -100,7 +100,7 @@ SaffronCity_Text_HesTakingASnooze::
     .string "Hah! He's taking a snooze!$"
 
 SaffronCity_Text_CitySign::
-    .string "SAFFRON CITY\n"
+    .string "GOLDMUR\n"
     .string "Shining Golden Land\n"
     .string "of Commerce\p"
     .string "Time moves differently\n"
@@ -115,7 +115,7 @@ SaffronCity_Text_FightingDojo::
     .string "They don't notice yet.$"
 
 SaffronCity_Text_GymSign::
-    .string "SAFFRON CITY POKéMON GYM\n"
+    .string "GOLDMUR POKéMON GYM\n"
     .string "LEADER: SABRINA\l"
     .string "The Master of PSYCHIC POKéMON!$"
 
@@ -134,7 +134,7 @@ SaffronCity_Text_GreatBallImprovedCatchRate::
     .string "Time cannot be caught.$"
 
 SaffronCity_Text_SilphCoSign::
-    .string "SILPH CO.\n"
+    .string "SILPH DURITH\n"
     .string "OFFICE BUILDING\p"
     .string "Something still on\n"
     .string "the upper floors.\p"

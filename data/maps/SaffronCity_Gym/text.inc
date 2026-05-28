@@ -13,7 +13,7 @@ SaffronCity_Gym_Text_SabrinaDefeat::
     .string "I admit, I didn't work hard enough\n"
     .string "to win.\p"
     .string "Your victory has earned you the\n"
-    .string "MARSHBADGE.$"
+    .string "NEBELRUNE.$"
 
 SaffronCity_Gym_Text_SabrinaPostBattle::
     .string "Psychic power isn't something that\n"
@@ -22,7 +22,7 @@ SaffronCity_Gym_Text_SabrinaPostBattle::
     .string "People just don't realize it.$"
 
 SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis::
-    .string "The MARSHBADGE makes POKéMON up\n"
+    .string "The NEBELRUNE makes POKéMON up\n"
     .string "to Lv. 70 obey you.\p"
     .string "Stronger POKéMON will become wild,\n"
     .string "ignoring your orders in battle.\p"
@@ -119,7 +119,7 @@ SaffronCity_Gym_Text_CameronPostBattle::
     .string "decided to have just one GYM.$"
 
 SaffronCity_Gym_Text_PrestonIntro::
-    .string "SAFFRON POKéMON GYM is famous for\n"
+    .string "GOLDMUR POKEMON GYM is famous for\n"
     .string "training psychics.\p"
     .string "You want to see SABRINA, don't\n"
     .string "you? I can tell!$"
@@ -147,13 +147,13 @@ SaffronCity_Gym_Text_GymGuyPostVictory::
     .string "at the slots!$"
 
 SaffronCity_Gym_Text_GymStatue::
-    .string "SAFFRON POKéMON GYM\n"
+    .string "GOLDMUR POKEMON GYM\n"
     .string "LEADER: SABRINA\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}$"
 
 SaffronCity_Gym_Text_GymStatuePlayerWon::
-    .string "SAFFRON POKéMON GYM\n"
+    .string "GOLDMUR POKEMON GYM\n"
     .string "LEADER: SABRINA\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}, {PLAYER}$"

@@ -32,7 +32,7 @@ LavenderTown_Text_TownKnownAsMonGraveSite::
     .string "the grave site\n"
     .string "of Pokemon.\p"
     .string "Memorial services\n"
-    .string "in Pokemon Tower.\p"
+    .string "in Nebelturm.\p"
     .string "The Tower is\n"
     .string "quiet now.\p"
     .string "Except for the\n"
@@ -44,7 +44,7 @@ LavenderTown_Text_TownKnownAsMonGraveSite::
 
 LavenderTown_Text_GhostsAppearedInTower::
     .string "Ghosts appeared in\n"
-    .string "Pokemon Tower.\p"
+    .string "Nebelturm.\p"
     .string "Spirits of Pokemon\n"
     .string "the Rockets killed.\p"
     .string "The ghosts know\n"
@@ -56,7 +56,7 @@ LavenderTown_Text_GhostsAppearedInTower::
     .string "are afraid of them.$"
 
 LavenderTown_Text_TownSign::
-    .string "LAVENDER TOWN\n"
+    .string "NEBELRUF\n"
     .string "The Noble Purple Town\p"
     .string "The dead remember\n"
     .string "names the living\n"
@@ -80,7 +80,7 @@ LavenderTown_Text_VolunteerPokemonHouse::
     .string "Very old records.$"
 
 LavenderTown_Text_PokemonTowerSign::
-    .string "POKEMON TOWER\n"
+    .string "NEBELTURM\n"
     .string "Becalm the Spirits\n"
     .string "of Pokemon\p"
     .string "The spirits are\n"

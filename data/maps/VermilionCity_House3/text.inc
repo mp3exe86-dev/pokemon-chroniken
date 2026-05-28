@@ -1,7 +1,7 @@
 VermilionCity_House3_Text_PidgeyFlyLetterToSaffron::
     .string "I'm getting my\n"
     .string "Pidgey to fly\n"
-    .string "a letter to Saffron.\p"
+    .string "a letter to Goldmur.\p"
     .string "Pidgey was nervous\n"
     .string "this morning.\p"
     .string "Wouldn't leave at first.\p"

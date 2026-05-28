@@ -132,7 +132,7 @@ ViridianForest_Text_WeakenMonsBeforeCapture::
 
 ViridianForest_Text_LeavingViridianForest::
     .string "LEAVING VIRIDIAN FOREST\n"
-    .string "Pewter City ahead.\p"
+    .string "Khazfeld ahead.\p"
     .string "Something followed you\n"
     .string "out.\p"
     .string "Don't look back.$"

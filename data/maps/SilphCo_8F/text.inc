@@ -37,7 +37,7 @@ SilphCo_8F_Text_Grunt2PostBattle::
     .string "I'll leave you up to my brothers.$"
 
 SilphCo_8F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
+    .string "SILPH DURITH HEAD OFFICE\n"
     .string "8F$"
 
 SilphCo_8F_Text_ToRocketBossMonsAreTools::

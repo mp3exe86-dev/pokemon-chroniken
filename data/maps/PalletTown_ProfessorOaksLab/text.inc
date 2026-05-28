@@ -36,7 +36,7 @@ PalletTown_ProfessorOaksLab_Text_RivalDefeat::
     .string "Unbelievable!\l"
     .string "I picked the wrong POKéMON!$"
 
-@ Also used for early Route 22 battle
+@ Also used for early Grenzpfad I battle
 Text_RivalVictory::
     .string "{RIVAL}: Yeah!\n"
     .string "Am I great or what?$"

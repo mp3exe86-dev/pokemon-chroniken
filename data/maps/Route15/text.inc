@@ -151,8 +151,8 @@ Route15_Text_YazminPostBattle::
     .string "Thank you.$"
 
 Route15_Text_RouteSign::
-    .string "ROUTE 15\n"
-    .string "West to FUCHSIA CITY$"
+    .string "WINDSEKTOR III\n"
+    .string "West to DORNVAEL$"
 
 Route15_Text_MyaIntro::
     .string "MYA: Help me train\n"

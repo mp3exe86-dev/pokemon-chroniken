@@ -47,7 +47,7 @@ Route25_SeaCottage_Text_ThanksBudTakeThis::
     .string "BILL: I owe you.\p"
     .string "BILL: Take this.\p"
     .string "BILL: Go to VERMILION.\p"
-    .string "BILL: The S.S. ANNE\n"
+    .string "BILL: The S.S. ERYNVAEL\n"
     .string "is there.\p"
     .string "BILL: Get away from\n"
     .string "this cape for a while.\p"
@@ -59,7 +59,7 @@ Route25_SeaCottage_Text_ThanksLadyTakeThis::
     .string "BILL: I owe you.\p"
     .string "BILL: Take this.\p"
     .string "BILL: Go to VERMILION.\p"
-    .string "BILL: The S.S. ANNE\n"
+    .string "BILL: The S.S. ERYNVAEL\n"
     .string "is there.\p"
     .string "BILL: Get away from\n"
     .string "this cape for a while.\p"
@@ -74,7 +74,7 @@ Route25_SeaCottage_Text_YouveGotTooMuchStuff::
     .string "You've got too much stuff!$"
 
 Route25_SeaCottage_Text_SSAnnePartyYouGoInstead::
-    .string "The S.S. ANNE\n"
+    .string "The S.S. ERYNVAEL\n"
     .string "is in VERMILION.\p"
     .string "They invited me.\p"
     .string "I can't leave\n"

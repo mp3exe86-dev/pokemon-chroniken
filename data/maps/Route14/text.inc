@@ -152,8 +152,8 @@ Route14_Text_MalikPostBattle::
     .string "it was standing.$"
 
 Route14_Text_RouteSign::
-    .string "ROUTE 14\n"
-    .string "West to FUCHSIA CITY$"
+    .string "WINDSEKTOR II\n"
+    .string "West to DORNVAEL$"
 
 Route14_Text_KiriIntro::
     .string "KIRI: Jan, let's try\n"

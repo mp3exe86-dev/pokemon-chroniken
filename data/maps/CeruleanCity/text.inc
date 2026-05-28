@@ -148,7 +148,7 @@ CeruleanCity_Text_WantBrightRedBicycle::
     .string "get dirty.$"
 
 CeruleanCity_Text_ThisIsCeruleanCave::
-    .string "This is CERULEAN CAVE.\p"
+    .string "This is GROTTE VON TIEFBRUCH.\p"
     .string "Horribly strong POKéMON live inside\n"
     .string "there.\p"
     .string "It takes a very special TRAINER to\n"
@@ -160,7 +160,7 @@ CeruleanCity_Text_ThisIsCeruleanCave::
     .string "made a great achievement.$"
 
 CeruleanCity_Text_CitySign::
-    .string "CERULEAN CITY\n"
+    .string "TIEFBRUCH\n"
     .string "A Mysterious, Blue Aura Surrounds\l"
     .string "It$"
 
@@ -176,7 +176,7 @@ CeruleanCity_Text_BikeShopSign::
     .string "BIKE SHOP$"
 
 CeruleanCity_Text_GymSign::
-    .string "CERULEAN CITY POKéMON GYM\n"
+    .string "TIEFBRUCH POKéMON GYM\n"
     .string "LEADER: MISTY\l"
     .string "The Tomboyish Mermaid!$"
 

@@ -75,7 +75,7 @@ static const s8 sSeag[][4] = {
 };
 
 // Bitpacked array.  In the commented section, right-most bit is the
-// flag for traveling from (row port) to Vermilion City, and so on.
+// flag for traveling from (row port) to Morlond, and so on.
 // Flags follow these enums:
 
 enum TravelDirections

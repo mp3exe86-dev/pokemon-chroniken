@@ -20,7 +20,7 @@ static void DestroyCloudSprites(void);
 static void UpdateCloudSprite(struct Sprite *);
 
 // The clouds are positioned on the map's grid.
-// These coordinates are for the lower half of Route 120.
+// These coordinates are for the lower half of Schlummerweg II0.
 static const struct Coords16 sCloudSpriteMapCoords[] = {
     { 0, 66},
     { 5, 73},

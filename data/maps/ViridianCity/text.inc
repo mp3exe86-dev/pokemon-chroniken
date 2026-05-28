@@ -1,7 +1,7 @@
 ViridianCity_Text_YouCameFromPallet::
     .string "You came from Pallet?\n"
     .string "Alone?\p"
-    .string "The Pokémon on Route 1\n"
+    .string "The Pokémon on Erster Pfad\n"
     .string "were quiet today.\p"
     .string "All of them.$"
 
@@ -10,7 +10,7 @@ ViridianCity_Text_GymClosedWonderWhoLeaderIs::
     .string "I wonder who the LEADER is?$"
 
 ViridianCity_Text_ViridiansGymLeaderReturned::
-    .string "VIRIDIAN GYM's LEADER returned!$"
+    .string "ERYNVAL GYM's LEADER returned!$"
 
 ViridianCity_Text_WantToKnowAboutCaterpillarMons::
     .string "You want to know about the two\n"
@@ -32,7 +32,7 @@ ViridianCity_Text_GrandpaHasntHadCoffeeYet::
     .string "He hasn't had his coffee yet.$"
 
 ViridianCity_Text_GoShoppingInPewterOccasionally::
-    .string "I go shopping in PEWTER CITY\n"
+    .string "I go shopping in KHAZFELD\n"
     .string "occasionally.\p"
     .string "I have to take the winding trail in\n"
     .string "VIRIDIAN FOREST when I go.$"
@@ -101,7 +101,7 @@ ViridianCity_Text_TooBusyForTeachyTV::
     .string "be ill spent…$"
 
 ViridianCity_Text_CitySign::
-    .string "VIRIDIAN CITY \n"
+    .string "ERYNVAL \n"
     .string "The Eternally Green Paradise$"
 
 ViridianCity_Text_CatchMonsForEasierBattles::
@@ -119,8 +119,8 @@ ViridianCity_Text_MovesLimitedByPP::
     .string "POKéMON at a POKéMON CENTER.$"
 
 ViridianCity_Text_GymSign::
-    .string "VIRIDIAN CITY POKéMON GYM$"
+    .string "ERYNVAL POKéMON GYM$"
 
 ViridianCity_Text_GymDoorsAreLocked::
-    .string "VIRIDIAN GYM's doors are locked…$"
+    .string "ERYNVAL GYM's doors are locked…$"
 

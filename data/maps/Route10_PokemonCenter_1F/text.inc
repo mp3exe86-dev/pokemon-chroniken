@@ -11,7 +11,7 @@ Route10_PokemonCenter_1F_Text_NuggetUselessSoldFor5000::
     .string "I wish I hadn't.$"
 
 Route10_PokemonCenter_1F_Text_HeardGhostsHauntLavender::
-    .string "Lavender Town is\n"
+    .string "Nebelruf is\n"
     .string "just ahead.\p"
     .string "The ghosts there\n"
     .string "aren't the worst part.\p"

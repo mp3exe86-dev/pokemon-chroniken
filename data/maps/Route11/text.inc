@@ -42,7 +42,7 @@ Route11_Text_EddiePostBattle::
 
 Route11_Text_BraxtonIntro::
     .string "I'm laying cables\n"
-    .string "for the Power Plant.\p"
+    .string "for the Runenwerk Velkaris.\p"
     .string "The workers there\n"
     .string "all quit last week.\p"
     .string "No one said why.$"
@@ -66,7 +66,7 @@ Route11_Text_DillonDefeat::
 
 Route11_Text_DillonPostBattle::
     .string "Don't go to\n"
-    .string "Lavender Town alone.$"
+    .string "Nebelruf alone.$"
 
 Route11_Text_DirkIntro::
     .string "I have never lost.\p"
@@ -138,5 +138,5 @@ Route11_Text_DavePostBattle::
     .string "things I can't.$"
 
 Route11_Text_DiglettsCave::
-    .string "DIGLETT'S CAVE$"
+    .string "GRUBDORN$"
 

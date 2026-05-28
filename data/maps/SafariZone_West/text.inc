@@ -19,7 +19,7 @@ SafariZone_West_Text_SearchForSecretHouse::
     .string "Something in this\n"
     .string "zone has been\n"
     .string "here longer than\n"
-    .string "the Safari Zone itself.$"
+    .string "the Eryn Vorn itself.$"
 
 SafariZone_West_Text_AreaSign::
     .string "AREA 3\n"

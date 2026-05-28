@@ -53,7 +53,7 @@ FuchsiaCity_WardensHouse_Text_ExplainStrength::
     .string "Oh yes.\n"
     .string "Did you find\n"
     .string "the Secret House\n"
-    .string "in the Safari Zone?\p"
+    .string "in the Eryn Vorn?\p"
     .string "Nullveil found it\n"
     .string "before you did.\p"
     .string "It's been using it.$"

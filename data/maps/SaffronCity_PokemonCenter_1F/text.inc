@@ -8,7 +8,7 @@ SaffronCity_PokemonCenter_1F_Text_GrowthRatesDifferBySpecies::
     .string "Tuesday happened twice.$"
 
 SaffronCity_PokemonCenter_1F_Text_SilphCoVictimOfFame::
-    .string "Silph Co. is\n"
+    .string "Silph Durith is\n"
     .string "widely known.\p"
     .string "Victim of its\n"
     .string "own fame.\n"

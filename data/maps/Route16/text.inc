@@ -94,8 +94,8 @@ Route16_Text_CyclingRoadSign::
     .string "CYCLING ROAD$"
 
 Route16_Text_RouteSign::
-    .string "ROUTE 16\n"
-    .string "CELADON CITY - FUCHSIA CITY$"
+    .string "STURMSEKTOR I\n"
+    .string "JADENTHAL - DORNVAEL$"
 
 Route16_Text_JedIntro::
     .string "JED: Our love knows\n"

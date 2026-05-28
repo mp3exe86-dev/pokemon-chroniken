@@ -1,6 +1,6 @@
 ViridianCity_Mart_Text_YouCameFromPallet::
     .string "Hey!\n"
-    .string "You came from PALLET TOWN?$"
+    .string "You came from URSPRUNG?$"
 
 ViridianCity_Mart_Text_TakeThisToProfOak::
     .string "You know PROF. OAK, right?\p"

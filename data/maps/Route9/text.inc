@@ -27,7 +27,7 @@ Route9_Text_ChrisPostBattle::
 
 Route9_Text_DrewIntro::
     .string "I'm heading to\n"
-    .string "Lavender Town.\p"
+    .string "Nebelruf.\p"
     .string "I don't know\n"
     .string "why.$"
 
@@ -122,6 +122,6 @@ Route9_Text_ConnerPostBattle::
     .string "closely at them.$"
 
 Route9_Text_RouteSign::
-    .string "ROUTE 9\n"
-    .string "CERULEAN CITY - ROCK TUNNEL$"
+    .string "FELSENPASS I\n"
+    .string "TIEFBRUCH - FELSMORN$"
 

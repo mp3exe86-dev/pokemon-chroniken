@@ -119,7 +119,7 @@ Route8_Text_JuliaPostBattle::
 
 Route8_Text_UndergroundPathSign::
     .string "UNDERGROUND PATH\n"
-    .string "CELADON CITY - LAVENDER TOWN$"
+    .string "JADENTHAL - NEBELRUF$"
 
 Route8_Text_EliIntro::
     .string "ELI: We used to finish\n"

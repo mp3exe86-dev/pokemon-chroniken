@@ -120,7 +120,7 @@ MtMoon_1F_Text_ZubatIsABloodsucker::
 
 MtMoon_1F_Text_BrockHelpsExcavateFossils::
     .string "I excavate fossils\n"
-    .string "here under Mt. Moon.\p"
+    .string "here under Mondrath.\p"
     .string "Brock sometimes helps.\p"
     .string "Lately he refuses\n"
     .string "to come inside.\p"

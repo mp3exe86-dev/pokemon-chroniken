@@ -9,6 +9,6 @@ SilphCo_1F_Text_DestroyedWontBeFixedForWhile::
     .string "とうぶん　なおりそうに　ない‥$"
 
 SilphCo_1F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
+    .string "SILPH DURITH HEAD OFFICE\n"
     .string "1F$"
 

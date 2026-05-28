@@ -17,7 +17,7 @@ Route25_Text_JoeyPostBattle::
 Route25_Text_DanIntro::
     .string "My father took\n"
     .string "me to a party\p"
-    .string "on the S.S. ANNE.\p"
+    .string "on the S.S. ERYNVAEL.\p"
     .string "Everyone there looked\n"
     .string "worried.\p"
     .string "No one said why.$"
@@ -90,13 +90,13 @@ Route25_Text_HaleyDefeat::
 
 Route25_Text_HaleyPostBattle::
     .string "You came from\n"
-    .string "MT. MOON?\p"
+    .string "MONDRATH?\p"
     .string "Don't bring what\n"
     .string "followed you here.$"
 
 Route25_Text_FranklinIntro::
     .string "I came down from\n"
-    .string "MT. MOON.\p"
+    .string "MONDRATH.\p"
     .string "Something followed me\n"
     .string "out of the cave.\p"
     .string "I've been trying\n"
@@ -108,7 +108,7 @@ Route25_Text_FranklinDefeat::
 
 Route25_Text_FranklinPostBattle::
     .string "Don't linger in\n"
-    .string "MT. MOON.\p"
+    .string "MONDRATH.\p"
     .string "Things attach themselves\n"
     .string "to you in the dark.$"
 

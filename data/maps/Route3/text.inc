@@ -1,7 +1,7 @@
 Route3_Text_TunnelFromCeruleanTiring::
     .string "I've been sitting here\n"
     .string "for an hour.\p"
-    .string "Something in Mt. Moon\n"
+    .string "Something in Mondrath\n"
     .string "followed me out.\p"
     .string "I'm not going back.$"
 
@@ -30,7 +30,7 @@ Route3_Text_BenPostBattle::
     .string "this route.$"
 
 Route3_Text_JaniceIntro::
-    .string "Don't go into Mt. Moon\n"
+    .string "Don't go into Mondrath\n"
     .string "at night.\p"
     .string "I mean it.$"
 
@@ -54,7 +54,7 @@ Route3_Text_GregPostBattle::
 
 Route3_Text_SallyIntro::
     .string "Are you heading to\n"
-    .string "Mt. Moon?\p"
+    .string "Mondrath?\p"
     .string "I turned back.$"
 
 Route3_Text_SallyDefeat::
@@ -97,10 +97,10 @@ Route3_Text_RobinDefeat::
     .string "I knew it.$"
 
 Route3_Text_RobinPostBattle::
-    .string "Mt. Moon is just ahead.\n"
+    .string "Mondrath is just ahead.\n"
     .string "Don't linger inside.$"
 
 Route3_Text_RouteSign::
-    .string "ROUTE 3\n"
-    .string "MT. MOON AHEAD$"
+    .string "STEINSEKTOR I\n"
+    .string "MONDRATH AHEAD$"
 

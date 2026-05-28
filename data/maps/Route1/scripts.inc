@@ -83,6 +83,6 @@ Route1_Text_MartClerk:
 	.string "Take one.$"
 
 Route1_Text_Boy:
-	.string "My mom said I could\ngo as far as Viridian.\p"
+	.string "My mom said I could\ngo as far as Erynval.\p"
 	.string "I found this on\nthe ground.\p"
 	.string "You can have it.$"

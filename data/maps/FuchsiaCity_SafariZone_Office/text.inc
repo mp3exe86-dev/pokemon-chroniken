@@ -37,7 +37,7 @@ FuchsiaCity_SafariZone_Office_Text_PrizeInSafariZone::
     .string "a promotion campaign.\p"
     .string "Get to the\n"
     .string "farthest corner of\n"
-    .string "the Safari Zone.\p"
+    .string "the Eryn Vorn.\p"
     .string "You'll win a\n"
     .string "very convenient prize.\p"
     .string "The farthest corner\n"

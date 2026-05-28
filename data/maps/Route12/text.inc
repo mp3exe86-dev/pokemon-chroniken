@@ -123,7 +123,7 @@ Route12_Text_AndrewPostBattle::
     .string "follow you home.$"
 
 Route12_Text_RouteSign::
-    .string "ROUTE 12 \n"
+    .string "SCHLUMMERWEG II \n"
     .string "North to LAVENDER$"
 
 Route12_Text_SportfishingArea::

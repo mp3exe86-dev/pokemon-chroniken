@@ -69,7 +69,7 @@ SilphCo_5F_Text_SomeMonsEvolveWhenTraded::
     .string "to evolve when they are traded.$"
 
 SilphCo_5F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
+    .string "SILPH DURITH HEAD OFFICE\n"
     .string "5F$"
 
 SilphCo_5F_Text_RocketBossLookingForStrongMons::

@@ -10,7 +10,7 @@ MtMoon_B2F_Text_MiguelDefeat::
 
 MtMoon_B2F_Text_WellEachTakeAFossil::
     .string "Take one.\p"
-    .string "Cinnabar Island has\n"
+    .string "Zinnorath has\n"
     .string "a lab that\n"
     .string "can revive these.\p"
     .string "I wonder what\n"
@@ -21,7 +21,7 @@ MtMoon_B2F_Text_ThenThisFossilIsMine::
     .string "Then this fossil is mine!$"
 
 MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils::
-    .string "On Cinnabar Island\n"
+    .string "On Zinnorath\n"
     .string "there's a lab.\p"
     .string "They revive fossils there.\p"
     .string "Some of what\n"

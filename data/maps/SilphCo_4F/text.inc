@@ -8,7 +8,7 @@ SilphCo_4F_Text_TeamRocketIsGone::
 
 SilphCo_4F_Text_Grunt1Intro::
     .string "TEAM ROCKET has taken control\n"
-    .string "of SILPH CO.!$"
+    .string "of SILPH DURITH!$"
 
 SilphCo_4F_Text_Grunt1Defeat::
     .string "Arrgh!$"
@@ -40,6 +40,6 @@ SilphCo_4F_Text_Grunt2PostBattle::
     .string "I better tell the BOSS on 11F!$"
 
 SilphCo_4F_Text_FloorSign::
-    .string "SILPH CO. HEAD OFFICE\n"
+    .string "SILPH DURITH HEAD OFFICE\n"
     .string "4F$"
 

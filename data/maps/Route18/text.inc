@@ -48,8 +48,8 @@ Route18_Text_JacobPostBattle::
     .string "what it's waiting for.$"
 
 Route18_Text_RouteSign::
-    .string "ROUTE 18\n"
-    .string "CELADON CITY - FUCHSIA CITY$"
+    .string "STURMSEKTOR III\n"
+    .string "JADENTHAL - DORNVAEL$"
 
 Route18_Text_CyclingRoadSign::
     .string "CYCLING ROAD\n"

@@ -160,8 +160,8 @@ Route19_Text_ConniePostBattle::
     .string "want to keep.$"
 
 Route19_Text_RouteSign::
-    .string "SEA ROUTE 19\n"
-    .string "FUCHSIA CITY - SEAFOAM ISLANDS$"
+    .string "SEA TIEFENSTRÖMUNG I\n"
+    .string "DORNVAEL - NEBELINSELN VON AERALITH$"
 
 Route19_Text_LiaIntro::
     .string "LIA: I'm looking after\n"

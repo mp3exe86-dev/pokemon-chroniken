@@ -13,7 +13,7 @@ ViridianCity_Gym_Text_GiovanniDefeat::
     .string "Ha!\n"
     .string "That was a truly intense fight.\l"
     .string "You have won!\p"
-    .string "As proof, here is the EARTHBADGE!\n"
+    .string "As proof, here is the URRUNE!\n"
     .string "{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}$"
 
 ViridianCity_Gym_Text_GiovanniPostBattle::
@@ -28,7 +28,7 @@ ViridianCity_Gym_Text_GiovanniPostBattle::
     .string "Farewell!$"
 
 ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis::
-    .string "The EARTHBADGE makes POKéMON of\n"
+    .string "The URRUNE makes POKéMON of\n"
     .string "any level obey without question.\p"
     .string "It is evidence of your mastery as\n"
     .string "a POKéMON TRAINER.\p"
@@ -130,7 +130,7 @@ ViridianCity_Gym_Text_ColePostBattle::
     .string "I was just careless!$"
 
 ViridianCity_Gym_Text_SamuelIntro::
-    .string "VIRIDIAN GYM was closed for a\n"
+    .string "ERYNVAL GYM was closed for a\n"
     .string "long time.\p"
     .string "But now, our LEADER is back!$"
 
@@ -158,13 +158,13 @@ ViridianCity_Gym_Text_GymGuyPostVictory::
     .string "GYM LEADER of VIRIDIAN?$"
 
 ViridianCity_Gym_Text_GymStatue::
-    .string "VIRIDIAN POKéMON GYM\n"
+    .string "ERYNVAL POKEMON GYM\n"
     .string "LEADER: ?\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}$"
 
 ViridianCity_Gym_Text_GymStatuePlayerWon::
-    .string "VIRIDIAN POKéMON GYM\n"
+    .string "ERYNVAL POKEMON GYM\n"
     .string "LEADER: GIOVANNI\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}, {PLAYER}$"

@@ -39,12 +39,12 @@ Text_PokecenterSign::
 	.string "POKéMON CENTER$"
 
 Text_Indigo_UltimateGoal::
-	.string "INDIGO PLATEAU\p"
+	.string "INDIGRATH\p"
 	.string "The ultimate goal of TRAINERS!\n"
 	.string "POKéMON LEAGUE HQ$"
 
 Text_Indigo_HighestAuthority::
-	.string "INDIGO PLATEAU\p"
+	.string "INDIGRATH\p"
 	.string "The highest POKéMON authority!\n"
 	.string "POKéMON LEAGUE HQ$"
 

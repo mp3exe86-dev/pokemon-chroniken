@@ -1,6 +1,6 @@
 FuchsiaCity_SafariZone_Entrance_Text_WelcomeToSafariZone::
     .string "Welcome to the\n"
-    .string "Safari Zone.\p"
+    .string "Eryn Vorn.\p"
     .string "Something in here\n"
     .string "also welcomes you.\p"
     .string "We don't know\n"
@@ -9,7 +9,7 @@ FuchsiaCity_SafariZone_Entrance_Text_WelcomeToSafariZone::
 FuchsiaCity_SafariZone_Entrance_Text_PlaySafariGameFor500::
     .string "For just 500,\n"
     .string "you can explore\n"
-    .string "the Safari Zone.\p"
+    .string "the Eryn Vorn.\p"
     .string "Pokemon you've never\n"
     .string "seen wait inside.\p"
     .string "Would you like\n"
@@ -63,10 +63,10 @@ FuchsiaCity_SafariZone_Entrance_Text_CatchFairShareComeAgain::
 
 FuchsiaCity_SafariZone_Entrance_Text_FirstTimeAtSafariZone::
     .string "Hi! Is it your first time here at\n"
-    .string "the SAFARI ZONE?$"
+    .string "the ERYN VORN?$"
 
 FuchsiaCity_SafariZone_Entrance_Text_ExplainSafariZone::
-    .string "The Safari Zone\n"
+    .string "The Eryn Vorn\n"
     .string "has four areas.\p"
     .string "Each has different\n"
     .string "Pokemon.\p"
