@@ -266,7 +266,7 @@
     },
     {
       "id": "MAPSEC_PALLET_TOWN",
-      "name": "PALLET TOWN",
+      "name": "URSPRUNG",
       "x": 4,
       "y": 11,
       "width": 1,
@@ -274,7 +274,7 @@
     },
     {
       "id": "MAPSEC_VIRIDIAN_CITY",
-      "name": "VIRIDIAN CITY",
+      "name": "ERYNVAL",
       "x": 4,
       "y": 8,
       "width": 1,
@@ -282,7 +282,7 @@
     },
     {
       "id": "MAPSEC_PEWTER_CITY",
-      "name": "PEWTER CITY",
+      "name": "KHAZFELD",
       "x": 4,
       "y": 4,
       "width": 1,
@@ -290,7 +290,7 @@
     },
     {
       "id": "MAPSEC_CERULEAN_CITY",
-      "name": "CERULEAN CITY",
+      "name": "TIEFBRUCH",
       "x": 14,
       "y": 3,
       "width": 1,
@@ -298,7 +298,7 @@
     },
     {
       "id": "MAPSEC_LAVENDER_TOWN",
-      "name": "LAVENDER TOWN",
+      "name": "NEBELRUF",
       "x": 18,
       "y": 6,
       "width": 1,
@@ -306,7 +306,7 @@
     },
     {
       "id": "MAPSEC_VERMILION_CITY",
-      "name": "VERMILION CITY",
+      "name": "MORLOND",
       "x": 14,
       "y": 9,
       "width": 1,
@@ -314,7 +314,7 @@
     },
     {
       "id": "MAPSEC_CELADON_CITY",
-      "name": "CELADON CITY",
+      "name": "JADENTHAL",
       "x": 11,
       "y": 6,
       "width": 1,
@@ -322,7 +322,7 @@
     },
     {
       "id": "MAPSEC_FUCHSIA_CITY",
-      "name": "FUCHSIA CITY",
+      "name": "DORNVAEL",
       "x": 12,
       "y": 12,
       "width": 1,
@@ -330,7 +330,7 @@
     },
     {
       "id": "MAPSEC_CINNABAR_ISLAND",
-      "name": "CINNABAR ISLAND",
+      "name": "ZINNORATH",
       "x": 4,
       "y": 14,
       "width": 1,
@@ -338,7 +338,7 @@
     },
     {
       "id": "MAPSEC_INDIGO_PLATEAU",
-      "name": "INDIGO PLATEAU",
+      "name": "INDIGRATH",
       "x": 2,
       "y": 3,
       "width": 1,
@@ -346,7 +346,7 @@
     },
     {
       "id": "MAPSEC_SAFFRON_CITY",
-      "name": "SAFFRON CITY",
+      "name": "GOLDMUR",
       "x": 14,
       "y": 6,
       "width": 1,
@@ -354,7 +354,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_4_POKECENTER",
-      "name": "ROUTE 4",
+      "name": "STEINSEKTOR II",
       "x": 8,
       "y": 3,
       "width": 1,
@@ -362,7 +362,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_10_POKECENTER",
-      "name": "ROUTE 10",
+      "name": "FELSENPASS II",
       "x": 18,
       "y": 3,
       "width": 1,
@@ -370,7 +370,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_1",
-      "name": "ROUTE 1",
+      "name": "ERSTER PFAD",
       "x": 4,
       "y": 9,
       "width": 1,
@@ -378,7 +378,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_2",
-      "name": "ROUTE 2",
+      "name": "ALTER WEG",
       "x": 4,
       "y": 5,
       "width": 1,
@@ -386,7 +386,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_3",
-      "name": "ROUTE 3",
+      "name": "STEINSEKTOR I",
       "x": 5,
       "y": 4,
       "width": 4,
@@ -394,7 +394,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_4",
-      "name": "ROUTE 4",
+      "name": "STEINSEKTOR II",
       "x": 8,
       "y": 3,
       "width": 6,
@@ -402,7 +402,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_5",
-      "name": "ROUTE 5",
+      "name": "NEBELSEKTOR I",
       "x": 14,
       "y": 4,
       "width": 1,
@@ -410,7 +410,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_6",
-      "name": "ROUTE 6",
+      "name": "NEBELSEKTOR II",
       "x": 14,
       "y": 7,
       "width": 1,
@@ -418,7 +418,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_7",
-      "name": "ROUTE 7",
+      "name": "NEBELSEKTOR III",
       "x": 12,
       "y": 6,
       "width": 2,
@@ -426,7 +426,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_8",
-      "name": "ROUTE 8",
+      "name": "NEBELSEKTOR III",
       "x": 15,
       "y": 6,
       "width": 3,
@@ -434,7 +434,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_9",
-      "name": "ROUTE 9",
+      "name": "FELSENPASS I",
       "x": 15,
       "y": 3,
       "width": 3,
@@ -442,7 +442,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_10",
-      "name": "ROUTE 10",
+      "name": "FELSENPASS II",
       "x": 18,
       "y": 3,
       "width": 1,
@@ -450,7 +450,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_11",
-      "name": "ROUTE 11",
+      "name": "SCHLUMMERWEG I",
       "x": 15,
       "y": 9,
       "width": 3,
@@ -458,7 +458,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_12",
-      "name": "ROUTE 12",
+      "name": "SCHLUMMERWEG II",
       "x": 18,
       "y": 7,
       "width": 1,
@@ -466,7 +466,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_13",
-      "name": "ROUTE 13",
+      "name": "WINDSEKTOR I",
       "x": 16,
       "y": 11,
       "width": 2,
@@ -474,7 +474,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_14",
-      "name": "ROUTE 14",
+      "name": "WINDSEKTOR II",
       "x": 15,
       "y": 11,
       "width": 1,
@@ -482,7 +482,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_15",
-      "name": "ROUTE 15",
+      "name": "WINDSEKTOR III",
       "x": 13,
       "y": 12,
       "width": 2,
@@ -490,7 +490,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_16",
-      "name": "ROUTE 16",
+      "name": "STURMSEKTOR I",
       "x": 7,
       "y": 6,
       "width": 4,
@@ -498,7 +498,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_17",
-      "name": "ROUTE 17",
+      "name": "STURMSEKTOR II",
       "x": 7,
       "y": 7,
       "width": 1,
@@ -506,7 +506,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_18",
-      "name": "ROUTE 18",
+      "name": "STURMSEKTOR III",
       "x": 7,
       "y": 12,
       "width": 5,
@@ -514,7 +514,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_19",
-      "name": "ROUTE 19",
+      "name": "TIEFENSTRÖMUNG I",
       "x": 12,
       "y": 13,
       "width": 1,
@@ -522,7 +522,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_20",
-      "name": "ROUTE 20",
+      "name": "TIEFENSTRÖMUNG II",
       "x": 5,
       "y": 14,
       "width": 7,
@@ -530,7 +530,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_21",
-      "name": "ROUTE 21",
+      "name": "TIEFENSTRÖMUNG III",
       "x": 4,
       "y": 12,
       "width": 1,
@@ -538,7 +538,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_22",
-      "name": "ROUTE 22",
+      "name": "GRENZPFAD I",
       "x": 2,
       "y": 8,
       "width": 2,
@@ -546,7 +546,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_23",
-      "name": "ROUTE 23",
+      "name": "GRENZPFAD II",
       "x": 2,
       "y": 4,
       "width": 1,
@@ -554,7 +554,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_24",
-      "name": "ROUTE 24",
+      "name": "GRENZPFAD III",
       "x": 14,
       "y": 1,
       "width": 1,
@@ -562,7 +562,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_25",
-      "name": "ROUTE 25",
+      "name": "GRENZPFAD IV",
       "x": 15,
       "y": 1,
       "width": 2,
