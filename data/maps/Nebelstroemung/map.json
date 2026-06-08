@@ -1,0 +1,32 @@
+{
+  "id": "MAP_NEBELSTROEMUNG",
+  "name": "Nebelstroemung",
+  "layout": "LAYOUT_NEBELSTROEMUNG",
+  "music": "MUS_ROUTE1",
+  "region_map_section": "MAPSEC_NEBELSTROEMUNG",
+  "requires_flash": false,
+  "weather": "WEATHER_FOG_HORIZONTAL",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_NEBELSTEG",
+      "offset": 0,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_SCHATTENPFAD",
+      "offset": 0,
+      "direction": "right"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": []
+}

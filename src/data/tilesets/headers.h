@@ -64,6 +64,17 @@ const struct Tileset gTileset_LavenderTown =
     .callback = NULL,
 };
 
+const struct Tileset gTileset_Nebelsteg =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Nebelsteg,
+    .palettes = gTilesetPalettes_Nebelsteg,
+    .metatiles = gMetatiles_Nebelsteg,
+    .metatileAttributes = gMetatileAttributes_Nebelsteg,
+    .callback = NULL,
+};
+
 const struct Tileset gTileset_VermilionCity =
 {
     .isCompressed = TRUE,

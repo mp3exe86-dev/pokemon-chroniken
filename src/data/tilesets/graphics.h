@@ -88,6 +88,8 @@ const u16 gTilesetPalettes_CeruleanCity[][16] =
 
 const u32 gTilesetTiles_LavenderTown[] = INCBIN_U32("data/tilesets/secondary/lavender_town/tiles.4bpp.lz");
 
+const u32 gTilesetTiles_Nebelsteg[] = INCBIN_U32("data/tilesets/secondary/nebelsteg/tiles.4bpp.lz");
+
 const u16 gTilesetPalettes_LavenderTown[][16] =
 {
 	INCBIN_U16("data/tilesets/secondary/lavender_town/palettes/00.gbapal"),
@@ -106,6 +108,26 @@ const u16 gTilesetPalettes_LavenderTown[][16] =
 	INCBIN_U16("data/tilesets/secondary/lavender_town/palettes/13.gbapal"),
 	INCBIN_U16("data/tilesets/secondary/lavender_town/palettes/14.gbapal"),
 	INCBIN_U16("data/tilesets/secondary/lavender_town/palettes/15.gbapal"),
+};
+
+const u16 gTilesetPalettes_Nebelsteg[][16] =
+{
+	INCBIN_U16("data/tilesets/secondary/nebelsteg/palettes/00.gbapal"),
+	INCBIN_U16("data/tilesets/secondary/nebelsteg/palettes/01.gbapal"),
+	INCBIN_U16("data/tilesets/secondary/nebelsteg/palettes/02.gbapal"),
+	INCBIN_U16("data/tilesets/secondary/nebelsteg/palettes/03.gbapal"),
+	INCBIN_U16("data/tilesets/secondary/nebelsteg/palettes/04.gbapal"),
+	INCBIN_U16("data/tilesets/secondary/nebelsteg/palettes/05.gbapal"),
+	INCBIN_U16("data/tilesets/secondary/nebelsteg/palettes/06.gbapal"),
+	INCBIN_U16("data/tilesets/secondary/nebelsteg/palettes/07.gbapal"),
+	INCBIN_U16("data/tilesets/secondary/nebelsteg/palettes/08.gbapal"),
+	INCBIN_U16("data/tilesets/secondary/nebelsteg/palettes/09.gbapal"),
+	INCBIN_U16("data/tilesets/secondary/nebelsteg/palettes/10.gbapal"),
+	INCBIN_U16("data/tilesets/secondary/nebelsteg/palettes/11.gbapal"),
+	INCBIN_U16("data/tilesets/secondary/nebelsteg/palettes/12.gbapal"),
+	INCBIN_U16("data/tilesets/secondary/nebelsteg/palettes/13.gbapal"),
+	INCBIN_U16("data/tilesets/secondary/nebelsteg/palettes/14.gbapal"),
+	INCBIN_U16("data/tilesets/secondary/nebelsteg/palettes/15.gbapal"),
 };
 
 const u32 gTilesetTiles_VermilionCity[] = INCBIN_U32("data/tilesets/secondary/vermilion_city/tiles.4bpp.lz");

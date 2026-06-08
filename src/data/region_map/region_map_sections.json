@@ -514,7 +514,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_19",
-      "name": "TIEFENSTRÖMUNG I",
+      "name": "TIEFENSTR\u00d6MUNG I",
       "x": 12,
       "y": 13,
       "width": 1,
@@ -522,7 +522,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_20",
-      "name": "TIEFENSTRÖMUNG II",
+      "name": "TIEFENSTR\u00d6MUNG II",
       "x": 5,
       "y": 14,
       "width": 7,
@@ -530,7 +530,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_21",
-      "name": "TIEFENSTRÖMUNG III",
+      "name": "TIEFENSTR\u00d6MUNG III",
       "x": 4,
       "y": 12,
       "width": 1,
@@ -642,7 +642,7 @@
     },
     {
       "id": "MAPSEC_POKEMON_MANSION",
-      "name": "POKéMON MANSION",
+      "name": "POK\u00e9MON MANSION",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -658,7 +658,7 @@
     },
     {
       "id": "MAPSEC_POKEMON_LEAGUE",
-      "name": "POKéMON LEAGUE",
+      "name": "POK\u00e9MON LEAGUE",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -682,7 +682,7 @@
     },
     {
       "id": "MAPSEC_POKEMON_TOWER",
-      "name": "POKéMON TOWER",
+      "name": "POK\u00e9MON TOWER",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -1125,6 +1125,30 @@
       "name": "EMBER SPA",
       "x": 0,
       "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_NEBELSTEG",
+      "name": "NEBELSTEG",
+      "x": 2,
+      "y": 8,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_NEBELSTROEMUNG",
+      "name": "NEBELSTR\u00d6MUNG",
+      "x": 2,
+      "y": 7,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_SCHATTENPFAD",
+      "name": "SCHATTENPFAD",
+      "x": 1,
+      "y": 7,
       "width": 1,
       "height": 1
     },

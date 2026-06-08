@@ -4416,6 +4416,42 @@
       "secondary_tileset": "gTileset_MtEmber",
       "border_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa/border.bin",
       "blockdata_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEBELSTEG",
+      "name": "Nebelsteg_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Nebelsteg",
+      "border_filepath": "data/layouts/Nebelsteg/border.bin",
+      "blockdata_filepath": "data/layouts/Nebelsteg/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEBELSTROEMUNG",
+      "name": "Nebelstroemung_Layout",
+      "width": 20,
+      "height": 30,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_CinnabarIsland",
+      "border_filepath": "data/layouts/Nebelstroemung/border.bin",
+      "blockdata_filepath": "data/layouts/Nebelstroemung/map.bin"
+    },
+    {
+      "id": "LAYOUT_SCHATTENPFAD",
+      "name": "Schattenpfad_Layout",
+      "width": 20,
+      "height": 15,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_ViridianForest",
+      "border_filepath": "data/layouts/Schattenpfad/border.bin",
+      "blockdata_filepath": "data/layouts/Schattenpfad/map.bin"
     }
   ]
 }

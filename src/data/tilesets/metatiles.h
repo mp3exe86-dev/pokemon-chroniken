@@ -16,6 +16,9 @@ const u32 gMetatileAttributes_CeruleanCity[] = INCBIN_U32("data/tilesets/seconda
 const u16 gMetatiles_LavenderTown[] = INCBIN_U16("data/tilesets/secondary/lavender_town/metatiles.bin");
 const u32 gMetatileAttributes_LavenderTown[] = INCBIN_U32("data/tilesets/secondary/lavender_town/metatile_attributes.bin");
 
+const u16 gMetatiles_Nebelsteg[] = INCBIN_U16("data/tilesets/secondary/nebelsteg/metatiles.bin");
+const u32 gMetatileAttributes_Nebelsteg[] = INCBIN_U32("data/tilesets/secondary/nebelsteg/metatile_attributes.bin");
+
 const u16 gMetatiles_VermilionCity[] = INCBIN_U16("data/tilesets/secondary/vermilion_city/metatiles.bin");
 const u32 gMetatileAttributes_VermilionCity[] = INCBIN_U32("data/tilesets/secondary/vermilion_city/metatile_attributes.bin");
 
