@@ -4452,6 +4452,30 @@
       "secondary_tileset": "gTileset_ViridianForest",
       "border_filepath": "data/layouts/Schattenpfad/border.bin",
       "blockdata_filepath": "data/layouts/Schattenpfad/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEBELSTEG_FISCHERHAUS",
+      "name": "Nebelsteg_Fischerhaus_Layout",
+      "width": 10,
+      "height": 8,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding1",
+      "border_filepath": "data/layouts/Nebelsteg_Fischerhaus/border.bin",
+      "blockdata_filepath": "data/layouts/Nebelsteg_Fischerhaus/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEBELSTEG_VERLASSENESHAUS",
+      "name": "Nebelsteg_Verlasseneshaus_Layout",
+      "width": 10,
+      "height": 8,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding1",
+      "border_filepath": "data/layouts/Nebelsteg_Verlasseneshaus/border.bin",
+      "blockdata_filepath": "data/layouts/Nebelsteg_Verlasseneshaus/map.bin"
     }
   ]
 }

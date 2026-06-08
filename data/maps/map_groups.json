@@ -354,7 +354,9 @@
     "LavenderTown_VolunteerPokemonHouse",
     "LavenderTown_House1",
     "LavenderTown_House2",
-    "LavenderTown_Mart"
+    "LavenderTown_Mart",
+    "Nebelsteg_Fischerhaus",
+    "Nebelsteg_Verlasseneshaus"
   ],
   "gMapGroup_IndoorVermilion": [
     "VermilionCity_House1",

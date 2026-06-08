@@ -50,7 +50,22 @@
       "flag": "0"
     }
   ],
-  "warp_events": [],
+  "warp_events": [
+    {
+      "x": 6,
+      "y": 6,
+      "elevation": 3,
+      "dest_map": "MAP_NEBELSTEG_FISCHERHAUS",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 6,
+      "elevation": 3,
+      "dest_map": "MAP_NEBELSTEG_VERLASSENESHAUS",
+      "dest_warp_id": "0"
+    }
+  ],
   "coord_events": [],
   "bg_events": []
 }

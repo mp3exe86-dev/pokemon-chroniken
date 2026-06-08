@@ -1,0 +1,61 @@
+{
+  "id": "MAP_NEBELSTEG_VERLASSENESHAUS",
+  "name": "Nebelsteg_Verlasseneshaus",
+  "layout": "LAYOUT_NEBELSTEG_VERLASSENESHAUS",
+  "music": "MUS_LAVENDER",
+  "region_map_section": "MAPSEC_NEBELSTEG",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": false,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 5,
+      "y": 7,
+      "elevation": 3,
+      "dest_map": "MAP_NEBELSTEG",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "elevation": 3,
+      "dest_map": "MAP_NEBELSTEG",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 2,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Nebelsteg_Verlasseneshaus_EventScript_Notiz1"
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 2,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Nebelsteg_Verlasseneshaus_EventScript_Notiz2"
+    },
+    {
+      "type": "sign",
+      "x": 8,
+      "y": 2,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Nebelsteg_Verlasseneshaus_EventScript_Notiz3"
+    }
+  ]
+}

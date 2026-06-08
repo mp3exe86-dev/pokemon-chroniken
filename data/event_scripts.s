@@ -378,6 +378,8 @@ gStdScriptsEnd::
 	.include "data/maps/LavenderTown_House2/scripts.inc"
 	.include "data/maps/LavenderTown_Mart/scripts.inc"
 	.include "data/maps/Nebelsteg/scripts.inc"
+	.include "data/maps/Nebelsteg_Fischerhaus/scripts.inc"
+	.include "data/maps/Nebelsteg_Verlasseneshaus/scripts.inc"
 	.include "data/maps/Nebelstroemung/scripts.inc"
 	.include "data/maps/Schattenpfad/scripts.inc"
 	.include "data/maps/VermilionCity_House1/scripts.inc"

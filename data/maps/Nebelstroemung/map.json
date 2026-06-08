@@ -23,6 +23,11 @@
       "map": "MAP_SCHATTENPFAD",
       "offset": 0,
       "direction": "right"
+    },
+    {
+      "map": "MAP_CINNABAR_ISLAND",
+      "offset": 0,
+      "direction": "right"
     }
   ],
   "object_events": [],
